@@ -1,0 +1,125 @@
+{
+  "status": "verified_shared_projection_identity",
+  "projections": [
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\HPVBG\\seed20261026\\screen",
+      "projection_sha256": "bc41ea9d1ac1e08a5285fa6a627b8ff2e9c3b90dc59d79f35dac36f7dfa665a1",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\HPVBG\\seed20261026\\screen",
+      "projection_sha256": "aa0b6f8e9ff5eb45ff91ac6b1e04ea548d9469e2ec49222ac2bb39242725083b",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261026\\screen",
+      "projection_sha256": "981702d8141efec05d58ba0f6e70f6c565a7294e26e4328503ec0325c2bfe5ab",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261026\\screen",
+      "projection_sha256": "457e7e1b865275d082bd6f01f3c7cb65fdc1cf5796c5b2fae321b2c8d97a01f6",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\PGG\\seed20261026\\screen",
+      "projection_sha256": "a5c4457a8a2ccb0ba307a8ec91c12530dad27a0feed35ce1f82f19f03893d757",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\PGG\\seed20261026\\screen",
+      "projection_sha256": "f1fc85494aeddb5d290873b9172df7dbdaeb4f6fecd4bd97879cbbad1bcd1cd1",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\PIQ572\\seed20261026\\screen",
+      "projection_sha256": "6e61f056013f70854991cba49a5ca143ee9e2bb2f623653228fa8091d514b029",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\HPVBG\\seed20261028\\screen",
+      "projection_sha256": "aa0b6f8e9ff5eb45ff91ac6b1e04ea548d9469e2ec49222ac2bb39242725083b",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\PIQ572\\seed20261026\\screen",
+      "projection_sha256": "6099354cc3b7d8d516e292c340b743b00741f5a91e7216fa4417616978856a5f",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261028\\screen",
+      "projection_sha256": "981702d8141efec05d58ba0f6e70f6c565a7294e26e4328503ec0325c2bfe5ab",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\PGG\\seed20261028\\screen",
+      "projection_sha256": "a5c4457a8a2ccb0ba307a8ec91c12530dad27a0feed35ce1f82f19f03893d757",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\HPVBG\\seed20261028\\screen",
+      "projection_sha256": "bc41ea9d1ac1e08a5285fa6a627b8ff2e9c3b90dc59d79f35dac36f7dfa665a1",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\PIQ572\\seed20261028\\screen",
+      "projection_sha256": "6e61f056013f70854991cba49a5ca143ee9e2bb2f623653228fa8091d514b029",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261028\\screen",
+      "projection_sha256": "457e7e1b865275d082bd6f01f3c7cb65fdc1cf5796c5b2fae321b2c8d97a01f6",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\PGG\\seed20261028\\screen",
+      "projection_sha256": "f1fc85494aeddb5d290873b9172df7dbdaeb4f6fecd4bd97879cbbad1bcd1cd1",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\HPVBG\\seed20261029\\screen",
+      "projection_sha256": "aa0b6f8e9ff5eb45ff91ac6b1e04ea548d9469e2ec49222ac2bb39242725083b",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261029\\screen",
+      "projection_sha256": "981702d8141efec05d58ba0f6e70f6c565a7294e26e4328503ec0325c2bfe5ab",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\PGG\\seed20261029\\screen",
+      "projection_sha256": "a5c4457a8a2ccb0ba307a8ec91c12530dad27a0feed35ce1f82f19f03893d757",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\PIQ572\\seed20261028\\screen",
+      "projection_sha256": "6099354cc3b7d8d516e292c340b743b00741f5a91e7216fa4417616978856a5f",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\HPVBG\\seed20261029\\screen",
+      "projection_sha256": "bc41ea9d1ac1e08a5285fa6a627b8ff2e9c3b90dc59d79f35dac36f7dfa665a1",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261029\\screen",
+      "projection_sha256": "457e7e1b865275d082bd6f01f3c7cb65fdc1cf5796c5b2fae321b2c8d97a01f6",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\PGG\\seed20261029\\screen",
+      "projection_sha256": "f1fc85494aeddb5d290873b9172df7dbdaeb4f6fecd4bd97879cbbad1bcd1cd1",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen25_14b_instruct\\PIQ572\\seed20261029\\screen",
+      "projection_sha256": "6099354cc3b7d8d516e292c340b743b00741f5a91e7216fa4417616978856a5f",
+      "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94"
+    },
+    {
+      "screen": "evaluations\\transfer\\qwen3_8b\\PIQ572\\seed20261029\\screen",
+      "projection_sha256": "6e61f056013f70854991cba49a5ca143ee9e2bb2f623653228fa8091d514b029",
+      "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940"
+    }
+  ]
+}

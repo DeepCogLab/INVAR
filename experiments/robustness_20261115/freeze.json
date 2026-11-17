@@ -1,0 +1,163 @@
+{
+  "status": "frozen_before_scientific_generations",
+  "frozen_at_utc": "2026-11-15T07:38:47.277072+00:00",
+  "protocol": {
+    "seed": 20261115,
+    "repeats": {
+      "behavior": 8,
+      "goal": 2,
+      "changed_fact": 1,
+      "stable_fact": 1,
+      "parameter": 2
+    },
+    "sampling": {
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "top_k": -1,
+      "max_tokens": 4096
+    },
+    "max_model_len": 8192,
+    "campaign_hours": 24,
+    "mc_resamples": 500,
+    "job_order": [
+      "qwen3_8b",
+      "gpt_oss_20b",
+      "llama31_8b",
+      "glm4_9b",
+      "mistral7b_v01",
+      "sotopia_mistral7b",
+      "socialr1_8b",
+      "qwen3_8b_base"
+    ],
+    "stop_rule": "24h GPU campaign hard limit; preserve partial attempts; no score-based reruns or replacement selection",
+    "inference": "Fixed-panel descriptive contrasts; separate native toggle, effort and prompt interventions; base separate",
+    "invalid_rule": "Retain in all-attempt Q/U; conditional behavior with conservative missingness bounds",
+    "translation": "AI-assisted Chinese derivative; structured review, no independent human certification"
+  },
+  "models": {
+    "qwen3_8b": {
+      "folder": "Qwen3-8B",
+      "kind": "native_toggle",
+      "family": "Qwen3",
+      "role": "general_instruct"
+    },
+    "socialr1_8b": {
+      "folder": "SocialR1-8B",
+      "kind": "native_toggle",
+      "family": "Qwen3",
+      "role": "social_specialized"
+    },
+    "gpt_oss_20b": {
+      "folder": "gpt-oss-20b",
+      "kind": "native_effort",
+      "family": "gpt_oss",
+      "role": "general_reasoning"
+    },
+    "llama31_8b": {
+      "folder": "Meta-Llama-3.1-8B-Instruct",
+      "kind": "prompt_reasoning",
+      "family": "Llama3.1",
+      "role": "general_instruct"
+    },
+    "mistral7b_v01": {
+      "folder": "Mistral-7B-Instruct-v0.1",
+      "kind": "prompt_reasoning",
+      "family": "Mistral",
+      "role": "general_instruct"
+    },
+    "sotopia_mistral7b": {
+      "folder": "Mistral-7B-Instruct-v0.1",
+      "adapter_folder": "SOTOPIA-pi-Mistral-7B-BC_SR",
+      "kind": "prompt_reasoning",
+      "family": "Mistral",
+      "role": "social_specialized"
+    },
+    "glm4_9b": {
+      "folder": "GLM-4-9B-0414",
+      "kind": "prompt_reasoning",
+      "family": "GLM4",
+      "role": "general_instruct"
+    },
+    "qwen3_8b_base": {
+      "folder": "Qwen3-8B-Base",
+      "kind": "base_completion",
+      "family": "Qwen3",
+      "role": "pretrained_base"
+    }
+  },
+  "expected_rows_by_job": {
+    "qwen3_8b": 11760,
+    "socialr1_8b": 11760,
+    "gpt_oss_20b": 11760,
+    "llama31_8b": 11760,
+    "mistral7b_v01": 11760,
+    "sotopia_mistral7b": 11760,
+    "glm4_9b": 11760,
+    "qwen3_8b_base": 11760
+  },
+  "total_expected_rows": 94080,
+  "pilot_scaled_generation_hours": {
+    "qwen3_8b": 2.027938086291154,
+    "socialr1_8b": 1.6817217315236728,
+    "gpt_oss_20b": 2.5827939758698144,
+    "llama31_8b": 0.6857896203796069,
+    "mistral7b_v01": 0.7301068097352982,
+    "sotopia_mistral7b": 1.4426085631052652,
+    "glm4_9b": 1.0034172902504603,
+    "qwen3_8b_base": 1.115619186560313
+  },
+  "pilot_scaled_total_hours": 11.269995263715584,
+  "conservative_1_5x_plus_1h_estimate": 17.904992895573375,
+  "forecast_limitations": "32 synthetic goal attempts per checkpoint; mixed real tasks/token-ID input/batching can change throughput; hard cutoff controls cost, not completion guarantee",
+  "files": {
+    "analyze.py": "2d2d16652cf66b7217b9f344d1b0f0b708da31d9ec0848560621685b0c382305",
+    "behavior_metrics.py": "ecef1286fb2e1fb27efb78961bc143c5833fdd467a2132ffc5234f389a2ca741",
+    "campaign_common.py": "7bc32df0c167a9cacc3257a415b98b60a1275f2277ffd2cb8e67722a6220bcb0",
+    "common.py": "cc01ac3b375e99fa5e68a869f4279790847e370cd236f4d5a7187d230b7237c4",
+    "engineering_acceptance.json": "001a5f8f9ec80e9ef182a29de18c726d8b945c2e4a7bdbcc0db0521a4e689177",
+    "ENGINEERING_NOTES.md": "ca8cb7170a1c1588cf55d2820243baa7ba193505b773dd3fa27cc3310fa57726",
+    "final_model_inventory.json": "163e3d872cf80766cc1b4ab170c3c91f1d9ed8cd655f39b64dce7d5f0ba96cbf",
+    "freeze.py": "d6a27769a2af17dc83166c54e4403f926512aa99ca182844eb5f7e40f7de11aa",
+    "frozen/core/behavior_quartets.jsonl": "a5045d89ede1fa84a8e1bd415abab5ba2e62193337a41b9b5c40e097d8410716",
+    "frozen/core/fact_quartets.jsonl": "c62cc5939f4958b68865bf0f0c7ffb98c7d46c5ca1850734daa8b6c680349843",
+    "frozen/core/goal_quartets.jsonl": "f4634efaa0ed5d5666e61ef10f53cb7f841d7693e41f2c9a6bc567f1748df3aa",
+    "frozen/evaluation.jsonl": "d21236fe3db4862e2e65684b821ec0b977a0dd94cc25de4774f1f7132c6bdd15",
+    "frozen/model_inputs.jsonl": "27d460e1e009cd0a61bbe0bbfcae4b0833ad3d907cffd247e712a6cf42d70ab2",
+    "frozen/parameter/goal_quartets.jsonl": "45fbc0a3fbfccff88de5890bca1226d58686ac76269a46f2c639fb13d8ee96d1",
+    "hardware_and_models.json": "c271c32f0bf1e147d03dc73b79928717a813545a65b952646a6da70ebbc6e9ae",
+    "panel_selection.json": "c3766a0184e01c5b0fda1d2e3d049800ea0616b6bee9fc6c2dab674e28ee9476",
+    "parameter_translation_map.json": "d425310ffc3657b095a06adfbcb2f2da62c7832eae56cec011e645b6abe65287",
+    "parameter_translation_review.json": "c5fa3854f325e7fc67539f2f2897c47344d1ea86461388e65732002cd71d65f2",
+    "parameter_translation_units.json": "432ead6b3de2966d567ec3eeb26ecf6518b4d89785b371c9c4bdbca31adf533b",
+    "parsing.py": "5d0b19bb258fa20de5697e8a6fb4c7eca2f5d83f7a4f83518341e08d00b0db4e",
+    "pilot_queue.py": "9274a076bf0b8d1f820ff9ce4edfcc6434c370e72c61591fc6a80c6fcd042681",
+    "pilot_queue_v2.py": "72844adba8c983c3178245dc4dcfc2a4651372618ef9f36fbe464a0774b267f0",
+    "pilot_queue_v3.py": "51de5c3763a4914249308aa70b308041bba0fa38faa7b607bd410ee7233c1df4",
+    "pilot_queue_v4.py": "6348930c04deadacfd1deca1928708256e81f3216de6903ff168c10fc1012570",
+    "pilot_worker.py": "b44baf482398a736d40c334c41565f06d81a10f20623d5522df4594d3ea64bdc",
+    "pilot_worker_v2.py": "add8d434f916cfa99e980647a8cee6186968bcd9c7c3bde136dcb72a1dfc0fc7",
+    "pilot_worker_v3.py": "99cc1ac81e265589f672aaa702b5ea7cc1d1749940ccc9ab425e111b8df930c9",
+    "pilot_worker_v4.py": "a55de81caf782e16cc10e28299a0d70d8fd2f9cac0c5cb4d6545b75cfb073ea2",
+    "preflight.py": "fba960e5aa87a5793327551db92573041d206fe779f83ebef09b086a0f7b14ec",
+    "preflight_acceptance.json": "0bfc8903d7a0ae6eea9a04052caef4d712fdb8953cb1005b35557e920a9b5c24",
+    "preparation_audit.json": "6bd38402fe5fb9322cb6d52cff6e3e83c0166c59f49b9685d286c08013d07f24",
+    "prepare.py": "a219fcbe17144e8b5cfda58fc86080c69af703a3ff77f463b2511ac2564893d2",
+    "PROTOCOL.md": "176c8cf9258a3ddcbcca448c5d381e937e0fb82fbc4a837b7cc172f0d98abf24",
+    "remote.py": "909f3cb487706739b014cf7b219c21fd04c6763757602d8160003d4241983c8e",
+    "science_queue.py": "9f3f078582010e19f5b671e508fcb0b2c38667928b978d7d64cd1249180ee993",
+    "science_worker.py": "0eecbd86a8e4b106903181122882ad7d2b78bed0b7a3ee41fced69f03c421b55",
+    "score.py": "17c19aae7d4b5a9f943ead7bb684b1dc34877530b205eb2fd6883114a5b2d950",
+    "test_acceptance.json": "bbdd7828ef998919b5839d21a598983e63c5e4a8540808e21f9f1aef71916b99",
+    "test_analyze.py": "21c42758ad4fec36eda83fb24b2333fa088dde969b4e49d3390c5a5e702f63ae",
+    "test_parsing.py": "a0ad663033d392473bfed2fbda0212bd089635801bf1aad380f7262a111e0cbf",
+    "test_scoring.py": "4aaf249563148aa83accaf7c17b66d0025fc3517b3bb6512ef9ff83913b294aa",
+    "translation_map.json": "a3e26b53bf6c501ba56be64b22250227d000517e79d64afa76a88c216e8db40c",
+    "translation_review.json": "dd87a198f22c327e8a3d3d2cbcee08e9fec2c96b593d01e57a1621eddfe32b6a",
+    "translation_units.json": "4a94c5c9716af6f5571ef713ca75a471025a6ae421733754aa4428aaa6050fa1"
+  },
+  "metric_provenance": {
+    "source": "experiments/shortpaper_20261111/score_joint_reasoning_v2.py",
+    "source_sha256": "0550f420c3b1f88df0055acdb5a87d4c57d9687207dd207798005fa1b3ba8daa",
+    "note": "w1,w1_check,distance,metrics,aggregate extracted unchanged; independent vector CDF validation"
+  }
+}

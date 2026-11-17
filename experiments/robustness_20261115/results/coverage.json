@@ -1,0 +1,95 @@
+{
+  "completed_scored_jobs": [
+    "qwen3_8b",
+    "gpt_oss_20b",
+    "llama31_8b",
+    "glm4_9b",
+    "mistral7b_v01",
+    "sotopia_mistral7b",
+    "socialr1_8b",
+    "qwen3_8b_base"
+  ],
+  "planned_jobs": [
+    "qwen3_8b",
+    "gpt_oss_20b",
+    "llama31_8b",
+    "glm4_9b",
+    "mistral7b_v01",
+    "sotopia_mistral7b",
+    "socialr1_8b",
+    "qwen3_8b_base"
+  ],
+  "queue": {
+    "status": "finished",
+    "freeze_sha256": "eed99ca4455c82af28021bb02aeac62873231624bd6767a3f5500bcefed4f75b",
+    "started_unix": 1794728397.237205,
+    "jobs": [
+      {
+        "job": "qwen3_8b",
+        "returncode": 0,
+        "seconds": 6683.377092123032,
+        "status": "generated_and_scored",
+        "score_returncode": 0,
+        "analysis_returncode": 0
+      },
+      {
+        "job": "gpt_oss_20b",
+        "returncode": 0,
+        "seconds": 8073.541790008545,
+        "status": "generated_and_scored",
+        "score_returncode": 0,
+        "analysis_returncode": 0
+      },
+      {
+        "job": "llama31_8b",
+        "returncode": 0,
+        "seconds": 3363.5797986984253,
+        "status": "generated_and_scored",
+        "score_returncode": 0,
+        "analysis_returncode": 0
+      },
+      {
+        "job": "glm4_9b",
+        "returncode": 0,
+        "seconds": 1326.926197528839,
+        "status": "generated_and_scored",
+        "score_returncode": 0,
+        "analysis_returncode": 0
+      },
+      {
+        "job": "mistral7b_v01",
+        "returncode": 0,
+        "seconds": 1190.8823826313019,
+        "status": "generated_and_scored",
+        "score_returncode": 0,
+        "analysis_returncode": 0
+      },
+      {
+        "job": "sotopia_mistral7b",
+        "returncode": 0,
+        "seconds": 430.36457228660583,
+        "status": "generated_and_scored",
+        "score_returncode": 0,
+        "analysis_returncode": 0
+      },
+      {
+        "job": "socialr1_8b",
+        "returncode": 0,
+        "seconds": 6357.018953561783,
+        "status": "generated_and_scored",
+        "score_returncode": 0,
+        "analysis_returncode": 0
+      },
+      {
+        "job": "qwen3_8b_base",
+        "returncode": 0,
+        "seconds": 2898.4279029369354,
+        "status": "generated_and_scored",
+        "score_returncode": 0,
+        "analysis_returncode": 0
+      }
+    ],
+    "finished_unix": 1794758766.3912022
+  },
+  "freeze_sha256": "eed99ca4455c82af28021bb02aeac62873231624bd6767a3f5500bcefed4f75b"
+}

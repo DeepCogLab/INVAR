@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "input_sha256": "79208ffb70a3ffe975a85df5ca5fd8072471de1bfd64b66f614dd459403f2a28",
+  "scope": "independent deterministic rule/label/schema review, no model outputs used",
+  "checked": {
+    "fact_references_checked": 11216,
+    "goal_references_checked": 3360,
+    "role_inputs_checked": 36
+  },
+  "goal_audit_rows": 108,
+  "correctness_labels_to_decoder": "run_structured.py inspected: grammar receives output_schema only; messages exclude expected_answer/expected_actions metadata",
+  "errors": [],
+  "status": "passed",
+  "reviewer_type": "deterministic program checks plus AI-assisted semantic review; not human expert certification",
+  "facts_ai_semantic_review": "14 intervention factors: changed condition descriptions are mutually exclusive; stable description zero true on both sides and description one false on both sides"
+}

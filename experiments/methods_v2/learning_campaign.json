@@ -1,0 +1,17 @@
+{
+  "pid": 667382,
+  "started_unix": 1792873678.335944,
+  "queues": {
+    "gpu0": [
+      "teacher",
+      "anchor_sft",
+      "anchor_js"
+    ],
+    "gpu1": [
+      "wait_PIQ",
+      "anchor_kl",
+      "anchor_js_kl"
+    ]
+  },
+  "trainer_sha256": "6af36c49aa83f6da738a116eda861875d0069ad6a43505a19a68cb077bd5f87f"
+}

@@ -1,0 +1,118 @@
+{
+  "models": {
+    "qwen3_8b": {
+      "folder": "/mnt/models/models/Qwen3-8B",
+      "architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "model_type": "qwen3",
+      "config_sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+      "weight_files": {
+        "model-00001-of-00005.safetensors": 3996250744,
+        "model-00002-of-00005.safetensors": 3993160032,
+        "model-00003-of-00005.safetensors": 3959604768,
+        "model-00004-of-00005.safetensors": 3187841392,
+        "model-00005-of-00005.safetensors": 1244659840
+      },
+      "adapter_folder": null
+    },
+    "socialr1_8b": {
+      "folder": "/mnt/models/models/SocialR1-8B",
+      "architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "model_type": "qwen3",
+      "config_sha256": "7d8671c98448753a117f57b989ba015a187a2cf2499a2239172f8cea32e5b3b9",
+      "weight_files": {
+        "model.safetensors": 16381517208
+      },
+      "adapter_folder": null
+    },
+    "gpt_oss_20b": {
+      "folder": "/mnt/models/models/gpt-oss-20b",
+      "architectures": [
+        "GptOssForCausalLM"
+      ],
+      "model_type": "gpt_oss",
+      "config_sha256": "3a2a26ded679375b7928ddeca59764df7cea83220c1961035f6d6e232659e9ce",
+      "weight_files": {
+        "model-00002-of-00002.safetensors": 4170342232,
+        "model-00000-of-00002.safetensors": 4792272488,
+        "model-00001-of-00002.safetensors": 4798702184
+      },
+      "adapter_folder": null
+    },
+    "llama31_8b": {
+      "folder": "/mnt/models/models/Meta-Llama-3.1-8B-Instruct",
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "model_type": "llama",
+      "config_sha256": "29e4c210b0d6ac178b16b2a255a568bdb23b581e50ca1ef6a6d071dd85704e6e",
+      "weight_files": {
+        "model-00004-of-00004.safetensors": 1168138808,
+        "model-00003-of-00004.safetensors": 4915916176,
+        "model-00001-of-00004.safetensors": 4976698672,
+        "model-00002-of-00004.safetensors": 4999802720
+      },
+      "adapter_folder": null
+    },
+    "mistral7b_v01": {
+      "folder": "/mnt/models/models/Mistral-7B-Instruct-v0.1",
+      "architectures": [
+        "MistralForCausalLM"
+      ],
+      "model_type": "mistral",
+      "config_sha256": "cf25cdf4719f181d1d1d371973285d9afe9afde0d0c6a6fd48de857555ce1e0d",
+      "weight_files": {
+        "model-00002-of-00002.safetensors": 4540516344,
+        "model-00001-of-00002.safetensors": 9942981696
+      },
+      "adapter_folder": null
+    },
+    "sotopia_mistral7b": {
+      "folder": "/mnt/models/models/Mistral-7B-Instruct-v0.1",
+      "architectures": [
+        "MistralForCausalLM"
+      ],
+      "model_type": "mistral",
+      "config_sha256": "cf25cdf4719f181d1d1d371973285d9afe9afde0d0c6a6fd48de857555ce1e0d",
+      "weight_files": {
+        "model-00002-of-00002.safetensors": 4540516344,
+        "model-00001-of-00002.safetensors": 9942981696
+      },
+      "adapter_folder": "SOTOPIA-pi-Mistral-7B-BC_SR"
+    },
+    "glm4_9b": {
+      "folder": "/mnt/models/models/GLM-4-9B-0414",
+      "architectures": [
+        "Glm4ForCausalLM"
+      ],
+      "model_type": "glm4",
+      "config_sha256": "98794d8150da03ca7baec63208584810d01caf43427e376071c00e770f4b4fa7",
+      "weight_files": {
+        "model-00004-of-00004.safetensors": 4025786080,
+        "model-00003-of-00004.safetensors": 4895274616,
+        "model-00001-of-00004.safetensors": 4984283160,
+        "model-00002-of-00004.safetensors": 4895274600
+      },
+      "adapter_folder": null
+    },
+    "qwen3_8b_base": {
+      "folder": "/mnt/models/models/Qwen3-8B-Base",
+      "architectures": [
+        "Qwen3ForCausalLM"
+      ],
+      "model_type": "qwen3",
+      "config_sha256": "8c10cb8d91786fa2719805790c765ef87e0240b9298948fb77fb24fe93e502c2",
+      "weight_files": {
+        "model-00001-of-00004.safetensors": 4902257696,
+        "model-00002-of-00004.safetensors": 4915960368,
+        "model-00004-of-00004.safetensors": 1580230264,
+        "model-00003-of-00004.safetensors": 4983068496
+      },
+      "adapter_folder": null
+    }
+  },
+  "gpu_state": "0, GPU-REDACTED, NVIDIA RTX 5880 Ada Generation, 49140 MiB, 42575 MiB, 0 %\n1, GPU-REDACTED, NVIDIA RTX 5880 Ada Generation, 49140 MiB, 15 MiB, 0 %\n"
+}

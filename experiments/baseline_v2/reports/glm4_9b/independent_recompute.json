@@ -1,0 +1,10 @@
+{
+  "model": "glm4_9b",
+  "status": "passed",
+  "behavior_quartets_checked": 701,
+  "control_quartets_checked": 3644,
+  "response_rows_scanned": 421504,
+  "method": "Scalar CDF W1 implementation and direct arithmetic over raw responses; no reuse of vectorized point estimates",
+  "completion_audit_sha256": "1f260f3e6138f932b49d16182042ff2bdaa1aa9e66a2c23c6c1df77fba9f1f62",
+  "raw_sha256": "921a20b8b6915b75f1414aa65e843b2981dca0209673da5008b427c97eff769d"
+}

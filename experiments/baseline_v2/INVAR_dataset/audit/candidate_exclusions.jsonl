@@ -1,0 +1,1 @@
+{"candidate_id": "HPVBG_TPP_OFFER5_INDIV_GROUP", "reason": "惩罚后保留额为5×0.7=3.5；论文只说明取最近整数，现有材料不能确认半整数取整约定。", "reentry_requirement": "取得可验证的原实验实现或作者确认后，在模型测试前重新审定；不得猜测JavaScript/Python的默认舍入。", "source_id": "HPVBG", "status": "excluded_pending_source_rounding_verification"}

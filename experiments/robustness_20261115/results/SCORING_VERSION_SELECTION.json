@@ -1,0 +1,89 @@
+{
+  "selected": {
+    "qwen3_8b": {
+      "version": "terminal_line_and_harmony_v3",
+      "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\qwen3_8b\\SCORING_COMPLETE.json",
+      "score_sha256": "d363bded1cce7bae49c4cf09b77e6df582053743b225d6d81fe00fecd91588c0",
+      "raw_sha256": "ee69b0fec4f8aa4ae9a38a393fb584b7a128c5dcdb86f3fa5831b1d5bd5cf4d5",
+      "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\qwen3_8b.json",
+      "independent_audit_sha256": "a858e0656824d68c000095db5996176d18b1928dc13596068678d2a59f7aa933",
+      "changed_rows_from_v1": 0,
+      "changed_rows_from_v2": 0
+    },
+    "gpt_oss_20b": {
+      "version": "terminal_line_and_harmony_v3",
+      "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\gpt_oss_20b\\SCORING_COMPLETE.json",
+      "score_sha256": "ffd5837f49a370b89c85ffb4680bed43e34cb90ecde683cc259aacb9bb8df1c2",
+      "raw_sha256": "c977de293258e3d6b8ab24aa2dd7e25661f38329c637a3b8f0f63027863d3033",
+      "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\gpt_oss_20b.json",
+      "independent_audit_sha256": "bc22e6b6103edf671b9b01eeec3a1399c378adf7d20f89b4c7d3675ca6828c3c",
+      "changed_rows_from_v1": 857,
+      "changed_rows_from_v2": 0
+    },
+    "llama31_8b": {
+      "version": "terminal_line_and_harmony_v3",
+      "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\llama31_8b\\SCORING_COMPLETE.json",
+      "score_sha256": "be4185698fce9fd58f79c941777a29279b63af0b4a3e66f3e000f69af247c4d9",
+      "raw_sha256": "dfe26da0ff05d4b4f8a739cf314f1c3fb8775f78ade0909365b109b4d4d904e0",
+      "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\llama31_8b.json",
+      "independent_audit_sha256": "e559c35aa39b4e93a3fc602472010b1188e2dc2887357cd6e36db2b32af28a3b",
+      "changed_rows_from_v1": 751,
+      "changed_rows_from_v2": 751
+    },
+    "glm4_9b": {
+      "version": "terminal_line_and_harmony_v3",
+      "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\glm4_9b\\SCORING_COMPLETE.json",
+      "score_sha256": "1bc8ee21e650944aaab3ad0e1a206a2bc9d702fab383ab68b97bc7c76dcec5c3",
+      "raw_sha256": "d2a71e8c5bfe88ba6b405f4252af8a63d72bd12940986456eb476f22bb1d94e6",
+      "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\glm4_9b.json",
+      "independent_audit_sha256": "ade4c109b4895820d81a4b55061ca469ec24e2c02ead11c075d9fbb0ec8ed0a3",
+      "changed_rows_from_v1": 2,
+      "changed_rows_from_v2": 2
+    },
+    "mistral7b_v01": {
+      "version": "terminal_line_and_harmony_v3",
+      "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\mistral7b_v01\\SCORING_COMPLETE.json",
+      "score_sha256": "53346cedd6d1327414a751c011ea2e6e328a374d5eb398bfcb30d982fa6c3464",
+      "raw_sha256": "63a618586a35f6377b15343458fd28f2fd8e8c37ac37f10d549175f0e74119fa",
+      "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\mistral7b_v01.json",
+      "independent_audit_sha256": "016fbc78c7fe32bfcabaeffe730bb4e30ebbf449081d20baf57229a5d2383ee5",
+      "changed_rows_from_v1": 28,
+      "changed_rows_from_v2": 28
+    },
+    "sotopia_mistral7b": {
+      "version": "terminal_line_and_harmony_v3",
+      "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\sotopia_mistral7b\\SCORING_COMPLETE.json",
+      "score_sha256": "edb5035006d8ad52d29ebc03166034d7934080c01c7239ef2262dd5824ab9843",
+      "raw_sha256": "f744bed3be9f0429438bfd09a08abae45ab08638f3c5e5b6c93a5c4389dbb88a",
+      "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\sotopia_mistral7b.json",
+      "independent_audit_sha256": "a34cb50c9ce3f1a800559d9a87262fb0380a8d6c6c1f1fc5a288af931bc30372",
+      "changed_rows_from_v1": 0,
+      "changed_rows_from_v2": 0
+    },
+    "socialr1_8b": {
+      "version": "terminal_line_and_harmony_v3",
+      "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\socialr1_8b\\SCORING_COMPLETE.json",
+      "score_sha256": "42afbfac6d96fed3a20d1bd39ff414288632b7c09df7fabdfdb910a25add1c89",
+      "raw_sha256": "9e34e0113a17e9884463440a1092117ac6cc208b3606000ccf3111dc34712f51",
+      "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\socialr1_8b.json",
+      "independent_audit_sha256": "ba26a7d423449f9edfe8d3415d1895c3f3e2ea074eba1ed52acb2b6ab348f699",
+      "changed_rows_from_v1": 0,
+      "changed_rows_from_v2": 0
+    },
+    "qwen3_8b_base": {
+      "version": "terminal_line_and_harmony_v3",
+      "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\qwen3_8b_base\\SCORING_COMPLETE.json",
+      "score_sha256": "0b64617e60fa324933c823a32ad255e3310b0a08f10bdf424b49f3d71ff33d07",
+      "raw_sha256": "9f2ec38f75c1b8494ad27dde2ac530a0e537757e69d64174a497c735d8e82f02",
+      "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\qwen3_8b_base.json",
+      "independent_audit_sha256": "749b70de60a53575dd77c2479846f1dfc928aa85a1d183d354560712f14ec3a2",
+      "changed_rows_from_v1": 114,
+      "changed_rows_from_v2": 114
+    }
+  },
+  "pending_independent_audit": [],
+  "not_yet_accepted": [],
+  "original_freeze_sha256": "eed99ca4455c82af28021bb02aeac62873231624bd6767a3f5500bcefed4f75b",
+  "correction_manifest_sha256": "a5e9ba0384ec3c43e64c6e40ffd86615deec8c27c5623b59f50ce121a25535f7",
+  "scope": "Uniform CPU v3 for every checkpoint. Frozen v1 and accepted Harmony v2 preserved. No new GPU answers."
+}

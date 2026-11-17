@@ -1,0 +1,7 @@
+﻿model,stratum,comparisons,proxy_W1_decreases,decoder_W1_decreases,proxy_W1_down_decoder_W1_up
+qwen25_14b_instruct,train,12,12,9,3
+qwen25_14b_instruct,heldout_source,12,7,8,0
+qwen25_14b_instruct,heldout_variant,12,9,9,0
+qwen3_8b,train,12,12,11,1
+qwen3_8b,heldout_source,12,10,10,1
+qwen3_8b,heldout_variant,12,12,9,3

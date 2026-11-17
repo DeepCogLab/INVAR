@@ -1,0 +1,17 @@
+{
+  "status": "failed",
+  "gpu_states": [
+    {
+      "status": "running",
+      "task": "lora_sft_consistency",
+      "gpu": 0,
+      "started_unix": 1792864615.677078
+    },
+    {
+      "status": "queue_completed",
+      "gpu": 1,
+      "finished_unix": 1792864818.8320446
+    }
+  ],
+  "finished_unix": 1792864818.8329864
+}

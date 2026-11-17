@@ -1,0 +1,197 @@
+{
+  "status": "passed_main_supplement_and_engineering_restoration_terminal_acceptance",
+  "expected_main_rows": 94080,
+  "accepted_main_rows": 94080,
+  "expected_supplement_rows": 21888,
+  "accepted_supplement_rows": 21888,
+  "total_new_scientific_rows": 115968,
+  "missing_jobs": [],
+  "scientific_phases_kept_separate": true,
+  "date_recovery_rows_counted_once": 5664,
+  "original_two_zero_answer_failures_preserved": true,
+  "main_completion_tokens": 17341034,
+  "supplement_completion_tokens": 10731544,
+  "main_acceptance_sha256": "b6bbcb5217f02f8ff51af8268fcffabecd622e1ed7540ad586d3c57b78085466",
+  "supplement_acceptance_sha256": "051f3e15d2de16b73e0e86711173c347308d5ee0c5e222a73bfc55f39712c26d",
+  "sync_receipt": {
+    "archive": "artifacts\\robustness_20261115\\snapshots\\20261115T212232_727713Z.tar.gz",
+    "archive_sha256": "55d35e7ed7887f74e09ad843a2f6091815176fdb11ab2ee4693ffedfa5120412",
+    "verified_files": 435,
+    "transferred_files": 10,
+    "captured_unix": 1794777753.872978,
+    "remote_root": "/workspace/project_social_simulation/invar_robustness_runs/20261115",
+    "mirror": "artifacts\\robustness_20261115\\remote",
+    "complete_raw_sha_checked": true,
+    "freeze_sha256": "eed99ca4455c82af28021bb02aeac62873231624bd6767a3f5500bcefed4f75b"
+  },
+  "terminal_remote_snapshot": {
+    "queues": {
+      "main": {
+        "queue": {
+          "status": "finished",
+          "freeze_sha256": "eed99ca4455c82af28021bb02aeac62873231624bd6767a3f5500bcefed4f75b",
+          "started_unix": 1794728397.237205,
+          "jobs": [
+            {
+              "job": "qwen3_8b",
+              "returncode": 0,
+              "seconds": 6683.377092123032,
+              "status": "generated_and_scored",
+              "score_returncode": 0,
+              "analysis_returncode": 0
+            },
+            {
+              "job": "gpt_oss_20b",
+              "returncode": 0,
+              "seconds": 8073.541790008545,
+              "status": "generated_and_scored",
+              "score_returncode": 0,
+              "analysis_returncode": 0
+            },
+            {
+              "job": "llama31_8b",
+              "returncode": 0,
+              "seconds": 3363.5797986984253,
+              "status": "generated_and_scored",
+              "score_returncode": 0,
+              "analysis_returncode": 0
+            },
+            {
+              "job": "glm4_9b",
+              "returncode": 0,
+              "seconds": 1326.926197528839,
+              "status": "generated_and_scored",
+              "score_returncode": 0,
+              "analysis_returncode": 0
+            },
+            {
+              "job": "mistral7b_v01",
+              "returncode": 0,
+              "seconds": 1190.8823826313019,
+              "status": "generated_and_scored",
+              "score_returncode": 0,
+              "analysis_returncode": 0
+            },
+            {
+              "job": "sotopia_mistral7b",
+              "returncode": 0,
+              "seconds": 430.36457228660583,
+              "status": "generated_and_scored",
+              "score_returncode": 0,
+              "analysis_returncode": 0
+            },
+            {
+              "job": "socialr1_8b",
+              "returncode": 0,
+              "seconds": 6357.018953561783,
+              "status": "generated_and_scored",
+              "score_returncode": 0,
+              "analysis_returncode": 0
+            },
+            {
+              "job": "qwen3_8b_base",
+              "returncode": 0,
+              "seconds": 2898.4279029369354,
+              "status": "generated_and_scored",
+              "score_returncode": 0,
+              "analysis_returncode": 0
+            }
+          ],
+          "finished_unix": 1794758766.3912022
+        },
+        "former_parent_cmdline": null,
+        "lock_released": true,
+        "frozen_files_verified": 44,
+        "freeze_sha256": "eed99ca4455c82af28021bb02aeac62873231624bd6767a3f5500bcefed4f75b"
+      },
+      "supplement_overnight": {
+        "queue": {
+          "status": "finished",
+          "freeze_sha256": "d4723b218f8db2d397be7a0ea8b14a173c266c78921b510ba224471f2e952b45",
+          "started_unix": 1794756132.5980303,
+          "jobs": [
+            {
+              "job": "language_glm",
+              "status": "generated_and_scored",
+              "returncode": 0,
+              "seconds": 936.8368363380432,
+              "score_returncode": 0
+            },
+            {
+              "job": "language_llama",
+              "status": "generated_and_scored",
+              "returncode": 0,
+              "seconds": 1215.1553382873535,
+              "score_returncode": 0
+            },
+            {
+              "job": "length_goals_qwen",
+              "status": "generated_and_scored",
+              "returncode": 0,
+              "seconds": 2506.180195093155,
+              "score_returncode": 0
+            },
+            {
+              "job": "length_goals_gpt",
+              "status": "failed_no_retry",
+              "returncode": 1,
+              "seconds": 15.520969867706299
+            },
+            {
+              "job": "length_behavior_qwen",
+              "status": "generated_and_scored",
+              "returncode": 0,
+              "seconds": 5813.505789279938,
+              "score_returncode": 0
+            },
+            {
+              "job": "length_behavior_gpt",
+              "status": "failed_no_retry",
+              "returncode": 1,
+              "seconds": 14.611660957336426
+            }
+          ],
+          "finished_unix": 1794769290.3312411
+        },
+        "former_parent_cmdline": null,
+        "lock_released": true,
+        "frozen_files_verified": 33,
+        "freeze_sha256": "d4723b218f8db2d397be7a0ea8b14a173c266c78921b510ba224471f2e952b45"
+      },
+      "gpt_date_restore_20261116": {
+        "queue": {
+          "status": "finished",
+          "jobs": [
+            {
+              "job": "length_goals_gpt",
+              "returncode": 0,
+              "seconds": 2598.916524410248,
+              "status": "generated_and_scored",
+              "score_returncode": 0
+            },
+            {
+              "job": "length_behavior_gpt",
+              "returncode": 0,
+              "seconds": 5817.259820461273,
+              "status": "generated_and_scored",
+              "score_returncode": 0
+            }
+          ],
+          "recovery_freeze_sha256": "1ea33f343c3709648647e661dcda0bffcbb5bfc05eaaa092a651b10023eda59d",
+          "started_unix": 1794766997.2613795,
+          "finished_unix": 1794777721.5118513
+        },
+        "former_parent_cmdline": null,
+        "lock_released": true,
+        "frozen_files_verified": 33,
+        "freeze_sha256": "d4723b218f8db2d397be7a0ea8b14a173c266c78921b510ba224471f2e952b45"
+      }
+    },
+    "gpu_compute_csv": "GPU-REDACTED, 976214\n",
+    "authorized_gpu1_idle": true,
+    "captured_unix": 1794777814.7329154,
+    "recovery_freeze_sha256": "1ea33f343c3709648647e661dcda0bffcbb5bfc05eaaa092a651b10023eda59d"
+  },
+  "checked_at_utc": "2026-11-15T21:23:34.764241+00:00",
+  "audit_code_sha256": "0e3eeb959c81f66c6af465d647ae7e605adb77f1fb1d1510bd835b40b1696ad4"
+}

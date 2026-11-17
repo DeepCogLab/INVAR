@@ -1,0 +1,76 @@
+{
+  "status": "passed_automated_preservation_checks",
+  "scope": "AI-assisted translation; not human-certified equivalence",
+  "units": 346,
+  "covered": 346,
+  "untranslated": 0,
+  "extra_keys": 0,
+  "issues": [],
+  "notes": [
+    "Chinese number words are rendered as English number words; Arabic numeral multiplicities are checked independently.",
+    "Headings omit Chinese decorative brackets as requested; source unit keys remain exact.",
+    "Column headings translated consistently; no correct-option selection or new reasoning was added.",
+    "Source literal checks use ASCII boundaries because Unicode word boundaries would incorrectly treat adjacent Chinese characters as part of English action tokens. English accept/reject/punish words may appear additionally as translations of Chinese explanations; quoted menu values are checked exactly."
+  ],
+  "semantic_review_items": [
+    {
+      "indices": [
+        54,
+        55,
+        56,
+        129,
+        130,
+        131
+      ],
+      "issue": "Generic Chinese rounded-average statements do not specify a tie-breaking convention; translated as rounded average without adding one. Longer explicit nearest-integer instructions remain nearest integer."
+    },
+    {
+      "indices": [
+        157,
+        152,
+        153,
+        154,
+        155,
+        156
+      ],
+      "issue": "The joint mean proposal is preserved as a common proposal applied separately to each proposer, not a single remainder shared among them."
+    },
+    {
+      "indices": [
+        327
+      ],
+      "issue": "The four-player payoff formula preserves 0.75 times total actual contributions for each participant; no simplification or optimal action supplied."
+    },
+    {
+      "indices": [
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        343,
+        344
+      ],
+      "issue": "Output-only JSON requirements retained exactly in meaning; parent should ensure intervention wrapper permits reasoning in a separate supported channel without contradicting these final-answer instructions."
+    }
+  ],
+  "source_sha256": "4a94c5c9716af6f5571ef713ca75a471025a6ae421733754aa4428aaa6050fa1",
+  "translation_sha256": "a3e26b53bf6c501ba56be64b22250227d000517e79d64afa76a88c216e8db40c",
+  "checks": {
+    "numeric_multiset_checked": 346,
+    "participant_ids_checked": 346,
+    "uppercase_actions_json_checked": 346,
+    "quoted_action_literals_checked": 346
+  },
+  "residual_han_values": 0,
+  "review_process": "Every source unit read and translated by an AI; repeated exact A/B and numeric families use shared consistent wording. Automated exact-key, Arabic-numeral multiset, participant-ID multiset, uppercase action literal multiset, quoted-action literal, output field, and table separator checks. No independent human or second-system validation."
+}

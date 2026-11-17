@@ -1,0 +1,21 @@
+\begin{tabular}{@{}llcccccc@{}}
+\toprule
+ & & \multicolumn{2}{c}{Goal acc. (\%)$\uparrow$} & \multicolumn{2}{c}{$E\!\downarrow$} & \multicolumn{2}{c}{Valid (\%)} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(l){7-8}
+Model & Setting & off & on & off & on & off & on \\
+\midrule
+\multirow{3}{*}{Qwen3-14B} & pair & 78.0 & \textbf{99.99} & .023 & \textbf{.007} & \multirow{3}{*}{100.0} & \multirow{3}{*}{99.9} \\
+ & source & 73.3 & \textbf{99.87} & \textbf{.017} & \textcolor{badc}{.020} &  &  \\
+ & task & 74.2 & \textbf{99.92} & \textbf{.021} & \textcolor{badc}{.024} &  &  \\
+\midrule
+\multirow{3}{*}{Qwen3-30B-A3B} & pair & 74.7 & \textbf{99.86} & .217 & \textbf{.010} & \multirow{3}{*}{100.0} & \multirow{3}{*}{98.4} \\
+ & source & 79.5 & \textbf{99.0} & .137 & \textbf{.023} &  &  \\
+ & task & 76.3 & \textbf{99.4} & .170 & \textbf{.023} &  &  \\
+\midrule
+\multicolumn{8}{@{}l}{\textit{Bilingual subset (32 pairs; 13 with goal questions)}} \\
+\multirow{2}{*}{Qwen3-8B} & Chinese & 71.6 & \textbf{99.2} & .039 & \textbf{.007} & 99.1 & 98.7 \\
+ & English & 73.6 & \textbf{99.4} & .053 & \textbf{.005} & 99.9 & \textcolor{badc}{93.3} \\
+\multirow{2}{*}{SocialR1-8B} & Chinese & 64.1 & \textbf{97.1} & -- & .108 & 97.7 & \textcolor{badc}{82.7} \\
+ & English & 65.9 & \textbf{95.7} & \textbf{.099} & \textcolor{badc}{.141} & 99.3 & \textcolor{badc}{88.2} \\
+\bottomrule
+\end{tabular}

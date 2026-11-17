@@ -1,0 +1,13 @@
+﻿job,stage,arm,transition,Q_all_attempts,worst_side_Q
+qwen3_14b,parameter,native_no_thinking,changed_but_overlapping,0.625,0.2890625
+qwen3_14b,parameter,native_no_thinking,disjoint_optimum_sets,0.4765625,0.19375
+qwen3_14b,parameter,native_no_thinking,same_optimum_set,0.814236111111111,0.7407407407407407
+qwen3_14b,parameter,native_thinking,changed_but_overlapping,0.96875,0.921875
+qwen3_14b,parameter,native_thinking,disjoint_optimum_sets,1,1
+qwen3_14b,parameter,native_thinking,same_optimum_set,0.9976851851851852,0.9953703703703703
+qwen3_30b_a3b_gptq,parameter,native_no_thinking,changed_but_overlapping,0.564453125,0.2578125
+qwen3_30b_a3b_gptq,parameter,native_no_thinking,disjoint_optimum_sets,0.4,0
+qwen3_30b_a3b_gptq,parameter,native_no_thinking,same_optimum_set,0.8394097222222222,0.8275462962962963
+qwen3_30b_a3b_gptq,parameter,native_thinking,changed_but_overlapping,0.98828125,0.96875
+qwen3_30b_a3b_gptq,parameter,native_thinking,disjoint_optimum_sets,1,1
+qwen3_30b_a3b_gptq,parameter,native_thinking,same_optimum_set,0.997974537037037,0.9930555555555556

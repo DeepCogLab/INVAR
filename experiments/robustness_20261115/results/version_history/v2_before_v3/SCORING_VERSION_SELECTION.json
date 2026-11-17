@@ -1,0 +1,23 @@
+{
+  "selected": {
+    "qwen3_8b": {
+      "version": "original_v1_unaffected",
+      "score_file": "artifacts\\robustness_20261115\\remote\\runs\\qwen3_8b\\SCORING_COMPLETE.json",
+      "score_sha256": "42ca530e4e303737a4512a5526faa3fdcf652d715f225c8e820090c15df06d59",
+      "raw_sha256": "ee69b0fec4f8aa4ae9a38a393fb584b7a128c5dcdb86f3fa5831b1d5bd5cf4d5"
+    },
+    "gpt_oss_20b": {
+      "version": "harmony_final_header_v2",
+      "score_file": "artifacts\\robustness_20261115\\corrected_v2\\runs\\gpt_oss_20b\\SCORING_COMPLETE.json",
+      "score_sha256": "b4eddab4c388ee5d234e302707b7e35de392865d4b79a7f34ee0c283f8dd402b",
+      "raw_sha256": "c977de293258e3d6b8ab24aa2dd7e25661f38329c637a3b8f0f63027863d3033"
+    }
+  },
+  "pending_independent_audit": [
+    "glm4_9b",
+    "llama31_8b"
+  ],
+  "original_freeze_sha256": "eed99ca4455c82af28021bb02aeac62873231624bd6767a3f5500bcefed4f75b",
+  "correction_manifest_sha256": "0ae7b3c5121c44b3852b91f6972c6aacedbc7c8641bc4479818c4109bfe81fbc",
+  "scope": "GPT-OSS v1 scores have a header parsing defect; do not cite their capability differences. Other model scores unchanged. All selected results have complete independent raw audits. No new generations."
+}

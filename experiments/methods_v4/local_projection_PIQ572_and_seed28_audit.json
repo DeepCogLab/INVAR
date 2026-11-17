@@ -1,0 +1,34 @@
+{
+  "status": "verified_exact_parent_line_projection",
+  "proofs": [
+    {
+      "model": "qwen3_8b",
+      "source": "PIQ572",
+      "seed": 20261026,
+      "rows": 608128,
+      "parent_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940",
+      "child_sha256": "bff0fa4ce039959d6ba443bbc13e1d5c9fd1be9ebca6dd4965b4b80cdc4dd7d1",
+      "new_generated_rows": 0
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "HPVBG",
+      "seed": 20261028,
+      "rows": 164224,
+      "parent_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940",
+      "child_sha256": "5e80dc8dfd9f30e8583f1138b223a0a1b568407b3567ca235793b89dc0204fc8",
+      "new_generated_rows": 0
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "PIQ572",
+      "seed": 20261026,
+      "rows": 608128,
+      "parent_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94",
+      "child_sha256": "acf8b075871955886add1c6e5ed41a86c814514627c2114a68e0fcb827efaa46",
+      "new_generated_rows": 0
+    }
+  ],
+  "scope": "Independent binary parent-line filtering; repeated HPVBG baseline has no new draws",
+  "utc": "2026-10-27T03:14:16.449096+00:00"
+}

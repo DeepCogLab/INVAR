@@ -1,0 +1,10 @@
+{
+  "model": "mistral7b_instruct_v03",
+  "status": "passed",
+  "behavior_quartets_checked": 701,
+  "control_quartets_checked": 3644,
+  "response_rows_scanned": 421504,
+  "method": "Scalar CDF W1 implementation and direct arithmetic over raw responses; no reuse of vectorized point estimates",
+  "completion_audit_sha256": "607d9d8909456aacf5de4427e9c2788a9492dd8f9b5125fab7b1a0a72eadef5c",
+  "raw_sha256": "26e14f787f2a4f7c653f9b192672580010ba99c780459a345f263b63abb052b2"
+}

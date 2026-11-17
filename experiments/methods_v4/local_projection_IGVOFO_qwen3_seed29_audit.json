@@ -1,0 +1,18 @@
+{
+  "status": "verified_exact_reused_projection_bytes",
+  "model": "qwen3_8b",
+  "source": "IGVOFO",
+  "seed": 20261029,
+  "projection_metadata": {
+    "kind": "exact_raw_line_projection_not_new_generation",
+    "parent_raw": "/workspace/project_social_simulation/invar_methods_runs/20261028/evaluations/full92/qwen3_8b/screen/qwen3_8b/baseline.jsonl",
+    "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940",
+    "selected_prompt_ids_sha256": "6097f4fe7f0acddc2ec4038102259aa596ff547fe09356296304acbcdb77e17a",
+    "rows": 88128
+  },
+  "identical_to_original_seed": true,
+  "baseline_response_sha256": "b995b617e1e2dda517721a112d2c533f5d2a4aa55c1775c214f9586d34e95b36",
+  "projection_metadata_sha256": "981702d8141efec05d58ba0f6e70f6c565a7294e26e4328503ec0325c2bfe5ab",
+  "original_projection_path": "artifacts\\methods_v4_20261028\\evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261026\\screen\\qwen3_8b\\baseline.projection.json",
+  "scope": "Exact reuse of previously binary-verified projection; not a new baseline draw"
+}

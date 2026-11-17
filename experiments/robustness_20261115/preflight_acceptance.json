@@ -1,0 +1,153 @@
+{
+  "status": "passed_cpu_all_inputs_all_checkpoints",
+  "models": {
+    "qwen3_8b": {
+      "max_prompt_tokens": 689,
+      "min_prompt_tokens": 216,
+      "tokenizer_config_sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+      "rendered_map_sha256": "0800866d2b8fb236369e9cb54e4d5cec0b59af0a93ce63b5991f78b076203510",
+      "token_ids_map_sha256": "48c9770497e88f3180cf427623b58cd31ed7b0464f7b06bcc787c989ec7f92ee",
+      "vocab_size": 151669,
+      "prefilled_think_by_arm": {
+        "native_off": false,
+        "native_on": false
+      }
+    },
+    "socialr1_8b": {
+      "max_prompt_tokens": 689,
+      "min_prompt_tokens": 216,
+      "tokenizer_config_sha256": "579073f506a3f85caed232bb91617cfb93028408d1f43ffaf66f3fc1aee9a9af",
+      "rendered_map_sha256": "0800866d2b8fb236369e9cb54e4d5cec0b59af0a93ce63b5991f78b076203510",
+      "token_ids_map_sha256": "48c9770497e88f3180cf427623b58cd31ed7b0464f7b06bcc787c989ec7f92ee",
+      "vocab_size": 151669,
+      "prefilled_think_by_arm": {
+        "native_off": false,
+        "native_on": false
+      }
+    },
+    "gpt_oss_20b": {
+      "max_prompt_tokens": 737,
+      "min_prompt_tokens": 272,
+      "tokenizer_config_sha256": "9279e942392b742d633c7adbb89ebe002c98399db8926a7af5125c726f404070",
+      "rendered_map_sha256": "a9f6a50b93af397386dd3ed85883efbeda6f57e64d0a993672b489ea6630d16a",
+      "token_ids_map_sha256": "1ac8301c56f49945b24dc3428f86638fe03608664dea9d02fd627aa93c315c15",
+      "vocab_size": 200019,
+      "prefilled_think_by_arm": {
+        "effort_low": false,
+        "effort_high": false
+      }
+    },
+    "llama31_8b": {
+      "max_prompt_tokens": 745,
+      "min_prompt_tokens": 248,
+      "tokenizer_config_sha256": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424",
+      "rendered_map_sha256": "e40144075457c1fa0353b5a82c8849d73d28c0a2dde7fd23cc302562b1560f6b",
+      "token_ids_map_sha256": "b35173243812d41688bb4060a34700dc68bdfd100a0711c7a45faaf8b1a81589",
+      "vocab_size": 128256,
+      "prefilled_think_by_arm": {
+        "direct": false,
+        "brief_reasoning": false
+      }
+    },
+    "mistral7b_v01": {
+      "max_prompt_tokens": 956,
+      "min_prompt_tokens": 253,
+      "tokenizer_config_sha256": "475361439e5c012de9dffdedc416a66a50f1a29f7aa80b375ba014fb13d6bb8a",
+      "rendered_map_sha256": "f8673f0cece7da1f3f01a354d2a46c30fc1099bec4e4eebbbdf2bda947e1aa80",
+      "token_ids_map_sha256": "6f04705400f62eb741d8ba17e4bff64e71dc2e8d09044e5dbc6ea004d719dd22",
+      "vocab_size": 32000,
+      "prefilled_think_by_arm": {
+        "direct": false,
+        "brief_reasoning": false
+      }
+    },
+    "sotopia_mistral7b": {
+      "max_prompt_tokens": 956,
+      "min_prompt_tokens": 253,
+      "tokenizer_config_sha256": "475361439e5c012de9dffdedc416a66a50f1a29f7aa80b375ba014fb13d6bb8a",
+      "rendered_map_sha256": "f8673f0cece7da1f3f01a354d2a46c30fc1099bec4e4eebbbdf2bda947e1aa80",
+      "token_ids_map_sha256": "6f04705400f62eb741d8ba17e4bff64e71dc2e8d09044e5dbc6ea004d719dd22",
+      "vocab_size": 32000,
+      "prefilled_think_by_arm": {
+        "direct": false,
+        "brief_reasoning": false
+      }
+    },
+    "glm4_9b": {
+      "max_prompt_tokens": 692,
+      "min_prompt_tokens": 197,
+      "tokenizer_config_sha256": "e316474d867ad1f91165a12d90c73b27a7e0f9a1c9293831cca66c792bfe9a36",
+      "rendered_map_sha256": "34c475e523e27e6e2052f190cf0f4cb6d0c23a82a122ca6cb68834572cb70893",
+      "token_ids_map_sha256": "8065d1b3811e6ff2f3059658d8a78ccbe934e18a48a10031a08c404fcbb9d9a1",
+      "vocab_size": 151343,
+      "prefilled_think_by_arm": {
+        "direct": false,
+        "brief_reasoning": false
+      }
+    },
+    "qwen3_8b_base": {
+      "max_prompt_tokens": 725,
+      "min_prompt_tokens": 243,
+      "tokenizer_config_sha256": "aa71776c7cec3ef357d7b59a67edb31377d9c52407b9e2e822c717fe145cd03c",
+      "rendered_map_sha256": "0daba0c1f793c1c12a70bc815cd1416b1c9e848da1961a0a58d3ad47c145a235",
+      "token_ids_map_sha256": "3bcafa1b6059534bad0e8a018299d7f4beff3a88ddf964ec5b2f8325b1abd852",
+      "vocab_size": 151669,
+      "prefilled_think_by_arm": {
+        "direct": false,
+        "brief_reasoning": false
+      }
+    }
+  },
+  "coverage": {
+    "frozen/core/behavior_quartets.jsonl": {
+      "quartets": 128,
+      "pairs_by_language": {
+        "zh": 32,
+        "en": 32
+      },
+      "sources": {
+        "HPVBG": 32,
+        "IGVOFO": 32,
+        "PGG": 32,
+        "PIQ572": 32
+      }
+    },
+    "frozen/core/fact_quartets.jsonl": {
+      "quartets": 512,
+      "pairs_by_language": {
+        "zh": 32,
+        "en": 32
+      },
+      "sources": {
+        "HPVBG": 128,
+        "IGVOFO": 128,
+        "PGG": 128,
+        "PIQ572": 128
+      }
+    },
+    "frozen/core/goal_quartets.jsonl": {
+      "quartets": 156,
+      "pairs_by_language": {
+        "zh": 13,
+        "en": 13
+      },
+      "sources": {
+        "HPVBG": 96,
+        "IGVOFO": 12,
+        "PIQ572": 48
+      }
+    },
+    "frozen/parameter/goal_quartets.jsonl": {
+      "quartets": 48,
+      "pairs_by_language": {
+        "zh": 20,
+        "en": 20
+      },
+      "sources": {
+        "PARAMETRIC_DIAGNOSTIC": 48
+      }
+    }
+  },
+  "sotopia_and_baseline_render_identically": true,
+  "no_scientific_responses_generated": true
+}

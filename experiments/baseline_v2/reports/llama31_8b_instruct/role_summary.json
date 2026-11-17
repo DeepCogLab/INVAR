@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.9861111111111112,
+  "accuracy_bound95_low": 0.9460976614727812,
+  "accuracy_bound95_high": 1,
+  "n_prompts": 36,
+  "method": "Hoeffding bound; fixed prompts; independent sampled outputs"
+}

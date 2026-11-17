@@ -1,0 +1,35 @@
+{
+  "baseline_comparison": "New model configurations; old response seeds and API execution path differ. No parameter-only causal claim.",
+  "chunk_size": 32,
+  "diagnostics": "Payoff table is privileged rule expansion, not an end-to-end deployable method or new data source.",
+  "files": {
+    "goal_diagnostics.jsonl": "1b63ac02f7b69b00665307448080cc5aa2f060ff9fb5b9cb48deedaea758c91b",
+    "model_inputs.jsonl": "870844a396d1625ceec41cd4e65fe404b061208c71b4a5c1bd005eaea1550ac0",
+    "native_sample.json": "171f8e74b2c6b7695db23ab5744391a31c6ce27c7cdf67fdc474ea1f928eb033",
+    "repeat_ids.json": "adff5926b867fde76349e9e25e9c5228736e49c82e23c518ce3716cce3060e00"
+  },
+  "goal_diagnostic_rows_per_model": 90240,
+  "goal_repeats": 32,
+  "main_decoder": "JSON schema; no correct labels supplied",
+  "main_repeats": {
+    "behavior": 256,
+    "changed_fact": 8,
+    "goal": 16,
+    "role": 32,
+    "stable_fact": 8
+  },
+  "main_rows_per_model": 421504,
+  "max_tokens": 128,
+  "native_rows_per_model": 2560,
+  "native_scope": "Native no-thinking and thinking, unconstrained; separately report truncation/parse rates; 2048 server context; no truncating inputs.",
+  "primary_weighting": "pair equal, then source equal and task equal sensitivity",
+  "prospective_scope": "Arms, sample sizes and analyses frozen before new result inspection; benchmark itself was previously observed.",
+  "protocol": "INVAR_shortpaper_supplement_v1_20261111",
+  "seed_policy": "sha256([20261111,prompt_id,batch,chunk]); same request seed across arms",
+  "selection": "All 8666 inputs. All 1410 goal inputs in both original and payoff_table conditions.",
+  "source_input_sha256": "79208ffb70a3ffe975a85df5ca5fd8072471de1bfd64b66f614dd459403f2a28",
+  "temperature": 0.7,
+  "thinking": false,
+  "top_k": -1,
+  "top_p": 0.95
+}

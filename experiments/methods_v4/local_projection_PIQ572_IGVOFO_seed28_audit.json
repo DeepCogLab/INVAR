@@ -1,0 +1,39 @@
+{
+  "status": "verified_exact_reused_projection_bytes",
+  "records": [
+    {
+      "model": "qwen3_8b",
+      "source": "PIQ572",
+      "seed": 20261028,
+      "projection_metadata": {
+        "kind": "exact_raw_line_projection_not_new_generation",
+        "parent_raw": "/workspace/project_social_simulation/invar_methods_runs/20261028/evaluations/full92/qwen3_8b/screen/qwen3_8b/baseline.jsonl",
+        "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940",
+        "selected_prompt_ids_sha256": "d4ae647c35b3731ff7f2a6c83f52862226a739b23c5d06204b3641fbaef396fb",
+        "rows": 608128
+      },
+      "identical_to_original_seed": true,
+      "baseline_response_sha256": "bff0fa4ce039959d6ba443bbc13e1d5c9fd1be9ebca6dd4965b4b80cdc4dd7d1",
+      "projection_metadata_sha256": "6e61f056013f70854991cba49a5ca143ee9e2bb2f623653228fa8091d514b029",
+      "original_projection_path": "artifacts\\methods_v4_20261028\\evaluations\\transfer\\qwen3_8b\\PIQ572\\seed20261026\\screen\\qwen3_8b\\baseline.projection.json",
+      "scope": "Exact bytes reuse of previously independently binary-projected source baseline; no additional draw or new parent projection"
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "IGVOFO",
+      "seed": 20261028,
+      "projection_metadata": {
+        "kind": "exact_raw_line_projection_not_new_generation",
+        "parent_raw": "/workspace/project_social_simulation/invar_methods_runs/20261028/evaluations/full92/qwen25_14b_instruct/screen/qwen25_14b_instruct/baseline.jsonl",
+        "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94",
+        "selected_prompt_ids_sha256": "6097f4fe7f0acddc2ec4038102259aa596ff547fe09356296304acbcdb77e17a",
+        "rows": 88128
+      },
+      "identical_to_original_seed": true,
+      "baseline_response_sha256": "51823c315ce744cbc4fbc12b0a79b2794a3791a02232d552baf48705605cc614",
+      "projection_metadata_sha256": "457e7e1b865275d082bd6f01f3c7cb65fdc1cf5796c5b2fae321b2c8d97a01f6",
+      "original_projection_path": "artifacts\\methods_v4_20261028\\evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261026\\screen\\qwen25_14b_instruct\\baseline.projection.json",
+      "scope": "Exact bytes reuse of previously independently binary-projected source baseline; no additional draw or new parent projection"
+    }
+  ]
+}

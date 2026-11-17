@@ -1,0 +1,50 @@
+{
+  "version": "0.2.0",
+  "models": [
+    "qwen3_8b",
+    "qwen25_7b_instruct",
+    "qwen25_7b_base",
+    "qwen25_14b_instruct",
+    "glm4_9b",
+    "llama31_8b_instruct",
+    "mistral7b_instruct_v03",
+    "deepseek_llm7b_chat"
+  ],
+  "inputs_by_type": {
+    "behavior": 1240,
+    "changed_fact": 3092,
+    "stable_fact": 2888,
+    "role": 36,
+    "goal": 1410
+  },
+  "plan_rows": 3372032,
+  "rows_per_model": 421504,
+  "rows_by_batch_per_model": {
+    "main": 317440,
+    "goal": 22560,
+    "repeat": 32512,
+    "stable_fact": 23104,
+    "changed_fact": 24736,
+    "role": 1152
+  },
+  "behavior_prompts": 1240,
+  "behavior_quartets": 701,
+  "condition_pairs": 92,
+  "behavior_reps": 256,
+  "repeat_prompts": 127,
+  "fact_reps_per_order": 8,
+  "fact_options_counterbalanced": true,
+  "goal_reps": 16,
+  "role_reps": 32,
+  "goal_switch_pairs": {
+    "own": 1,
+    "total": 1,
+    "equality": 6
+  },
+  "input_sha256": "79208ffb70a3ffe975a85df5ca5fd8072471de1bfd64b66f614dd459403f2a28",
+  "plan_sha256": "48e922516c4c4d2ee279b703bce6dd8fe4b06a53699d26738661d720ab18e3e7",
+  "decoder_constraint_scope": "format and candidate action menu, never expected answers",
+  "all_sources_in_one_main_analysis": true,
+  "human_behavior_alignment": false,
+  "review": "program checks and AI-assisted source/semantic review; no claim of independent human certification"
+}

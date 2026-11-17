@@ -1,0 +1,10 @@
+{
+  "status": "passed_cpu_preflight",
+  "freeze_sha256": "61a7d37288963ee55cf39f7c2de4631e6b846b2df6e5f3c35a64f2adc550b7a9",
+  "independent_parameter_cases": 80,
+  "parameter_goal_labels": 480,
+  "metric_null_and_responsive_controls": true,
+  "parser_type_menu_truncation_and_reasoning_checks": true,
+  "complete_plans_verified": true,
+  "models": []
+}

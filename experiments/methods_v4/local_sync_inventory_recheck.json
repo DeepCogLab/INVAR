@@ -1,0 +1,8 @@
+{
+  "status": "verified_exact_external_remote_inventory",
+  "artifact_root": "artifacts\\methods_v4_20261028",
+  "files": 2161,
+  "mismatches": [],
+  "source_inventory_sha256": "58d1e2e1617e6a70a3a7c0a5090df61c9d050e5bac2eeb376ee71caa02c84589",
+  "utc": "2026-10-29T16:07:34.462018+00:00"
+}

@@ -1,0 +1,87 @@
+{
+  "checks": [
+    {
+      "base": "mistral7b_v01",
+      "specialized": "sotopia_mistral7b",
+      "identities_sha256": {
+        "mistral7b_v01": "aaa4333d62fb2a82d935b31073d6e6ef30df718852b848e08ef97710a9c56ef7",
+        "sotopia_mistral7b": "cf723d7195005478b2e70830960acb150bf756bec9f1c16bf4a21c63daad1226"
+      },
+      "equal_fields": {
+        "weight_sha256": true,
+        "config_sha256": true,
+        "rendered_sha256": true,
+        "prompt_token_ids_sha256": true,
+        "software": true,
+        "gpu_uuid": true
+      },
+      "selected_scores": {
+        "mistral7b_v01": {
+          "version": "terminal_line_and_harmony_v3",
+          "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\mistral7b_v01\\SCORING_COMPLETE.json",
+          "score_sha256": "53346cedd6d1327414a751c011ea2e6e328a374d5eb398bfcb30d982fa6c3464",
+          "raw_sha256": "63a618586a35f6377b15343458fd28f2fd8e8c37ac37f10d549175f0e74119fa",
+          "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\mistral7b_v01.json",
+          "independent_audit_sha256": "016fbc78c7fe32bfcabaeffe730bb4e30ebbf449081d20baf57229a5d2383ee5",
+          "changed_rows_from_v1": 28,
+          "changed_rows_from_v2": 28
+        },
+        "sotopia_mistral7b": {
+          "version": "terminal_line_and_harmony_v3",
+          "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\sotopia_mistral7b\\SCORING_COMPLETE.json",
+          "score_sha256": "edb5035006d8ad52d29ebc03166034d7934080c01c7239ef2262dd5824ab9843",
+          "raw_sha256": "f744bed3be9f0429438bfd09a08abae45ab08638f3c5e5b6c93a5c4389dbb88a",
+          "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\sotopia_mistral7b.json",
+          "independent_audit_sha256": "a34cb50c9ce3f1a800559d9a87262fb0380a8d6c6c1f1fc5a288af931bc30372",
+          "changed_rows_from_v1": 0,
+          "changed_rows_from_v2": 0
+        }
+      },
+      "adapter_loading_sha256": "60ce98b6a8cd4a7a53b4cc664e4a9001c06a5271c80744e050392ba90a75f186",
+      "adapter_runtime_evidence": "Frozen worker asserts each output LoRA request ID=1; successful completion and load receipt preserved. No per-row adapter ID field stored."
+    },
+    {
+      "base": "qwen3_8b",
+      "specialized": "socialr1_8b",
+      "identities_sha256": {
+        "qwen3_8b": "744b2daee0e7d977044bc401362505fe966f363bd66b375e9b7e7cbfc069f896",
+        "socialr1_8b": "39561c6daa267d3809f8a2a7f3f4399ce7742aed71737b3aa6e5f3d25eb99324"
+      },
+      "equal_fields": {
+        "weight_sha256": false,
+        "config_sha256": false,
+        "rendered_sha256": true,
+        "prompt_token_ids_sha256": true,
+        "software": true,
+        "gpu_uuid": true
+      },
+      "selected_scores": {
+        "qwen3_8b": {
+          "version": "terminal_line_and_harmony_v3",
+          "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\qwen3_8b\\SCORING_COMPLETE.json",
+          "score_sha256": "d363bded1cce7bae49c4cf09b77e6df582053743b225d6d81fe00fecd91588c0",
+          "raw_sha256": "ee69b0fec4f8aa4ae9a38a393fb584b7a128c5dcdb86f3fa5831b1d5bd5cf4d5",
+          "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\qwen3_8b.json",
+          "independent_audit_sha256": "a858e0656824d68c000095db5996176d18b1928dc13596068678d2a59f7aa933",
+          "changed_rows_from_v1": 0,
+          "changed_rows_from_v2": 0
+        },
+        "socialr1_8b": {
+          "version": "terminal_line_and_harmony_v3",
+          "score_file": "artifacts\\robustness_20261115\\corrected_v3\\runs\\socialr1_8b\\SCORING_COMPLETE.json",
+          "score_sha256": "42afbfac6d96fed3a20d1bd39ff414288632b7c09df7fabdfdb910a25add1c89",
+          "raw_sha256": "9e34e0113a17e9884463440a1092117ac6cc208b3606000ccf3111dc34712f51",
+          "independent_audit_file": "experiments\\robustness_20261115\\independent_audits_v3\\socialr1_8b.json",
+          "independent_audit_sha256": "ba26a7d423449f9edfe8d3415d1895c3f3e2ea074eba1ed52acb2b6ab348f699",
+          "changed_rows_from_v1": 0,
+          "changed_rows_from_v2": 0
+        }
+      }
+    }
+  ],
+  "pending": [],
+  "summary_sha256": "a2c4f0fb72f66f2009ac5fac64dc048e9373879334fc579e3a5afd26b09eab4e",
+  "selection_sha256": "af8bcbd6e36ce5805ad771c9f42436fce8198f47a77a3c1c51d8328f9ffb467f",
+  "builder_sha256": "a8d01cb7513b61d1e74b8ff5c8d962fedf318acd5d401369d9afd682304149ed",
+  "scope": "Post-generation descriptive differences for predeclared checkpoint matches; not pooled specialization effects or calibrated intervals. Common interface SOTOPIA is not the full interactive system. Independent model sampling streams."
+}

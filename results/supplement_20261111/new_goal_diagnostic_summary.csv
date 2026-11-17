@@ -1,0 +1,17 @@
+﻿job,arm,policy,Q,n_pairs
+qwen3_14b,original,all,0.7815393518518521,36
+qwen3_14b,original,own,0.8143678695436508,36
+qwen3_14b,original,total,0.6680540054563492,36
+qwen3_14b,original,equality,0.8621961805555556,36
+qwen3_14b,payoff_table,all,0.7834692253637565,36
+qwen3_14b,payoff_table,own,0.8682648189484127,36
+qwen3_14b,payoff_table,total,0.5423913380456349,36
+qwen3_14b,payoff_table,equality,0.9397515190972222,36
+qwen3_30b_a3b_gptq,original,all,0.7424471416170636,36
+qwen3_30b_a3b_gptq,original,own,0.8269469246031745,36
+qwen3_30b_a3b_gptq,original,total,0.6503092447916666,36
+qwen3_30b_a3b_gptq,original,equality,0.7500852554563492,36
+qwen3_30b_a3b_gptq,payoff_table,all,0.6975678943452382,36
+qwen3_30b_a3b_gptq,payoff_table,own,0.8472493489583334,36
+qwen3_30b_a3b_gptq,payoff_table,total,0.7358669704861112,36
+qwen3_30b_a3b_gptq,payoff_table,equality,0.5095873635912699,36

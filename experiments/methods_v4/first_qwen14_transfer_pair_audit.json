@@ -1,0 +1,41 @@
+{
+  "status": "verified_same_exposure_and_matched_inference",
+  "model": "qwen25_14b_instruct",
+  "source": "HPVBG",
+  "seed": 20261026,
+  "utc": "2026-10-26T10:02:04.767041+00:00",
+  "training_config_differences": [
+    "arm",
+    "lambda_free_js",
+    "mode"
+  ],
+  "evaluation_config_differences": [
+    "adapter",
+    "adapter_run_key",
+    "method"
+  ],
+  "same_prompt_plan": true,
+  "shared_prepared_and_actual_exposure_sha256": {
+    "supervised_inputs.jsonl": "7d57a0f061409b2e54219da2e7223e90edacc3253a0d62322e696df144461894",
+    "supervised_edges.jsonl": "f54e000cb4230e40bf3e3e5e20a688a68b75b0ae84ca26f46b65586bc17f45b5",
+    "free_inputs.jsonl": "d06193cd61ad29a9d8fe8a7aa128c790306ae5b98dd8c0eda0b9156496f5dd8d",
+    "free_edges.jsonl": "92c9bf897db059d9fb5854ba7e55767ee2f8d705cc94a16903e3acaf86435641",
+    "semantic_conditions.jsonl": "788bce6c73bf16fa5e6a7d68230e2ae76e97e95298f702288a50feb9a69d2758",
+    "exposure_schedule.jsonl": "0c9cd3e19f56ee5fea335845c951ae5911d0eb77e55ff99c487fadfdccbafaae",
+    "actual_exposures.json": "c7564ef7443efad12291600572448ec0a1e791953c34163f0a14bf1d07d65f10"
+  },
+  "training_config_sha256": {
+    "anchor_sft": "6855dd9147502d4613d7d3646b220c5935fb6eef71761c32c770cacd4054271b",
+    "anchor_js": "f2e21d5706113ac2403407f1a903a799d76185b6cd93bef3dc6fb0295a6f5075"
+  },
+  "evaluation_identity_sha256": {
+    "anchor_sft": "e2b2121954238ef4a206d9a86466152a26690979303174603a8226b6e78baf9f",
+    "anchor_js": "46c4869cc65702810af4757e0c70279bc5b82f602d0c9d6a30f1703eb8d05b20"
+  },
+  "initial_audit_attempt": {
+    "error": "AssertionError at expected matched-file count",
+    "reason": "Inline check used nonexistent condition_groups.jsonl and skipped it; actual prepared file is semantic_conditions.jsonl",
+    "repair": "Require exact actual six prepared files plus actual_exposures.json; no training/evaluation data or code changed"
+  },
+  "note": "Free JS coefficient differs by design; independently sampled inference streams differ by method/adapter; this audit is not an efficacy claim"
+}

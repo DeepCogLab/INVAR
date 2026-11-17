@@ -1,0 +1,82 @@
+{
+  "protocol": "INVAR_confirmation_20261112_v1",
+  "models": {
+    "qwen3_14b": {
+      "path": "/mnt/models/models/Qwen3-14B",
+      "dtype": "bfloat16",
+      "gpu": 1
+    },
+    "qwen3_30b_a3b_gptq": {
+      "path": "/mnt/models/models/Qwen3-30B-A3B-GPTQ-Int4",
+      "dtype": "float16",
+      "quantization": "gptq_marlin",
+      "gpu": 0
+    }
+  },
+  "arms": [
+    "native_no_thinking",
+    "native_thinking"
+  ],
+  "max_tokens": 4096,
+  "max_model_len": 8192,
+  "temperature": 0.7,
+  "top_p": 0.95,
+  "top_k": -1,
+  "repetition_penalty": 1.0,
+  "behavior_repeats": 128,
+  "goal_repeats": 8,
+  "stages": [
+    "canonical",
+    "parameter"
+  ],
+  "canonical": {
+    "behavior_prompts": 429,
+    "goal_prompts": 1410,
+    "pairs": 92,
+    "behavior_quartets": 184,
+    "goal_quartets": 840,
+    "rows_per_model": 132384
+  },
+  "parameter": {
+    "prompts": 480,
+    "pairs": 40,
+    "goal_quartets": 120,
+    "categories": {
+      "disjoint_optimum_sets": 24,
+      "changed_but_overlapping": 12,
+      "same_optimum_set": 84
+    },
+    "rows_per_model": 7680
+  },
+  "pilot_rows_per_model": 20,
+  "scientific_rows": 280128,
+  "pilot_rows": 40,
+  "seed_base": 20261112,
+  "files": {
+    "frozen/pilot.jsonl": "4ee5e22de49ef4c90692b6b2ccda3a44b1cbb1d707e75064de7a138fc9c3b7d0",
+    "frozen/canonical/behavior_quartets.jsonl": "855ea2864b37192254216ad42092b6141a33ac584ec9657a0e7a2d55a8e9eb31",
+    "frozen/canonical/evaluation.jsonl": "4eb8bedcfb34ff6f8b033db272d6924782302dfc695ad0e357bdbbed32c5ea6b",
+    "frozen/canonical/goal_quartets.jsonl": "979fa7f02bc3838d3900abd8a65fedf0c00452b4fee95185f2029d758f12dcdf",
+    "frozen/canonical/model_inputs.jsonl": "baab4853e22ae39d4673394186809560ae54ad79bc72d8cf01405dde5de0b84a",
+    "frozen/parameter/cases.jsonl": "b885bbdfdb7a2957b7830eed04a84a15fcd0851aa626de756305be9e7ce9c671",
+    "frozen/parameter/evaluation.jsonl": "8a3aef24298e9d3fad13892f9d3d1750c4f0b69dfb8c8be1c29f3e21d0321c37",
+    "frozen/parameter/goal_quartets.jsonl": "006d54bfcce43d464003ee8ab49e76f08324a1e096af76053e5a5a8760f0d277",
+    "frozen/parameter/model_inputs.jsonl": "95c2804733bcce7e68a6bcbcc9a85730071bf5a8118e2d9bceecff78e2bd0db0"
+  },
+  "runtime_sha256": {
+    "campaign.py": "b79736f6e64eee2c92ec2656ab31db31d6deee06753df306ebeca18675251820",
+    "common.py": "d8855ecdcda146d8e7cdefc606c4322869657e59b3077b0c2fec584aa50630b1",
+    "parameter_cases.py": "f8abfaca3986de93dc97f0e888fd524f62cb181127c40c2d4a1d9932ec627d19",
+    "preflight.py": "48bb422dbd750f9b74e1a71505071dad3db75c0b9867fbab0355583fb51265d7",
+    "prepare.py": "9895fa15768914edb908e37ffde8df2d2dcedb6f10e241162b5ec09c8dac0371",
+    "score.py": "b88b1946289aa2f9d786873959a77dbf3c58c49b5f8c88be2d04203ba971e307",
+    "worker.py": "e939dfc89673925168d2fbd12c2dba2b00afef538d6a0db042a9659bb1033dea",
+    "vendor/audit_new_runs.py": "a7f9559e0630116ee7f78980edf88a48ead68da4c3544cf94f8598c7e0d6833c",
+    "vendor/score_joint_reasoning_v2.py": "0550f420c3b1f88df0055acdb5a87d4c57d9687207dd207798005fa1b3ba8daa"
+  },
+  "source_input_sha256": "79208ffb70a3ffe975a85df5ca5fd8072471de1bfd64b66f614dd459403f2a28",
+  "previous_verified_runs_root": "/workspace/project_social_simulation/invar_shortpaper_runs/20261111",
+  "scope": "New independent batches on already observed canonical inputs; parameter diagnostic is new numbers in explicitly modified solvable mechanisms, not a new empirical source.",
+  "scoring": "All-attempt Q; legal menu and type checks; conditional behavior E/G/R with separate missing-quality bounds. G<=2E, R has no preferred direction. Pair equal primary, source/task equal sensitivity.",
+  "stop_rule": "Run the fixed two-model matrix once; retain all failures. No result-based rerolls, source/seed deletion, or expansion. Restore actual saved services sequentially within each GPU."
+}

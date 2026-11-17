@@ -1,0 +1,44 @@
+{
+  "status": "verified",
+  "verifier_sha256": "c75c05dfc8782c8dcb85798ced0f2b133a6d2af64e6a913b5e7df8b812b658f1",
+  "teacher_manifest_sha256": "5825c3e4fe725aa0993954b60b9b628338911771a42094edc58126a1dedb40f6",
+  "same_prepared_files": true,
+  "same_exposure_counts": true,
+  "same_config_except_penalties": true,
+  "source_closure_verified": true,
+  "arms": [
+    {
+      "arm": "anchor_sft",
+      "steps": 150,
+      "total_prompt_exposures": 4800,
+      "unique_exposed_prompts": 2238,
+      "adapter_weights_sha256": "3cbba7a395a6e47e7d0acc624174d9624c11326073f9d4b4ef4441ac486469d3",
+      "actual_exposures_sha256": "c7564ef7443efad12291600572448ec0a1e791953c34163f0a14bf1d07d65f10"
+    },
+    {
+      "arm": "anchor_js",
+      "steps": 150,
+      "total_prompt_exposures": 4800,
+      "unique_exposed_prompts": 2238,
+      "adapter_weights_sha256": "df736e3f09864cea2670d55d618891108c33e984365779f537fab1434258a1a2",
+      "actual_exposures_sha256": "c7564ef7443efad12291600572448ec0a1e791953c34163f0a14bf1d07d65f10"
+    },
+    {
+      "arm": "anchor_kl",
+      "steps": 150,
+      "total_prompt_exposures": 4800,
+      "unique_exposed_prompts": 2238,
+      "adapter_weights_sha256": "6d9947206f11848f056202e53e57c9542e2508eab2d55dcb508d03329c1e2712",
+      "actual_exposures_sha256": "c7564ef7443efad12291600572448ec0a1e791953c34163f0a14bf1d07d65f10"
+    },
+    {
+      "arm": "anchor_js_kl",
+      "steps": 150,
+      "total_prompt_exposures": 4800,
+      "unique_exposed_prompts": 2238,
+      "adapter_weights_sha256": "79c6c8e0bb6cf5705f66a6ac1d19b30e65a423f165646d33ab6986411cbdd2ca",
+      "actual_exposures_sha256": "c7564ef7443efad12291600572448ec0a1e791953c34163f0a14bf1d07d65f10"
+    }
+  ],
+  "limits": "Saved artifact CPU audit; local base-model bytes unavailable; no efficacy or confirmation claim"
+}

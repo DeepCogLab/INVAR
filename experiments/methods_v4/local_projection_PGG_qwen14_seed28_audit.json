@@ -1,0 +1,18 @@
+{
+  "status": "verified_exact_reused_projection_bytes",
+  "model": "qwen25_14b_instruct",
+  "source": "PGG",
+  "seed": 20261028,
+  "projection_metadata": {
+    "kind": "exact_raw_line_projection_not_new_generation",
+    "parent_raw": "/workspace/project_social_simulation/invar_methods_runs/20261028/evaluations/full92/qwen25_14b_instruct/screen/qwen25_14b_instruct/baseline.jsonl",
+    "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94",
+    "selected_prompt_ids_sha256": "3ad891204cbbc0acef53d7447eca505bd5ca778843aa49efebf098c020d84a73",
+    "rows": 202944
+  },
+  "identical_to_original_seed": true,
+  "baseline_response_sha256": "e5cfd3595f64e2dec52bc30f053ec9fc14eb67fe6c0513c74f64227fc08047f8",
+  "projection_metadata_sha256": "f1fc85494aeddb5d290873b9172df7dbdaeb4f6fecd4bd97879cbbad1bcd1cd1",
+  "original_projection_path": "artifacts\\methods_v4_20261028\\evaluations\\transfer\\qwen25_14b_instruct\\PGG\\seed20261026\\screen\\qwen25_14b_instruct\\baseline.projection.json",
+  "scope": "Exact reuse of previously binary-verified projection; not a new baseline draw"
+}

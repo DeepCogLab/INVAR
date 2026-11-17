@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-11-15T21:26:20.210713+00:00",
+  "files": {
+    "FINAL_FINDINGS.md": "107db62369b0265798e6e592a767423484b2292359ecb731cd6bcc48481bb637",
+    "results\\summary_corrected.csv": "a2c4f0fb72f66f2009ac5fac64dc048e9373879334fc579e3a5afd26b09eab4e",
+    "results\\MAIN_MATRIX_ACCEPTANCE.json": "b6bbcb5217f02f8ff51af8268fcffabecd622e1ed7540ad586d3c57b78085466",
+    "supplement_overnight\\results\\summary.csv": "c3b0147da8a51caeea003299a900a3b59df2099633b1ad5400d6593979910a6e",
+    "supplement_overnight\\results\\MATRIX_INTEGRITY_ACCEPTANCE.json": "051f3e15d2de16b73e0e86711173c347308d5ee0c5e222a73bfc55f39712c26d",
+    "supplement_overnight\\results\\ACCEPTANCE_INDEX.json": "aeb274f85d021a328f55a660c9fa3e47ff395271db9d23da58ca9cce32af37b3",
+    "gpt_date_restore_20261116\\recovery_freeze.json": "1ea33f343c3709648647e661dcda0bffcbb5bfc05eaaa092a651b10023eda59d",
+    "results\\FINAL_CAMPAIGN_ACCEPTANCE.json": "0b01d56b0349e41053a20463cd9d933a789901ad39091e394f2d9f5bb3701231",
+    "results\\paper_supplement_budget.csv": "e49c9fad38b50e3b414e3da7ab69c78af4fe04a4bfda9dfa246ff21fa19244c5",
+    "results\\paper_supplement_budget_contrasts.csv": "abc0eb7337b0293ce505cabf5ae703f9c2ccf47e56fc736b394d7f9d8b4cd1d9",
+    "results\\paper_supplement_completion.csv": "23475bcfbaa508e532031da0977f2afea2f9b7d8fe5923ef9520a0d777140095",
+    "results\\paper_supplement_delivery_error_counts.csv": "0769d1e6647c8815b8d998cae518dbafcb8c639cdce2fc3880abeb1c97c06810",
+    "results\\paper_supplement_language.csv": "66a4250bb23009bd1d584b202f567d49733037e8d32b3a53ae6de02cd6185f9d",
+    "results\\paper_supplement_language_interactions.csv": "b0dcb4fbc0277df4d5f63942d3dd0e0de673a1260c3d011cad79e40120d1db27"
+  },
+  "main_rows": 94080,
+  "supplement_rows": 21888,
+  "total_new_rows": 115968,
+  "main_and_posthoc_kept_separate": true,
+  "engineering_restoration_not_added_twice": true
+}

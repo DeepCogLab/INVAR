@@ -1,0 +1,95 @@
+{
+  "status": "passed_automated_preservation_checks",
+  "scope": "AI-assisted translation of input text only; not human-certified equivalence. No target labels were read or inserted.",
+  "units": 97,
+  "covered": 97,
+  "untranslated": 0,
+  "extra_keys": 0,
+  "residual_han_values": 0,
+  "issues": [],
+  "checks": {
+    "exact_source_keys": true,
+    "numeric_multiset_units": 97,
+    "participant_id_multiset_units": 97,
+    "uppercase_actions_json_units": 97,
+    "legal_menu_literal_units": 3,
+    "output_field_retained": true,
+    "table_delimiters_preserved": true,
+    "fractional_formulas_preserved_without_simplification": true
+  },
+  "review_process": "Every source input unit read and translated by AI; repetitive numerical families use consistent wording. Parent will independently review complete logical and formatting equivalence.",
+  "semantic_notes": [
+    {
+      "indices": [
+        31
+      ],
+      "issue": "Range minimization includes all participants listed in the question and supplies no tie-breaking preference or suggested action. The translation does not imply a unique optimum."
+    },
+    {
+      "indices": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        63,
+        73
+      ],
+      "issue": "Threshold remains inclusive at a at least the stated threshold; invalid allocations pay both participants zero; the threshold is not an additional fee."
+    },
+    {
+      "indices": [
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "issue": "Compensation is explicitly conditional on rejection, with no other payoffs."
+    },
+    {
+      "indices": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        95
+      ],
+      "issue": "Fractions 1/2 and 2/1 retained exactly, twice per formula unit, without reducing or adding assumptions. External settlement coefficient and no extra charge/refund remain explicit."
+    },
+    {
+      "indices": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "issue": "The punished participant switches between P1 and P2, while the other participant is unchanged; deducted points are transferred to no one."
+    },
+    {
+      "indices": [
+        30,
+        31,
+        32,
+        96
+      ],
+      "issue": "Output-only JSON requirements retained; outer reasoning intervention must preserve final-answer obligations without contradictory plain-text instructions."
+    }
+  ],
+  "source_sha256": "432ead6b3de2966d567ec3eeb26ecf6518b4d89785b371c9c4bdbca31adf533b",
+  "translation_sha256": "d425310ffc3657b095a06adfbcb2f2da62c7832eae56cec011e645b6abe65287"
+}

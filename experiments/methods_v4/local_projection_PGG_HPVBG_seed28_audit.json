@@ -1,0 +1,34 @@
+{
+  "status": "verified_identical_reused_projections",
+  "proofs": [
+    {
+      "model": "qwen3_8b",
+      "source": "PGG",
+      "seed": 20261028,
+      "status": "verified_identical_reused_binary_projection",
+      "child_sha256": "76b4c435ce67319f1fe500cee046e212dd11cea82fb91b3c5a6505e6a495789b",
+      "parent_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940",
+      "prior_binary_proof_sha256": "613cb646fe4ddc5709353c6a800ed17d1a49d882fb194636695d27661070f6ec",
+      "same_selected_prompt_ids": true,
+      "rows": 202944,
+      "new_generated_rows": 0,
+      "projection_metadata_sha256": "a5c4457a8a2ccb0ba307a8ec91c12530dad27a0feed35ce1f82f19f03893d757",
+      "same_projection_metadata_as_prior": true
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "HPVBG",
+      "seed": 20261028,
+      "status": "verified_identical_reused_binary_projection",
+      "child_sha256": "9ecc5fd76b2715de13f8bcb3912530e858ca98689eac0f0ae17aeca6149983f9",
+      "parent_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94",
+      "prior_binary_proof_sha256": "d5a1da31948215c545b0a67a082a52a997fd89dc35c665a4f12c5bede5d7090c",
+      "same_selected_prompt_ids": true,
+      "rows": 164224,
+      "new_generated_rows": 0,
+      "projection_metadata_sha256": "bc41ea9d1ac1e08a5285fa6a627b8ff2e9c3b90dc59d79f35dac36f7dfa665a1",
+      "same_projection_metadata_as_prior": true
+    }
+  ],
+  "scope": "Exact parent/child SHA and selected IDs match prior independent binary-line proof; no new baseline draws"
+}

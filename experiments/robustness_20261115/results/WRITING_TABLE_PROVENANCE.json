@@ -1,0 +1,14 @@
+{
+  "main_acceptance_sha256": "b6bbcb5217f02f8ff51af8268fcffabecd622e1ed7540ad586d3c57b78085466",
+  "selection_sha256": "af8bcbd6e36ce5805ad771c9f42436fce8198f47a77a3c1c51d8328f9ffb467f",
+  "builder_sha256": "ab641c9674983d804e5d1eddc3a24db323faac04c575465b5349438ef8468cdc",
+  "files": {
+    "paper_controls_delivery_cost.csv": "06bb5e442cbf89fdd5d844bdaefe25cb2e466d87a27edd716f940c5d23afb1d6",
+    "goal_task_policy_breakdown.csv": "473ad9f060217a85e238949c76b0c95b7be4a92a0edcac8f13adf5605564716a"
+  },
+  "rows": {
+    "controls_delivery_cost": 32,
+    "goal_task_policy": 672
+  },
+  "scope": "Main v3 only. Supplementary follow-up stays separate. Subgroup table is descriptive, selected after generation."
+}

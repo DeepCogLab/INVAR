@@ -1,0 +1,17 @@
+{
+  "status": "passed_mirrored_completed_jobs",
+  "jobs": [
+    "qwen25_14b_instruct",
+    "qwen3_8b"
+  ],
+  "files": 216,
+  "mirror_index_sha256": "02f270111b5810ee71b4a32c597c93250cdc588801d754cb610f1dd84dadf6f7",
+  "freeze_sha256": "3fa77d5c406c43cd12d01742903f9b6a79dad8c47cd6d5bea3cd25924fca23a5",
+  "local_full_raw_rescore": true,
+  "independent_scalar_audit": "passed_all_mirrored_jobs",
+  "all_jobs_complete": true,
+  "scalar_audit_files": {
+    "qwen25_14b_instruct": "8e5ab8595bd13c4ffc3e8f4cdb878316d200d05643c2f5770843f440692ac35c",
+    "qwen3_8b": "673409832a0d2098e2a81b755362576e8723bbe265310564f6d2e6306f033723"
+  }
+}

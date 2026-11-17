@@ -1,0 +1,96 @@
+{
+  "captured_unix": 1793026236.837125,
+  "controller_pid": 965348,
+  "controller_alive": true,
+  "workers": [
+    {
+      "status": "running",
+      "task": "qwen3_8b_PGG_20261026_anchor_sft_generate",
+      "gpu": 0,
+      "pid": 1135588,
+      "started_unix": 1793025265.7409422,
+      "args": [
+        "/workspace/project_social_simulation/invar_methods_runs/20261028/run_transfer_evaluation.py",
+        "--baseline",
+        "/workspace/project_social_simulation/invar_reliability_runs/20261024_v2",
+        "--manifest",
+        "/workspace/project_social_simulation/invar_methods_runs/20261028/manifests/PGG.json",
+        "--model",
+        "qwen3_8b",
+        "--method",
+        "anchor_sft",
+        "--out",
+        "/workspace/project_social_simulation/invar_methods_runs/20261028/evaluations/transfer/qwen3_8b/PGG/seed20261026/screen",
+        "--inference-seed",
+        "20261030",
+        "--adapter",
+        "/workspace/project_social_simulation/invar_methods_runs/20261028/learning/qwen3_8b/PGG/seed20261026/anchor_sft/adapter"
+      ],
+      "process_alive": true,
+      "generation_progress": {
+        "model": "qwen3_8b",
+        "method": "anchor_sft",
+        "status": "running",
+        "done": 135424,
+        "total": 202944,
+        "elapsed_seconds": 888.4677920341492,
+        "updated_unix": 1793026236.4273186,
+        "config_sha256": "67f669e602b8d52ab2a16baa3b9c5e7c965daeb91d1cc0da989147f586d96bea"
+      }
+    },
+    {
+      "status": "running",
+      "task": "qwen25_14b_instruct_PGG_20261026_anchor_sft_train",
+      "gpu": 1,
+      "pid": 1134951,
+      "started_unix": 1793025030.8201182,
+      "args": [
+        "/workspace/project_social_simulation/invar_methods_runs/20261028/train_transfer.py",
+        "--baseline",
+        "/workspace/project_social_simulation/invar_reliability_runs/20261024_v2",
+        "--model-id",
+        "qwen25_14b_instruct",
+        "--heldout-source",
+        "PGG",
+        "--seed",
+        "20261026",
+        "--arm",
+        "anchor_sft",
+        "--output",
+        "/workspace/project_social_simulation/invar_methods_runs/20261028/learning/qwen25_14b_instruct/PGG/seed20261026/anchor_sft"
+      ],
+      "process_alive": true,
+      "training_progress": {
+        "status": "training",
+        "model_id": "qwen25_14b_instruct",
+        "arm": "anchor_sft",
+        "heldout_source": "PGG",
+        "training_seed": 20261026,
+        "completed_optimizer_steps": 55,
+        "planned_optimizer_steps": 150,
+        "last_adapter_checkpoint": "adapter_checkpoint_050",
+        "resumable": false,
+        "record": {
+          "step": 55,
+          "D0_supervised": 0.0016049143799818921,
+          "free_js_proxy": 0.006967807858018205,
+          "total_loss": 0.0016049143799818921,
+          "free_entropy_proxy": 0.34772852435708046,
+          "gradient_norm": 0.042347270995378494,
+          "elapsed_seconds": 1162.5585865974426,
+          "gpu_peak_memory_bytes": 33685329920
+        }
+      }
+    }
+  ],
+  "completed_training": 9,
+  "planned_training": 48,
+  "completed_generation": 12,
+  "planned_generation": 52,
+  "completed_generated_rows": 5263104,
+  "planned_generated_rows": 17014784,
+  "independently_verified_jobs": 12,
+  "failures": [],
+  "code_hash_mismatches": [],
+  "gpu": "0, 84 %, 47949 MiB, 49140 MiB\n1, 51 %, 32741 MiB, 49140 MiB"
+}

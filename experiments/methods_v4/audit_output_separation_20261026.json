@@ -1,0 +1,19 @@
+{
+  "status": "separate_local_reproduction_numerically_verified",
+  "utc": "2026-10-26T11:06:28.073527+00:00",
+  "remote_python": "3.10.0 (default, Mar  3 2022, 09:58:08) [GCC 7.5.0]",
+  "local_python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "restored_sha256": {
+    "audit.json": "05a8580800c73fe6617048be86ba733a90d8f3dd92d708112456d699a4808f23",
+    "control_bounds.csv": "3d75f01e3234e253f481db30e74f2270535ccc8c779402353c36c441aaa9e827",
+    "control_difference_bounds.csv": "9e40b5b88ec5852c6f350d423d3a94c321a97ea6df8f67a43fc299a3651357fd"
+  },
+  "preserved_local_legacy_output": "audit_history\\qwen3_transfer_local_legacy_output",
+  "scope": "Derived audit files only; immutable raw answers and scientific settings unchanged",
+  "max_numeric_difference": 4.773959005888173e-15,
+  "new_local_verifier_sha256": "143260299ed3f285a699905d54916fdc309847563bae55844cfe49e6ea888639",
+  "previous_local_verifier_sha256": "918310d19eb95ea5d8cdb95c28924c8e3f2fb12f478144b70cd43dc7ab3845fb",
+  "change": "Optional --audit-out argument only; scoring and verification math unchanged. Remote frozen verifier remains untouched.",
+  "format_note": "Byte hash differences between local recomputation and remote derived reports are retained; JSON line endings and cross-runtime float last digits are not raw-answer corruption.",
+  "local_audit_directory": "local_scalar_audits\\transfer\\qwen3_8b\\HPVBG\\seed20261026"
+}

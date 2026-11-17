@@ -1,0 +1,15 @@
+\begin{tabular}{@{}llcccccc@{}}
+\toprule
+ & & \multicolumn{5}{c}{Pair-weighted} & Src.-wt.\\
+\cmidrule(lr){3-7}\cmidrule(l){8-8}
+Model & Training & $E\!\downarrow$ & $G\!\downarrow$ & Chg.$\uparrow$ & Unch.$\uparrow$ & Goal$\uparrow$ & $E\!\downarrow$ \\
+\midrule
+\multirow{3}{*}{Qwen3-8B} & Original & \textbf{.065} & .082 & \textbf{97.0} & \textbf{95.2} & 72.1 & \textbf{.049} \\
+ & SFT & .067 & .078 & 96.2 & 93.3 & 73.2 & .065 \\
+ & + consistency & .067 & \textbf{.072} & 95.7 & 93.9 & \textbf{73.5} & .059 \\
+\midrule
+\multirow{3}{*}{Qwen2.5-14B} & Original & .132 & .159 & \textbf{94.0} & 94.2 & 68.4 & .088 \\
+ & SFT & .098 & .106 & 93.9 & 95.1 & 77.8 & \textbf{.079} \\
+ & + consistency & \textbf{.094} & \textbf{.101} & 93.8 & \textbf{95.6} & \textbf{78.1} & .080 \\
+\bottomrule
+\end{tabular}

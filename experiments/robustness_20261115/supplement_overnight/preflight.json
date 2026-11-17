@@ -1,0 +1,50 @@
+{
+  "language_glm": {
+    "trials": 5280,
+    "unique_renderings": 2640,
+    "max_prompt_tokens": 539,
+    "rendered_map_sha256": "304fe4b70e19d1e553c90fefb8e04851bbf1aefe2aa105377027305e754125ac",
+    "token_map_sha256": "2306aa735a70bf971521d876077373e18292af93d9c205d4992992e6238e8f66",
+    "tokenizer_config_sha256": "e316474d867ad1f91165a12d90c73b27a7e0f9a1c9293831cca66c792bfe9a36"
+  },
+  "language_llama": {
+    "trials": 5280,
+    "unique_renderings": 2640,
+    "max_prompt_tokens": 601,
+    "rendered_map_sha256": "451327d72925a9bc8b3aad2b018735d8bc540a8fb80617fd27e206d10d42c76e",
+    "token_map_sha256": "aeb63be964638c1ec744718e485eedc7d511b5edd7031c71235a66edb3cd0c59",
+    "tokenizer_config_sha256": "177c7b61e616fecb84c17ce0591acb92c6c4d60e9ac5ababfb940ff23bbcd424"
+  },
+  "length_goals_qwen": {
+    "trials": 2640,
+    "unique_renderings": 1320,
+    "max_prompt_tokens": 532,
+    "rendered_map_sha256": "7e966b77a95bc3fcb10b062bc5701142fc7ff7cb69719d4bc4bbe703a2f25d43",
+    "token_map_sha256": "7ec5b96d3297bd700bdccdf11e87c0e599e61d13a69ff6aaacc3399b40f96ce6",
+    "tokenizer_config_sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "length_goals_gpt": {
+    "trials": 2640,
+    "unique_renderings": 1320,
+    "max_prompt_tokens": 603,
+    "rendered_map_sha256": "a525a1671288fe1ebd9ef8d9cfce400351ad1de3a5d82782728a936d3b4d243a",
+    "token_map_sha256": "69ca216403fc61d920b041a495919042533dcbe1e94ae0e741a573752b819577",
+    "tokenizer_config_sha256": "9279e942392b742d633c7adbb89ebe002c98399db8926a7af5125c726f404070"
+  },
+  "length_behavior_qwen": {
+    "trials": 3024,
+    "unique_renderings": 756,
+    "max_prompt_tokens": 658,
+    "rendered_map_sha256": "147af7f89a735ca2fddbf6c8397e81bfab8be834eb664bc710c562977409c383",
+    "token_map_sha256": "7740ad8853143a78834a26cac0ff956662039b56e3d7256bf2d78d96351814f0",
+    "tokenizer_config_sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+  },
+  "length_behavior_gpt": {
+    "trials": 3024,
+    "unique_renderings": 756,
+    "max_prompt_tokens": 709,
+    "rendered_map_sha256": "c31102b3a02d3357f0ad55530a7fcd16c8ab8b3ae326bbae9ebd28028478e749",
+    "token_map_sha256": "78cb2e6e48c3e5f43cb2bd361511de86b11e682841b523b1838637d58f9e0ec9",
+    "tokenizer_config_sha256": "9279e942392b742d633c7adbb89ebe002c98399db8926a7af5125c726f404070"
+  }
+}

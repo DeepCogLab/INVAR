@@ -1,0 +1,9 @@
+# CPU: data, scoring, figures
+numpy
+pandas
+matplotlib
+# GPU: generation and training (versions used are recorded in the per-experiment freeze files)
+vllm
+torch
+transformers
+peft

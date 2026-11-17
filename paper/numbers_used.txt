@@ -1,0 +1,81 @@
+TXT glm4_9b chg=0.9512 goal=0.6164 both=0.1440
+TXT llama31_8b_instruct chg=0.8818 goal=0.6581 both=0.3496
+TXT mistral7b_instruct_v03 chg=0.8959 goal=0.5368 both=0.1421
+TXT qwen25_14b_instruct chg=0.9400 goal=0.6862 both=0.2803
+TXT qwen25_7b_instruct chg=0.9300 goal=0.6758 both=0.2538
+TXT qwen3_8b chg=0.9693 goal=0.7224 both=0.3329
+TXT qwentaur8 chg=0.8904 goal=0.6178 both=0.3117
+TXT socialr1_4 chg=0.9649 goal=0.7210 both=0.3575
+TXT socialr1_8 chg=0.9958 goal=0.6030 both=0.1233
+TXT socio chg=0.9536 goal=0.6907 both=0.3305
+TXT qwen3_14b chg=0.9909 goal=0.7851 both=0.5324
+TXT qwen3_30b_a3b_gptq chg=0.9479 goal=0.7494 both=0.4132
+TXT n=12 goal range 0.5368-0.7851 both range 0.1233-0.5324
+T1 deepseek_llm7b_chat 0.0727 0.0717 0.7750 0.6277 0.6281
+T1 glm4_9b 0.0351 0.0384 0.9512 0.8885 0.6164
+T1 llama31_8b_instruct 0.0977 0.0828 0.8818 0.8412 0.6581
+T1 mistral7b_instruct_v03 0.0517 0.0528 0.8959 0.8863 0.5368
+T1 qwen25_7b_instruct 0.0536 0.0568 0.9300 0.8483 0.6758
+T1 qwen25_14b_instruct 0.1323 0.1571 0.9400 0.9418 0.6862
+T1 qwen3_8b 0.0671 0.0812 0.9693 0.9539 0.7224
+T1 qwen3_14b 0.0340 0.0498 0.9909 0.9610 0.7851
+T1 qwen3_30b_a3b_gptq 0.1810 0.2128 0.9479 0.9577 0.7494
+T1 qwen3_4b_control 0.0646 0.0837 0.9676 0.9559 0.7241
+T1 socialr1_4 0.0543 0.0709 0.9649 0.9664 0.7210
+T1 qwen3_8b_control 0.0646 0.0791 0.9689 0.9520 0.7208
+T1 socialr1_8 0.0649 0.0762 0.9958 0.9259 0.6030
+T1 socio 0.0549 0.0535 0.9536 0.9279 0.6907
+T1 smoltaur_base 0.0195 0.0248 0.4929 0.5024 0.4864
+T1 smoltaur 0.0419 0.0461 0.4916 0.4972 0.4814
+T1 qwentaur06_base 0.0419 0.0425 0.7002 0.6440 0.4990
+T1 qwentaur06 0.0443 0.0467 0.5856 0.5686 0.5127
+T1 olmotaur_base 0.0112 0.0118 0.5199 0.5206 0.4913
+T1 olmotaur 0.0156 0.0157 0.5305 0.4981 0.4859
+T1 qwentaur17_base 0.0208 0.0206 0.7370 0.7153 0.4864
+T1 qwentaur17 0.0455 0.0434 0.6815 0.6958 0.5472
+T1 qwentaur4_base 0.0409 0.0364 0.9482 0.9335 0.5750
+T1 qwentaur4 0.0464 0.0498 0.8183 0.7974 0.6018
+T1 qwentaur8_base 0.0378 0.0430 0.9418 0.8589 0.6299
+T1 qwentaur8 0.0423 0.0428 0.8904 0.8482 0.6178
+T1 qwen25_7b_base 0.0587 0.0525 0.8672 0.8442 0.5772
+T1 sotopia_base 0.0643 0.0564 0.6502 0.5760 0.5432
+T2a qwen3_14b valid behavior off=1.00000 on=0.99929
+T2a qwen3_14b pair_equal Q 0.78024 0.99989 E 0.02332 0.00725
+T2a qwen3_14b source_equal Q 0.73318 0.99870 E 0.01672 0.02025
+T2a qwen3_14b task_equal Q 0.74226 0.99922 E 0.02124 0.02385
+T2a qwen3_30b_a3b_gptq valid behavior off=1.00000 on=0.98438
+T2a qwen3_30b_a3b_gptq pair_equal Q 0.74740 0.99862 E 0.21742 0.01010
+T2a qwen3_30b_a3b_gptq source_equal Q 0.79453 0.98996 E 0.13734 0.02337
+T2a qwen3_30b_a3b_gptq task_equal Q 0.76324 0.99417 E 0.17048 0.02310
+T2b qwen3_8b zh Q 0.71635 0.99199 E 0.0388671875 0.00745 valid 0.99140 0.98677
+T2b qwen3_8b en Q 0.73558 0.99359 E 0.053125 0.00537 valid 0.99934 0.93254
+T2b socialr1_8b zh Q 0.64103 0.97115 E nan 0.10758 valid 0.97685 0.82672
+T2b socialr1_8b en Q 0.65865 0.95673 E 0.09912109375 0.14110 valid 0.99339 0.88161
+T3 qwen3_8b baseline 0.06454 0.08211 0.96985 0.95218 0.72066 0.04920
+T3 qwen3_8b anchor_sft 0.06658 0.07789 0.96183 0.93336 0.73217 0.06535
+T3 qwen3_8b anchor_js 0.06680 0.07151 0.95743 0.93943 0.73536 0.05938
+T3 qwen25_14b_instruct baseline 0.13162 0.15883 0.93996 0.94246 0.68388 0.08780
+T3 qwen25_14b_instruct anchor_sft 0.09812 0.10573 0.93928 0.95123 0.77753 0.07898
+T3 qwen25_14b_instruct anchor_js 0.09417 0.10058 0.93762 0.95589 0.78078 0.08027
+F2 qwen3_14b E=0.0340 chg=0.9909 goal=0.7851 both=0.5324
+F2 qwen3_30b_a3b_gptq E=0.1810 chg=0.9479 goal=0.7494 both=0.4132
+F2 socialr1_8 E=0.0649 chg=0.9958 goal=0.6030 both=0.1233
+F2 olmotaur_base E=0.0112 chg=0.5199 goal=0.4913 both=0.0568
+F3 qwen25_14b_instruct heldout_source 50 reduction=0.00503
+F3 qwen25_14b_instruct heldout_source 100 reduction=-0.00059
+F3 qwen25_14b_instruct heldout_source 150 reduction=-0.00052
+F3 qwen25_14b_instruct heldout_variant 50 reduction=0.02771
+F3 qwen25_14b_instruct heldout_variant 100 reduction=0.02824
+F3 qwen25_14b_instruct heldout_variant 150 reduction=0.02908
+F3 qwen25_14b_instruct train 50 reduction=0.02233
+F3 qwen25_14b_instruct train 100 reduction=0.01576
+F3 qwen25_14b_instruct train 150 reduction=0.03224
+F3 qwen3_8b heldout_source 50 reduction=0.00852
+F3 qwen3_8b heldout_source 100 reduction=0.01678
+F3 qwen3_8b heldout_source 150 reduction=0.01363
+F3 qwen3_8b heldout_variant 50 reduction=0.01890
+F3 qwen3_8b heldout_variant 100 reduction=0.01741
+F3 qwen3_8b heldout_variant 150 reduction=0.02234
+F3 qwen3_8b train 50 reduction=0.01798
+F3 qwen3_8b train 100 reduction=0.01282
+F3 qwen3_8b train 150 reduction=0.06557

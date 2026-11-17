@@ -1,0 +1,8 @@
+{
+  "status": "passed_synthetic_oracle_parameter",
+  "rows": 7680,
+  "all_goal_labels_correct": true,
+  "all_four_side_minima_one": true,
+  "workspace": "artifacts\\confirmation_20261112\\synthetic_prelaunch",
+  "scope": "Synthetic test output only; excluded from all scientific denominators."
+}

@@ -1,0 +1,801 @@
+{
+  "status": "verified_completed_pair_identities",
+  "checked_pairs": 24,
+  "training_pairs_waiting_for_generation": [],
+  "pairs": [
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "HPVBG",
+      "seed": 20261026,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "7d57a0f061409b2e54219da2e7223e90edacc3253a0d62322e696df144461894",
+        "supervised_edges.jsonl": "f54e000cb4230e40bf3e3e5e20a688a68b75b0ae84ca26f46b65586bc17f45b5",
+        "free_inputs.jsonl": "d06193cd61ad29a9d8fe8a7aa128c790306ae5b98dd8c0eda0b9156496f5dd8d",
+        "free_edges.jsonl": "92c9bf897db059d9fb5854ba7e55767ee2f8d705cc94a16903e3acaf86435641",
+        "semantic_conditions.jsonl": "788bce6c73bf16fa5e6a7d68230e2ae76e97e95298f702288a50feb9a69d2758",
+        "exposure_schedule.jsonl": "0c9cd3e19f56ee5fea335845c951ae5911d0eb77e55ff99c487fadfdccbafaae",
+        "actual_exposures.json": "c7564ef7443efad12291600572448ec0a1e791953c34163f0a14bf1d07d65f10"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "6855dd9147502d4613d7d3646b220c5935fb6eef71761c32c770cacd4054271b",
+        "anchor_js": "f2e21d5706113ac2403407f1a903a799d76185b6cd93bef3dc6fb0295a6f5075"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "e2b2121954238ef4a206d9a86466152a26690979303174603a8226b6e78baf9f",
+        "anchor_js": "46c4869cc65702810af4757e0c70279bc5b82f602d0c9d6a30f1703eb8d05b20"
+      }
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "HPVBG",
+      "seed": 20261028,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "7d57a0f061409b2e54219da2e7223e90edacc3253a0d62322e696df144461894",
+        "supervised_edges.jsonl": "f54e000cb4230e40bf3e3e5e20a688a68b75b0ae84ca26f46b65586bc17f45b5",
+        "free_inputs.jsonl": "d06193cd61ad29a9d8fe8a7aa128c790306ae5b98dd8c0eda0b9156496f5dd8d",
+        "free_edges.jsonl": "92c9bf897db059d9fb5854ba7e55767ee2f8d705cc94a16903e3acaf86435641",
+        "semantic_conditions.jsonl": "788bce6c73bf16fa5e6a7d68230e2ae76e97e95298f702288a50feb9a69d2758",
+        "exposure_schedule.jsonl": "df69dbb89a26d969b65f097ec4d2d947366af4e1f1af1b6dc2e039a94385e5ac",
+        "actual_exposures.json": "8340ac444a8354ebe08b8aa102018a0d70e5a774cce372ad682259484945250b"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "ea8a3de9a0673a37431325e6c609de60c4714940c8ac6670809141e331ac4612",
+        "anchor_js": "ba8d12b1c4a0ce4b3c60b833e762f67ac771982271cffe517fb63d7e296e83db"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "4ba9a6690eef3b69e68e459ffc759141d9dce80122dd31ab57a67fd58915d301",
+        "anchor_js": "0086d19654cf346f7ef264022032c2dd913a2d6a656587b31ab18f1f64b3d7a7"
+      }
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "HPVBG",
+      "seed": 20261029,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "7d57a0f061409b2e54219da2e7223e90edacc3253a0d62322e696df144461894",
+        "supervised_edges.jsonl": "f54e000cb4230e40bf3e3e5e20a688a68b75b0ae84ca26f46b65586bc17f45b5",
+        "free_inputs.jsonl": "d06193cd61ad29a9d8fe8a7aa128c790306ae5b98dd8c0eda0b9156496f5dd8d",
+        "free_edges.jsonl": "92c9bf897db059d9fb5854ba7e55767ee2f8d705cc94a16903e3acaf86435641",
+        "semantic_conditions.jsonl": "788bce6c73bf16fa5e6a7d68230e2ae76e97e95298f702288a50feb9a69d2758",
+        "exposure_schedule.jsonl": "98f3ca9a23756867d8826e50d7178ee35588cb1e57db257eb903159744a30730",
+        "actual_exposures.json": "fb7cbbfd02e5db3e3a508d767dfe17d0cda3a65ca7f5289a6604faa2cbfd53a8"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "51e3f91921288abffb5e66af6b063810d7ed8aae9a6ae0d3c2c6c9ccbc410ea0",
+        "anchor_js": "da0997467f707ea6a235e686f080df229d6156d642802106381120f0471bb5df"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "8aec144cb06a4966fedd1a2677892ed17bfa37f77e3dc6ab12caf05026c60097",
+        "anchor_js": "bff6ebb81656ac497068fce61698c4d81feb97565c41f236530d146bcecb0d8b"
+      }
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "IGVOFO",
+      "seed": 20261026,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "c736b7c9f0f4bb75d7efb9856b3d383f2dceaa535e446209a9cc7f4b4503e6ff",
+        "supervised_edges.jsonl": "fe04c1354f905f69a238d388c158af84ee88a56c63004aea60fd471a05e5c234",
+        "free_inputs.jsonl": "3202c9ab4b84205a1ece7c33ea14d9ca92cea939a8767f667966a0bd256545a4",
+        "free_edges.jsonl": "62bf98fb4cffd3cfd80d9e926720f91c0c705acb175c01d00f7185a787f2dfd7",
+        "semantic_conditions.jsonl": "25806c47bd578f5b63e3f177f1ec94beea2281a2c8f936e93cacbfc134867139",
+        "exposure_schedule.jsonl": "4354373e2923b385d6eadd764a4e6e7df74a2fbb4861784f0f04584c0fc61757",
+        "actual_exposures.json": "4700c05d6b72f1f240abf3411f0a51e9005f6af50bca68db44e37828e72959c6"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "ca8ac6847b78fd0eecb3412754a9b7538044158d26eafb943c651b03fc563f94",
+        "anchor_js": "ad633bf1e70fa27dd559b5774cc7b8f47673345b01936cf44df16eab1808cd1b"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "440ecdfa3daded0757380b6378ed3f5e16efd984cd2da76628687ae81acd3bdf",
+        "anchor_js": "98b86e64058e1bf0c68d6c5042dc6da120b913271231feb45abb8f168892b188"
+      }
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "IGVOFO",
+      "seed": 20261028,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "c736b7c9f0f4bb75d7efb9856b3d383f2dceaa535e446209a9cc7f4b4503e6ff",
+        "supervised_edges.jsonl": "fe04c1354f905f69a238d388c158af84ee88a56c63004aea60fd471a05e5c234",
+        "free_inputs.jsonl": "3202c9ab4b84205a1ece7c33ea14d9ca92cea939a8767f667966a0bd256545a4",
+        "free_edges.jsonl": "62bf98fb4cffd3cfd80d9e926720f91c0c705acb175c01d00f7185a787f2dfd7",
+        "semantic_conditions.jsonl": "25806c47bd578f5b63e3f177f1ec94beea2281a2c8f936e93cacbfc134867139",
+        "exposure_schedule.jsonl": "3fef57537c8e049bbac6c897cbbd2fec58f661ad60d256a0419fe432f1bfde31",
+        "actual_exposures.json": "c3e2ec14cf611a4fbfe448c5e6d257b5782d5f6955b395a99c5a3274fb3de993"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "b05d601cbd8b9c7f33885a90057ccc1539832c0cd457e287eb09d2b801205883",
+        "anchor_js": "4070ba83ed4e5f5c2c8597908efe745dfaa74541a4d11dd5dcece345f66a5c3d"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "0131b4520b87845e824501e512ea4206142acf4a139a0cd96eb6178560748091",
+        "anchor_js": "0e19c7ff2bf68601d213ff9a1a0ea3a510534dd1e92178932a60b5f3b502bac6"
+      }
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "IGVOFO",
+      "seed": 20261029,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "c736b7c9f0f4bb75d7efb9856b3d383f2dceaa535e446209a9cc7f4b4503e6ff",
+        "supervised_edges.jsonl": "fe04c1354f905f69a238d388c158af84ee88a56c63004aea60fd471a05e5c234",
+        "free_inputs.jsonl": "3202c9ab4b84205a1ece7c33ea14d9ca92cea939a8767f667966a0bd256545a4",
+        "free_edges.jsonl": "62bf98fb4cffd3cfd80d9e926720f91c0c705acb175c01d00f7185a787f2dfd7",
+        "semantic_conditions.jsonl": "25806c47bd578f5b63e3f177f1ec94beea2281a2c8f936e93cacbfc134867139",
+        "exposure_schedule.jsonl": "6ef06c7eafce261bae2d722b97176abe461435da85b03a40bf3d3e195bb61fd4",
+        "actual_exposures.json": "a7c1e3e0a183cd076e64df2d1df39148e07595c33f5f831b8a514132aad52cc7"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "6f6ff566ace837b183b16e6c92cd6775630326ef8235e7e701570899052111b9",
+        "anchor_js": "21bc5e0fb4a48e3f78ff252afd762061ca83e2f3ece0efdde810336f017f79b8"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "69a5c9a938fdaa8339aadf3e5b70d4e7b54d415d7e00b70d0c569133d1c4230c",
+        "anchor_js": "f10ace2a4bcb50f06f9b16c469c315c7da4095d1797566e779367394df1a407d"
+      }
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "PGG",
+      "seed": 20261026,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "070534513d375ff087cbab9ca1d39b61bc05481af86363acf097edf0783f7da6",
+        "supervised_edges.jsonl": "4db4e2e1102669f5b816f38c47c8ee5159bef5e26bdac2b677c25a17a7016aeb",
+        "free_inputs.jsonl": "ef6823b1a1bfbb738b3e2f977f00b007952b254770a4706c3e792553ac72444a",
+        "free_edges.jsonl": "d23be1cb2138a3c3980c728c6331e58fc026606ed594805bee4c0353e89b1d23",
+        "semantic_conditions.jsonl": "048abe9762e35b81c6ffb943c66a26ae38eec774794560a6b2c13159eaab6ae6",
+        "exposure_schedule.jsonl": "591ec9c3a9c48ea9e7697ea4ca1cb40b2ef83c46570dcab1899eead30615bb12",
+        "actual_exposures.json": "c2a6b055587a1e41ee23713a6efe021a0aec42d702c99aade239cdf5d6ee3a75"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "518df04d44818bde267688bf9046dc9dce4e34104235beac4138c3eee655f05d",
+        "anchor_js": "24565776504178915bfbf6ac72a7f2cac3614b541b2e9d16e2179988c98e62a1"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "4b35959876ae7acd44887350296e956332fc7e1cbad4c33dc8ef5510bb9a8665",
+        "anchor_js": "5642bb4c29d30f2c2689f8db0e41b7f29130225e3eb9db1d26a4413b6d7e7535"
+      }
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "PGG",
+      "seed": 20261028,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "070534513d375ff087cbab9ca1d39b61bc05481af86363acf097edf0783f7da6",
+        "supervised_edges.jsonl": "4db4e2e1102669f5b816f38c47c8ee5159bef5e26bdac2b677c25a17a7016aeb",
+        "free_inputs.jsonl": "ef6823b1a1bfbb738b3e2f977f00b007952b254770a4706c3e792553ac72444a",
+        "free_edges.jsonl": "d23be1cb2138a3c3980c728c6331e58fc026606ed594805bee4c0353e89b1d23",
+        "semantic_conditions.jsonl": "048abe9762e35b81c6ffb943c66a26ae38eec774794560a6b2c13159eaab6ae6",
+        "exposure_schedule.jsonl": "73eb055c0b6d5649a0207d22c46f18a0121d85bbfe59c360a895017cec9ab75b",
+        "actual_exposures.json": "b6904550bda02198c059fd9d8951490e1145edccfdd74a15c63af7e04f69b70a"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "242c5210f9045a3930888f0f58aeef740fc6fa092e11ac8ff329ea1b662c7315",
+        "anchor_js": "b1763c3d231482e5c4f8c2dcb6defb3e05e342b43f9438fc4bc5757a7b472678"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "35dd7d17f1377f63f0202ba7d09ff14dee0af24eabcc91fe6d52c0c3ef0c7104",
+        "anchor_js": "76f18bd9407eeda46775434257952487424898a284db2c222e1678e90bf6c09a"
+      }
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "PGG",
+      "seed": 20261029,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "070534513d375ff087cbab9ca1d39b61bc05481af86363acf097edf0783f7da6",
+        "supervised_edges.jsonl": "4db4e2e1102669f5b816f38c47c8ee5159bef5e26bdac2b677c25a17a7016aeb",
+        "free_inputs.jsonl": "ef6823b1a1bfbb738b3e2f977f00b007952b254770a4706c3e792553ac72444a",
+        "free_edges.jsonl": "d23be1cb2138a3c3980c728c6331e58fc026606ed594805bee4c0353e89b1d23",
+        "semantic_conditions.jsonl": "048abe9762e35b81c6ffb943c66a26ae38eec774794560a6b2c13159eaab6ae6",
+        "exposure_schedule.jsonl": "b5929cb8435cafe4f79f00dd4e88900f6bfb42b1afba36c01d6359ae61d71626",
+        "actual_exposures.json": "04b33620b6b9bfd6bb0fc2df1901d6e5ae0b02552c888ea09deabccd46243d0b"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "5f93e807d335d25d69eb75fa14b898e2d8a9f22d1993ec6327467a0b55829e59",
+        "anchor_js": "5136c6fe8fa2c536b37cb686dc715194961bb263c0626c1c7288384f19cb5b52"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "a96371c6d168aef20a51b77e41e75390ed05cd75e3f8e592b8c493672f6c36c0",
+        "anchor_js": "a4f6b957ff7d64984b79f94aff744e236ab59e67217bfe6c0ba28e0e01790c35"
+      }
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "PIQ572",
+      "seed": 20261026,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "31cca308680ea0afde592397c64c14a88cafd5efc92b31f31cf66d7594000987",
+        "supervised_edges.jsonl": "e3a0e78fb1a92f0db773a316e6c1c6791750813b71b98d8abd45c0fcd9337c85",
+        "free_inputs.jsonl": "ee829596c90a4ece77e53b7acb00617996a92f02e1fb7225ee129198c0851e80",
+        "free_edges.jsonl": "87639029b0ccd4e9738199a9ea30b7c84570ecf01d36fb691e67651a41fceaa0",
+        "semantic_conditions.jsonl": "0b2902f8124d57090f95e283dfa20a370cfc051c942d7fe33c2b71c8b011735a",
+        "exposure_schedule.jsonl": "b8f80abc746e4e8b175f16df559d3e83b197372f88c141159dea1ce52d1656c8",
+        "actual_exposures.json": "bf77e688a37db640b6a468386b3310761321184a953d3fb7e2e91c324238b2ed"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "605b3679aadc354a99c74cd3c4fe77d24a5f7ade9b1a7aec78c840181541c72a",
+        "anchor_js": "84b2f0b2a03a7de580ebcb9f83afe7be003f0e39385d5163d5185ebfc3181472"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "ff1bf7448cbe19fcb242670ccc01e697209b0a1899628c6195c8209159ee2032",
+        "anchor_js": "5b886ddbe70bc5805fc1a3a9f581392b1244173c12ff0cd815664555044c4568"
+      }
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "PIQ572",
+      "seed": 20261028,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "31cca308680ea0afde592397c64c14a88cafd5efc92b31f31cf66d7594000987",
+        "supervised_edges.jsonl": "e3a0e78fb1a92f0db773a316e6c1c6791750813b71b98d8abd45c0fcd9337c85",
+        "free_inputs.jsonl": "ee829596c90a4ece77e53b7acb00617996a92f02e1fb7225ee129198c0851e80",
+        "free_edges.jsonl": "87639029b0ccd4e9738199a9ea30b7c84570ecf01d36fb691e67651a41fceaa0",
+        "semantic_conditions.jsonl": "0b2902f8124d57090f95e283dfa20a370cfc051c942d7fe33c2b71c8b011735a",
+        "exposure_schedule.jsonl": "dece1f1cbbff483d968c83fc512d8a7a4f966739b7b627bf73910e7658a9548d",
+        "actual_exposures.json": "e07ed5b35726440efc156a3b2290bd24de2511dbb9d081ff851278a8722294ff"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "c2a6c117ab0ac267c2386ee3d28e0667a89381b59af5a2bcba05e3fa5c9244fc",
+        "anchor_js": "48beb2b323e5657b5c0d7f4230c9194c08567a2c8aa0c36d528d353494fd6c2c"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "240f76bcc921213386ec5c93baf73c6008e90ac41fe73f2a2708a175dcf372d1",
+        "anchor_js": "41854186e5f50975a6941988ee26741ccf7e0c3cb7be279eefa5fe99fa108f7c"
+      }
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "PIQ572",
+      "seed": 20261029,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "31cca308680ea0afde592397c64c14a88cafd5efc92b31f31cf66d7594000987",
+        "supervised_edges.jsonl": "e3a0e78fb1a92f0db773a316e6c1c6791750813b71b98d8abd45c0fcd9337c85",
+        "free_inputs.jsonl": "ee829596c90a4ece77e53b7acb00617996a92f02e1fb7225ee129198c0851e80",
+        "free_edges.jsonl": "87639029b0ccd4e9738199a9ea30b7c84570ecf01d36fb691e67651a41fceaa0",
+        "semantic_conditions.jsonl": "0b2902f8124d57090f95e283dfa20a370cfc051c942d7fe33c2b71c8b011735a",
+        "exposure_schedule.jsonl": "c2f9d0ecee66f8409733b5323c1dabe825137a3a074abb7f137ba2bb015803fe",
+        "actual_exposures.json": "50899f536882da1330e921f363facdb829822f3044de30ba822bf78df30c6297"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "c36a21217600a08ec46cf8bfa5fea30efee8ea3536e715cf5074deae93a61545",
+        "anchor_js": "15ef8600e1ea972a7842bc984f9313aa6959fc528311393633041cc1473ae0ba"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "ba3f2a33ea93d8a001f109224051d808bda2126a0c1c0d6b339ec52c9de93e29",
+        "anchor_js": "2a4193fd24533f1f9418ebd68a21b4f11afdec4ee380f66d5fda5bf55120b118"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "HPVBG",
+      "seed": 20261026,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "7d57a0f061409b2e54219da2e7223e90edacc3253a0d62322e696df144461894",
+        "supervised_edges.jsonl": "f54e000cb4230e40bf3e3e5e20a688a68b75b0ae84ca26f46b65586bc17f45b5",
+        "free_inputs.jsonl": "d06193cd61ad29a9d8fe8a7aa128c790306ae5b98dd8c0eda0b9156496f5dd8d",
+        "free_edges.jsonl": "92c9bf897db059d9fb5854ba7e55767ee2f8d705cc94a16903e3acaf86435641",
+        "semantic_conditions.jsonl": "788bce6c73bf16fa5e6a7d68230e2ae76e97e95298f702288a50feb9a69d2758",
+        "exposure_schedule.jsonl": "0c9cd3e19f56ee5fea335845c951ae5911d0eb77e55ff99c487fadfdccbafaae",
+        "actual_exposures.json": "c7564ef7443efad12291600572448ec0a1e791953c34163f0a14bf1d07d65f10"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "3c3befc54a76859d00c4b0afeacb11421f9646fa3cfcf7400b340f71729151a9",
+        "anchor_js": "aa05668404c91918fd6761867b1073ee9d91066468d6523966182e785c5e8ea3"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "8965d142fb7024fc3673ae64ebc14aa8761e0527cd89c21928c985867595bf3c",
+        "anchor_js": "6191d083c59d93cfa51d876f7111cf3aa4239f550e126884d49b6e06eca8bd4d"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "HPVBG",
+      "seed": 20261028,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "7d57a0f061409b2e54219da2e7223e90edacc3253a0d62322e696df144461894",
+        "supervised_edges.jsonl": "f54e000cb4230e40bf3e3e5e20a688a68b75b0ae84ca26f46b65586bc17f45b5",
+        "free_inputs.jsonl": "d06193cd61ad29a9d8fe8a7aa128c790306ae5b98dd8c0eda0b9156496f5dd8d",
+        "free_edges.jsonl": "92c9bf897db059d9fb5854ba7e55767ee2f8d705cc94a16903e3acaf86435641",
+        "semantic_conditions.jsonl": "788bce6c73bf16fa5e6a7d68230e2ae76e97e95298f702288a50feb9a69d2758",
+        "exposure_schedule.jsonl": "df69dbb89a26d969b65f097ec4d2d947366af4e1f1af1b6dc2e039a94385e5ac",
+        "actual_exposures.json": "8340ac444a8354ebe08b8aa102018a0d70e5a774cce372ad682259484945250b"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "1532977e715b2f615f3eeca4082a825677062969af42ddacd85440c52be2fdcb",
+        "anchor_js": "b6014af2e22da40f3a3a85bded4af3b986b42a943c3d6959564f1b6599cc8750"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "0b664d527d0396785caf0bdce5466b1ac6948333efe69bc96ceb2b5c2a23e518",
+        "anchor_js": "207568f4b7b3166fd75ef813f28ca3f68f463736c3f33979e212d89f1334a074"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "HPVBG",
+      "seed": 20261029,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "7d57a0f061409b2e54219da2e7223e90edacc3253a0d62322e696df144461894",
+        "supervised_edges.jsonl": "f54e000cb4230e40bf3e3e5e20a688a68b75b0ae84ca26f46b65586bc17f45b5",
+        "free_inputs.jsonl": "d06193cd61ad29a9d8fe8a7aa128c790306ae5b98dd8c0eda0b9156496f5dd8d",
+        "free_edges.jsonl": "92c9bf897db059d9fb5854ba7e55767ee2f8d705cc94a16903e3acaf86435641",
+        "semantic_conditions.jsonl": "788bce6c73bf16fa5e6a7d68230e2ae76e97e95298f702288a50feb9a69d2758",
+        "exposure_schedule.jsonl": "98f3ca9a23756867d8826e50d7178ee35588cb1e57db257eb903159744a30730",
+        "actual_exposures.json": "fb7cbbfd02e5db3e3a508d767dfe17d0cda3a65ca7f5289a6604faa2cbfd53a8"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "cad9e2436e3d271db0a3417b0e33c1b34797f1ba5ccab8df4c02593319c331f3",
+        "anchor_js": "47aa118991fa2eeb15f15c56bcc9f25c48f0ed0a65f3ae56d8e01b43d8de597e"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "7417787f8d729d426ccfe92a7158506350f0e0beee944b7f812fb1cc9365e236",
+        "anchor_js": "a0bad7d1a013025afa14427be82a40b1bd20c5990da2d28a05cc3dce13d4bb91"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "IGVOFO",
+      "seed": 20261026,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "c736b7c9f0f4bb75d7efb9856b3d383f2dceaa535e446209a9cc7f4b4503e6ff",
+        "supervised_edges.jsonl": "fe04c1354f905f69a238d388c158af84ee88a56c63004aea60fd471a05e5c234",
+        "free_inputs.jsonl": "3202c9ab4b84205a1ece7c33ea14d9ca92cea939a8767f667966a0bd256545a4",
+        "free_edges.jsonl": "62bf98fb4cffd3cfd80d9e926720f91c0c705acb175c01d00f7185a787f2dfd7",
+        "semantic_conditions.jsonl": "25806c47bd578f5b63e3f177f1ec94beea2281a2c8f936e93cacbfc134867139",
+        "exposure_schedule.jsonl": "4354373e2923b385d6eadd764a4e6e7df74a2fbb4861784f0f04584c0fc61757",
+        "actual_exposures.json": "4700c05d6b72f1f240abf3411f0a51e9005f6af50bca68db44e37828e72959c6"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "126e5bfae3063f3261d26168811b4b6e6f29e8225f2e28f8848bf50b420a96c6",
+        "anchor_js": "1bd79c77573cf7f98df4600b3acb738cdf91e074fab620814d5eb233f3ba955b"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "68bf03b53048330cbafda69f400ac43d7e48a8eb98df2d416aab2310e3fe1bd3",
+        "anchor_js": "1071f2ac7225a12992fda1965db608d2842ef62f385f40e6e46d2a2afe089c1e"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "IGVOFO",
+      "seed": 20261028,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "c736b7c9f0f4bb75d7efb9856b3d383f2dceaa535e446209a9cc7f4b4503e6ff",
+        "supervised_edges.jsonl": "fe04c1354f905f69a238d388c158af84ee88a56c63004aea60fd471a05e5c234",
+        "free_inputs.jsonl": "3202c9ab4b84205a1ece7c33ea14d9ca92cea939a8767f667966a0bd256545a4",
+        "free_edges.jsonl": "62bf98fb4cffd3cfd80d9e926720f91c0c705acb175c01d00f7185a787f2dfd7",
+        "semantic_conditions.jsonl": "25806c47bd578f5b63e3f177f1ec94beea2281a2c8f936e93cacbfc134867139",
+        "exposure_schedule.jsonl": "3fef57537c8e049bbac6c897cbbd2fec58f661ad60d256a0419fe432f1bfde31",
+        "actual_exposures.json": "c3e2ec14cf611a4fbfe448c5e6d257b5782d5f6955b395a99c5a3274fb3de993"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "d49554e2fd27a97e3643779d7784682d37919b63febd03ea45da6b03286ecb35",
+        "anchor_js": "37e2e607b1e0ed03ed1cdf836dfdc6d7c8ba2ffd5910ba8c37f608d6655235ec"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "a50fd19c0202d396f8ef8964366ada3fdc8bb17b7616450c7ad4ea0a167da939",
+        "anchor_js": "f1291abf183de94f07c40089b69e555be41e4d97026a781296b739dc1a202f0a"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "IGVOFO",
+      "seed": 20261029,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "c736b7c9f0f4bb75d7efb9856b3d383f2dceaa535e446209a9cc7f4b4503e6ff",
+        "supervised_edges.jsonl": "fe04c1354f905f69a238d388c158af84ee88a56c63004aea60fd471a05e5c234",
+        "free_inputs.jsonl": "3202c9ab4b84205a1ece7c33ea14d9ca92cea939a8767f667966a0bd256545a4",
+        "free_edges.jsonl": "62bf98fb4cffd3cfd80d9e926720f91c0c705acb175c01d00f7185a787f2dfd7",
+        "semantic_conditions.jsonl": "25806c47bd578f5b63e3f177f1ec94beea2281a2c8f936e93cacbfc134867139",
+        "exposure_schedule.jsonl": "6ef06c7eafce261bae2d722b97176abe461435da85b03a40bf3d3e195bb61fd4",
+        "actual_exposures.json": "a7c1e3e0a183cd076e64df2d1df39148e07595c33f5f831b8a514132aad52cc7"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "b261ebba628051395debcef404e2d090c71786d656a70da783edb1d1c0689bd2",
+        "anchor_js": "de5bb5b3c1b630baf6fc0b70b3695e26d91dbb8d6e66e3d5a53f9f59ee9112ab"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "6871db7f6cfa23b568c88e49b0da432dc52f05a581d4a4c08c04c1b38665192c",
+        "anchor_js": "17eeaa7dc6e2e7b7879015fa3dfb5038814afc72e4a2b5e6649236322627c09a"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "PGG",
+      "seed": 20261026,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "070534513d375ff087cbab9ca1d39b61bc05481af86363acf097edf0783f7da6",
+        "supervised_edges.jsonl": "4db4e2e1102669f5b816f38c47c8ee5159bef5e26bdac2b677c25a17a7016aeb",
+        "free_inputs.jsonl": "ef6823b1a1bfbb738b3e2f977f00b007952b254770a4706c3e792553ac72444a",
+        "free_edges.jsonl": "d23be1cb2138a3c3980c728c6331e58fc026606ed594805bee4c0353e89b1d23",
+        "semantic_conditions.jsonl": "048abe9762e35b81c6ffb943c66a26ae38eec774794560a6b2c13159eaab6ae6",
+        "exposure_schedule.jsonl": "591ec9c3a9c48ea9e7697ea4ca1cb40b2ef83c46570dcab1899eead30615bb12",
+        "actual_exposures.json": "c2a6b055587a1e41ee23713a6efe021a0aec42d702c99aade239cdf5d6ee3a75"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "31f8995b7ea095f740d92d68732a16c1e99877b8f5d781c22cb8b106227b691e",
+        "anchor_js": "3147a38c90a05092a917913ed2209836912b46e7df5281b9915babb0bafd6db5"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "65eefc7871220a1b2ace5b9c82a29a7369f21edbea74a01768af792e49797f92",
+        "anchor_js": "eca886338aa65496a18b68ffd5985753f34cd33ac187beb574c82e35c1f5d23d"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "PGG",
+      "seed": 20261028,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "070534513d375ff087cbab9ca1d39b61bc05481af86363acf097edf0783f7da6",
+        "supervised_edges.jsonl": "4db4e2e1102669f5b816f38c47c8ee5159bef5e26bdac2b677c25a17a7016aeb",
+        "free_inputs.jsonl": "ef6823b1a1bfbb738b3e2f977f00b007952b254770a4706c3e792553ac72444a",
+        "free_edges.jsonl": "d23be1cb2138a3c3980c728c6331e58fc026606ed594805bee4c0353e89b1d23",
+        "semantic_conditions.jsonl": "048abe9762e35b81c6ffb943c66a26ae38eec774794560a6b2c13159eaab6ae6",
+        "exposure_schedule.jsonl": "73eb055c0b6d5649a0207d22c46f18a0121d85bbfe59c360a895017cec9ab75b",
+        "actual_exposures.json": "b6904550bda02198c059fd9d8951490e1145edccfdd74a15c63af7e04f69b70a"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "9145bd1fe6ad7915f39449d4a0820ac5602bcd940df12e5dc5010cf11e643f57",
+        "anchor_js": "c440688575715e747d59dc8b20f522a2b661b1bc735c9180303be98fe1b6f84f"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "ed187c1242d79a40ef3772e90aea60027710fe81971c684eed0b0a47a95dee93",
+        "anchor_js": "a6f9f232b5307967e641b6870ca3cb26dad6dc64dae867490bfc63f7fa154b1a"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "PGG",
+      "seed": 20261029,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "070534513d375ff087cbab9ca1d39b61bc05481af86363acf097edf0783f7da6",
+        "supervised_edges.jsonl": "4db4e2e1102669f5b816f38c47c8ee5159bef5e26bdac2b677c25a17a7016aeb",
+        "free_inputs.jsonl": "ef6823b1a1bfbb738b3e2f977f00b007952b254770a4706c3e792553ac72444a",
+        "free_edges.jsonl": "d23be1cb2138a3c3980c728c6331e58fc026606ed594805bee4c0353e89b1d23",
+        "semantic_conditions.jsonl": "048abe9762e35b81c6ffb943c66a26ae38eec774794560a6b2c13159eaab6ae6",
+        "exposure_schedule.jsonl": "b5929cb8435cafe4f79f00dd4e88900f6bfb42b1afba36c01d6359ae61d71626",
+        "actual_exposures.json": "04b33620b6b9bfd6bb0fc2df1901d6e5ae0b02552c888ea09deabccd46243d0b"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "949bcbf2fc597e9d2cd4612e84c15d2b9d6c901997b20d40577116e8eacad6db",
+        "anchor_js": "89ad44cb4f9e210d9677644e334277a50724df47da266de977b312cdc7023ccb"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "00df0ba656035f5f7530fe05061e2688df89b1bf38e03f6e4a657e544f767881",
+        "anchor_js": "c45be58612a1ce33d6d4fdeee4b7b37245ba19a4345a59e4eadc729620b8d1c0"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "PIQ572",
+      "seed": 20261026,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "31cca308680ea0afde592397c64c14a88cafd5efc92b31f31cf66d7594000987",
+        "supervised_edges.jsonl": "e3a0e78fb1a92f0db773a316e6c1c6791750813b71b98d8abd45c0fcd9337c85",
+        "free_inputs.jsonl": "ee829596c90a4ece77e53b7acb00617996a92f02e1fb7225ee129198c0851e80",
+        "free_edges.jsonl": "87639029b0ccd4e9738199a9ea30b7c84570ecf01d36fb691e67651a41fceaa0",
+        "semantic_conditions.jsonl": "0b2902f8124d57090f95e283dfa20a370cfc051c942d7fe33c2b71c8b011735a",
+        "exposure_schedule.jsonl": "b8f80abc746e4e8b175f16df559d3e83b197372f88c141159dea1ce52d1656c8",
+        "actual_exposures.json": "bf77e688a37db640b6a468386b3310761321184a953d3fb7e2e91c324238b2ed"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "43096e8fae96d3c4c5600ea8e5931fc53888887a57646a40826528c0cb2ee227",
+        "anchor_js": "913222f726a19ec3a0de053212fb93efd6cb2d6ee5fcbab11af4a7f908d219fd"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "600abc3846c3fb294eed41fa00f1dffcebd4c33c55464bd6e06757ca2113c60a",
+        "anchor_js": "4ac293ca05a2c0a4574e7f8129431fa9678640e5a91dce803387ac93d13b3e25"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "PIQ572",
+      "seed": 20261028,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "31cca308680ea0afde592397c64c14a88cafd5efc92b31f31cf66d7594000987",
+        "supervised_edges.jsonl": "e3a0e78fb1a92f0db773a316e6c1c6791750813b71b98d8abd45c0fcd9337c85",
+        "free_inputs.jsonl": "ee829596c90a4ece77e53b7acb00617996a92f02e1fb7225ee129198c0851e80",
+        "free_edges.jsonl": "87639029b0ccd4e9738199a9ea30b7c84570ecf01d36fb691e67651a41fceaa0",
+        "semantic_conditions.jsonl": "0b2902f8124d57090f95e283dfa20a370cfc051c942d7fe33c2b71c8b011735a",
+        "exposure_schedule.jsonl": "dece1f1cbbff483d968c83fc512d8a7a4f966739b7b627bf73910e7658a9548d",
+        "actual_exposures.json": "e07ed5b35726440efc156a3b2290bd24de2511dbb9d081ff851278a8722294ff"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "81f3c71001ac1f28069c59ac9c229a4c0f57f521214ec9ea2235f254dc5914e3",
+        "anchor_js": "09f2b2e47218670626fc6a43f599473cf3c1cacb26bccf34f8336d5c0010fff5"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "f0e9b03ab1eda9e1997923928f13ce953912ef339e122851f0a888c61735cd4a",
+        "anchor_js": "06a2d6a5450613eef87f48e1280387c8e8404063df0915944d29cee4268b71cf"
+      }
+    },
+    {
+      "model": "qwen3_8b",
+      "source": "PIQ572",
+      "seed": 20261029,
+      "training_config_differences": [
+        "arm",
+        "lambda_free_js",
+        "mode"
+      ],
+      "shared_prepared_and_actual_exposure_sha256": {
+        "supervised_inputs.jsonl": "31cca308680ea0afde592397c64c14a88cafd5efc92b31f31cf66d7594000987",
+        "supervised_edges.jsonl": "e3a0e78fb1a92f0db773a316e6c1c6791750813b71b98d8abd45c0fcd9337c85",
+        "free_inputs.jsonl": "ee829596c90a4ece77e53b7acb00617996a92f02e1fb7225ee129198c0851e80",
+        "free_edges.jsonl": "87639029b0ccd4e9738199a9ea30b7c84570ecf01d36fb691e67651a41fceaa0",
+        "semantic_conditions.jsonl": "0b2902f8124d57090f95e283dfa20a370cfc051c942d7fe33c2b71c8b011735a",
+        "exposure_schedule.jsonl": "c2f9d0ecee66f8409733b5323c1dabe825137a3a074abb7f137ba2bb015803fe",
+        "actual_exposures.json": "50899f536882da1330e921f363facdb829822f3044de30ba822bf78df30c6297"
+      },
+      "training_config_sha256": {
+        "anchor_sft": "9d8789c3bccb430a7ee362771c2ccb1781651ea01258f644ea9db2d17af87c1a",
+        "anchor_js": "29ee5e2e63eca72cb54db4be2ef8801c22480927962fbd7c943126a0dcebc18b"
+      },
+      "evaluation_config_differences": [
+        "adapter",
+        "adapter_run_key",
+        "method"
+      ],
+      "same_evaluation_plan": true,
+      "evaluation_identity_sha256": {
+        "anchor_sft": "5f49e782070240410bc4574e1f48ef096c70abf2278366a388874621253b4c87",
+        "anchor_js": "61958cc4aa55273db2c293daa2df71878b8b292696b45a941025ce3f6a3d08cc"
+      }
+    }
+  ],
+  "verifier_sha256": "dbb6f2b90d90f95e3fc2f99bf340432f0ce503322a53bc8522f32ed60e234c55",
+  "scope": "Identity/exposure comparison only; raw legality/metrics and source closure require their separate independent audits"
+}

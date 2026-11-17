@@ -1,0 +1,13 @@
+{
+  "pid": 662567,
+  "started_unix": 1792873177.8480215,
+  "gpu": 0,
+  "script_sha256": "da31170b3b4592a508fdcf86e4de033a6077175f371b01cb5be1bea620a10a1b",
+  "models": [
+    "qwen25_14b_instruct",
+    "qwen3_8b",
+    "glm4_9b"
+  ],
+  "planned_trials": 168768,
+  "base_seed": 20261026
+}

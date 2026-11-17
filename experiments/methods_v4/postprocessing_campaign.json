@@ -1,0 +1,10 @@
+{
+  "pid": 979089,
+  "started_unix": 1792979758.9448373,
+  "code_hashes": {
+    "watch_postprocessing.py": "de1001c689024f60bb0b0439940819a08dc346d986448b2c4c5e9b2c1f22bbea",
+    "diagnose_transfer.py": "31fb5d22c14aaf8f185b72b3f45e9fd9b20e9bc2e23efaec4004408506ed7aad",
+    "aggregate_transfer.py": "da391710e8817f01a150f759a9e16f77f5760fb94353796e4f481e0972f58454"
+  },
+  "policy": "CPU only; no GPU controller mutation"
+}

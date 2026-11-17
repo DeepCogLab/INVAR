@@ -1,0 +1,18 @@
+{
+  "status": "additive_readonly_audit_performance_repair",
+  "benchmark": {
+    "iterations": 100,
+    "seconds": 5.924639745964669,
+    "vocab_size": 151669,
+    "all_equal": true
+  },
+  "root_cause": "len(tokenizer) reconstructs merged vocabulary and was repeated for every generated token; cache immutable vocabulary size once",
+  "new_code_sha256": {
+    "audit_delivery_cached.py": "e1df8ee0689a9ce0f8c1a641036c1f1dbccafc0f7458bca9edaf86d4339f268c",
+    "verify_restoration_recovery.py": "f273da8406ea977206e82b72c16cae34dd0db7a024bd8e773a47c92ed5af234c",
+    "repair_postprocessing.py": "058ea7f44ead6a28b96ebc0c6c2984f34e027038541a238e48fc3c01cfedf935"
+  },
+  "scientific_freeze_unchanged": "3fa77d5c406c43cd12d01742903f9b6a79dad8c47cd6d5bea3cd25924fca23a5",
+  "validation_unchanged": "Every output token must remain an integer within the identical vocabulary bounds",
+  "science_budget_unchanged": true
+}

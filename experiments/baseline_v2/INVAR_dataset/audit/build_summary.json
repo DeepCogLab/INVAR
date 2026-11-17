@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "status": "ready_for_model_pilot_not_human_validated",
+  "pairs": 92,
+  "cases": 184,
+  "quartets": 701,
+  "expanded_references": 2804,
+  "unique_prompts": 1240,
+  "pairs_by_tier": {
+    "source_conditions": 54,
+    "researcher_extension": 38
+  },
+  "pairs_by_task": {
+    "third_party_punishment": 5,
+    "ultimatum": 25,
+    "dictator": 1,
+    "trust": 27,
+    "public_goods": 22,
+    "sequential_prisoners_dilemma": 12
+  },
+  "quartets_by_variant": {
+    "V1_paragraph": 92,
+    "V1_table": 92,
+    "V2_rules_first": 92,
+    "V2_situation_first": 92,
+    "V4_rules_table": 92,
+    "V5_ids": 92,
+    "V6_relation": 92,
+    "V3_situation_list": 57
+  },
+  "human_records_released": 0,
+  "direction_labels_enabled": 0,
+  "fact_preservation_checks": "passed",
+  "pragmatic_equivalence": "AI reviewed; independent human review pending"
+}

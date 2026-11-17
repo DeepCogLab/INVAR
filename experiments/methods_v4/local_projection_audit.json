@@ -1,0 +1,9 @@
+{
+  "status": "verified_exact_parent_line_projection",
+  "utc": "2026-10-26T07:04:46.343391+00:00",
+  "parent_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94",
+  "projected_sha256": "9ecc5fd76b2715de13f8bcb3912530e858ca98689eac0f0ae17aeca6149983f9",
+  "rows": 164224,
+  "new_generated_rows": 0,
+  "implementation": "Independent sequential parent binary lines; prompt filter from child analysis manifest; exact projected bytes SHA equals child raw"
+}

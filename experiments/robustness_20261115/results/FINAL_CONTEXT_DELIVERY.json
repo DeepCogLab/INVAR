@@ -1,0 +1,9 @@
+{
+  "status": "final_writing_context_and_reviews_sha_verified",
+  "files": 231,
+  "artifact_directory": "artifacts\\robustness_20261115\\final_writing_context",
+  "manifest_sha256": "0bf4e9788b948f3fac39ba0922c5686beda0672cc09ddc3213351a194df8d7ef",
+  "final_findings_sha256": "107db62369b0265798e6e592a767423484b2292359ecb731cd6bcc48481bb637",
+  "final_acceptance_sha256": "0b01d56b0349e41053a20463cd9d933a789901ad39091e394f2d9f5bb3701231",
+  "updated_at_singapore": "2026-11-16 05:28:06"
+}

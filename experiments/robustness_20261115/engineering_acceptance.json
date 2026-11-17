@@ -1,0 +1,189 @@
+{
+  "socio_8b": {
+    "status": "engineering_completed_not_scientific",
+    "rows": 32,
+    "load_seconds": 121.77457046508789,
+    "generation_seconds": 17.726889848709106,
+    "completion_tokens": 7266,
+    "tokens_per_second": 409.8857759038379,
+    "raw_sha256": "75cf94150f6e1885b036f6ef498872795dfc780bd9fab9cc78e258c1d4464415",
+    "max_tokens": 4096,
+    "software": {
+      "vllm": "0.14.1",
+      "torch": "2.9.1",
+      "transformers": "4.57.6"
+    },
+    "criterion": "compatibility and final-delivery presence only, never objective accuracy; no rerolls"
+  },
+  "mistral7b": {
+    "status": "engineering_completed_not_scientific",
+    "rows": 32,
+    "load_seconds": 24.685378313064575,
+    "generation_seconds": 94.16728854179382,
+    "completion_tokens": 13017,
+    "tokens_per_second": 138.2327154319913,
+    "raw_sha256": "8f8df00aa78c3e28902dc5e29a588e28bd32b10b578dbf3996e0981c0336035d",
+    "max_tokens": 4096,
+    "software": {
+      "vllm": "0.14.1",
+      "torch": "2.9.1",
+      "transformers": "4.57.6"
+    },
+    "criterion": "compatibility and final-delivery presence only, never objective accuracy; no rerolls"
+  },
+  "socialr1_8b": {
+    "status": "engineering_completed_not_scientific",
+    "rows": 32,
+    "load_seconds": 30.102360010147095,
+    "generation_seconds": 16.474008798599243,
+    "completion_tokens": 7490,
+    "tokens_per_second": 454.6555784671465,
+    "raw_sha256": "27c250513234e8ef93bfb93403d9b8e0aecad8549698add60da1ebd0c15f90ea",
+    "max_tokens": 4096,
+    "software": {
+      "vllm": "0.14.1",
+      "torch": "2.9.1",
+      "transformers": "4.57.6"
+    },
+    "criterion": "compatibility and final-delivery presence only, never objective accuracy; no rerolls"
+  },
+  "qwen3_8b": {
+    "status": "engineering_completed_not_scientific",
+    "rows": 32,
+    "load_seconds": 26.282712936401367,
+    "generation_seconds": 19.86551594734192,
+    "completion_tokens": 7710,
+    "tokens_per_second": 388.10972845795266,
+    "raw_sha256": "e461d37c2d2053dc3bbd5602835c61cce982170148d107cb2c8281dae92a81af",
+    "max_tokens": 4096,
+    "software": {
+      "vllm": "0.14.1",
+      "torch": "2.9.1",
+      "transformers": "4.57.6"
+    },
+    "criterion": "compatibility and final-delivery presence only, never objective accuracy; no rerolls"
+  },
+  "gpt_oss_20b": {
+    "status": "engineering_completed_not_scientific",
+    "rows": 32,
+    "load_seconds": 83.67718362808228,
+    "generation_seconds": 25.300838947296143,
+    "completion_tokens": 8549,
+    "tokens_per_second": 337.89393378647696,
+    "raw_sha256": "da12f779f005b5ad287e8c03e587e009542793c44eee328be27eb754e1f4e251",
+    "max_tokens": 4096,
+    "software": {
+      "vllm": "0.14.1",
+      "torch": "2.9.1",
+      "transformers": "4.57.6"
+    },
+    "criterion": "compatibility and final-delivery presence only, never objective accuracy; no rerolls"
+  },
+  "glm4_9b": {
+    "status": "engineering_completed_not_scientific",
+    "rows": 32,
+    "load_seconds": 104.68242406845093,
+    "generation_seconds": 9.829393863677979,
+    "completion_tokens": 3624,
+    "tokens_per_second": 368.69007898763414,
+    "raw_sha256": "7bc5903afef4c4c318f5a88086447fd7efb42eb17369705365d4a231a7f8cb79",
+    "max_tokens": 4096,
+    "software": {
+      "vllm": "0.14.1",
+      "torch": "2.9.1",
+      "transformers": "4.57.6"
+    },
+    "criterion": "compatibility and final-delivery presence only, never objective accuracy; no rerolls"
+  },
+  "qwen3_8b_base": {
+    "status": "engineering_completed_not_scientific",
+    "rows": 32,
+    "load_seconds": 124.33476829528809,
+    "generation_seconds": 10.92851448059082,
+    "completion_tokens": 2470,
+    "tokens_per_second": 226.0142496390293,
+    "raw_sha256": "78a915026ad890f544d95cf09636d07a69668f04b8841c9d4fa8ca4626dd9950",
+    "max_tokens": 4096,
+    "software": {
+      "vllm": "0.14.1",
+      "torch": "2.9.1",
+      "transformers": "4.57.6"
+    },
+    "criterion": "compatibility and final-delivery presence only, never objective accuracy; no rerolls"
+  },
+  "llama31_8b": {
+    "status": "engineering_completed_not_scientific",
+    "rows": 32,
+    "load_seconds": 81.35658740997314,
+    "generation_seconds": 6.717939138412476,
+    "completion_tokens": 2520,
+    "tokens_per_second": 375.1150387163978,
+    "raw_sha256": "bc30b5d53c901cdd9f04e6cbb2267b647f7b59943edcb105da2bbcbfabd77f67",
+    "max_tokens": 4096,
+    "software": {
+      "vllm": "0.14.1",
+      "torch": "2.9.1",
+      "transformers": "4.57.6"
+    },
+    "criterion": "compatibility and final-delivery presence only, never objective accuracy; no rerolls"
+  },
+  "mistral7b_v01": {
+    "status": "engineering_completed_not_scientific",
+    "rows": 32,
+    "load_seconds": 107.6978771686554,
+    "generation_seconds": 7.152066707611084,
+    "completion_tokens": 2903,
+    "tokens_per_second": 405.8966615776509,
+    "raw_sha256": "78c1e927ecc36eff59b7351982f0a6df37df157b33fedc343832bc9f4c58494d",
+    "max_tokens": 4096,
+    "software": {
+      "vllm": "0.14.1",
+      "torch": "2.9.1",
+      "transformers": "4.57.6"
+    },
+    "criterion": "compatibility and final-delivery presence only, never objective accuracy; no rerolls"
+  },
+  "sotopia_mistral7b": {
+    "status": "engineering_completed_not_scientific",
+    "rows": 32,
+    "load_seconds": 24.64868402481079,
+    "generation_seconds": 14.131675720214844,
+    "completion_tokens": 491,
+    "tokens_per_second": 34.74464102637471,
+    "raw_sha256": "9d133bcff0195993a6365df80e56c64358bfa50fdc67839e5c261df5a5562796",
+    "max_tokens": 4096,
+    "software": {
+      "vllm": "0.14.1",
+      "torch": "2.9.1",
+      "transformers": "4.57.6"
+    },
+    "criterion": "compatibility and final-delivery presence only, never objective accuracy; no rerolls"
+  },
+  "sotopia_adapter_identity": {
+    "config": {
+      "auto_mapping": null,
+      "base_model_name_or_path": "mistralai/Mistral-7B-Instruct-v0.1",
+      "bias": "none",
+      "fan_in_fan_out": false,
+      "inference_mode": true,
+      "init_lora_weights": true,
+      "layers_pattern": null,
+      "layers_to_transform": null,
+      "lora_alpha": 32.0,
+      "lora_dropout": 0.1,
+      "modules_to_save": null,
+      "peft_type": "LORA",
+      "r": 8,
+      "revision": null,
+      "target_modules": [
+        "q_proj",
+        "v_proj"
+      ],
+      "task_type": "CAUSAL_LM"
+    },
+    "tensors": 128,
+    "nonzero_B": 64,
+    "sha256": "9114467ff4fc9eb6db12d2d19d0542044944a841097cb53b55ad0703561f746e",
+    "original_training_base_commit": "not recorded in local adapter metadata"
+  }
+}

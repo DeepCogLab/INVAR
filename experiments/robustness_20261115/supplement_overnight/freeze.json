@@ -1,0 +1,115 @@
+{
+  "status": "prospectively_frozen_posthoc_followup_before_new_generations",
+  "created_at_utc": "2026-11-15T15:21:23.966220+00:00",
+  "main_freeze_sha256": "eed99ca4455c82af28021bb02aeac62873231624bd6767a3f5500bcefed4f75b",
+  "gpu_deadline_unix": 1794783600.0,
+  "gpu_deadline_singapore": "2026-11-16 07:00",
+  "delivery_target_singapore": "2026-11-16 09:00",
+  "job_order": [
+    "language_glm",
+    "language_llama",
+    "length_goals_qwen",
+    "length_goals_gpt",
+    "length_behavior_qwen",
+    "length_behavior_gpt"
+  ],
+  "jobs": {
+    "language_glm": {
+      "model": "glm4_9b",
+      "experiment": "instruction_language",
+      "task_types": [
+        "goal"
+      ],
+      "expected_rows": 5280,
+      "context": 8192,
+      "max_num_seqs": 64
+    },
+    "language_llama": {
+      "model": "llama31_8b",
+      "experiment": "instruction_language",
+      "task_types": [
+        "goal"
+      ],
+      "expected_rows": 5280,
+      "context": 8192,
+      "max_num_seqs": 64
+    },
+    "length_goals_qwen": {
+      "model": "qwen3_8b",
+      "experiment": "output_budget",
+      "task_types": [
+        "goal"
+      ],
+      "expected_rows": 2640,
+      "context": 12288,
+      "max_num_seqs": 32
+    },
+    "length_goals_gpt": {
+      "model": "gpt_oss_20b",
+      "experiment": "output_budget",
+      "task_types": [
+        "goal"
+      ],
+      "expected_rows": 2640,
+      "context": 12288,
+      "max_num_seqs": 32
+    },
+    "length_behavior_qwen": {
+      "model": "qwen3_8b",
+      "experiment": "output_budget",
+      "task_types": [
+        "behavior"
+      ],
+      "expected_rows": 3024,
+      "context": 12288,
+      "max_num_seqs": 32
+    },
+    "length_behavior_gpt": {
+      "model": "gpt_oss_20b",
+      "experiment": "output_budget",
+      "task_types": [
+        "behavior"
+      ],
+      "expected_rows": 3024,
+      "context": 12288,
+      "max_num_seqs": 32
+    }
+  },
+  "total_expected_rows": 21888,
+  "files": {
+    "ENGINEERING_NOTES.md": "7dc2126b24967fae77224d9f584a6c214ff74de7ba774dc907546bca85915395",
+    "INDEPENDENT_DESIGN_REVIEW.md": "1e46d6866b7c99f248bf6aad3e83b5e511c4e28ee6a4b5798a88d968a299f905",
+    "preflight.json": "1c674ca708ede683f2e37aac211807b78ebc6cbace488981602255b895afddbd",
+    "preparation.json": "ada5cc95909c8a6392655b0b111a3072f857588779dd85468cb16c7c98adf542",
+    "PROTOCOL.md": "a3070d1a26e7c435e8b182f1f966a197faaf8a0c8ce7c49482e56802f689d745",
+    "supp_common.py": "4c3116e4008e9565a2db09b24ab2701de986d4c75f79bcf619be926e741e7875",
+    "supp_preflight.py": "aeb5ee1bdcddec6ce4da8a010a0a5ae6c00258703ddb671ccdbc3bb282f420f6",
+    "supp_queue.py": "1255e9a3cab6c0e5e31389b5d6ec99950bdc5208221bb5f2b6622ef7528c6d0d",
+    "supp_score.py": "e2f20b046b7edb024687621b269f2d569b8da78d66248ada1c62e5154bfa3360",
+    "supp_worker.py": "5d3fe52487be98d6a3772fdf27ef7abd95ad786850147a9141cfdca9a8839fca",
+    "test_acceptance.json": "e804dadc8b159541d0f272b62ee00df96e727b99330807772a038068740d21e7",
+    "test_supplement.py": "c698c1908e8cc1b3f97ae3d02cb8b548ac6ee73bfe73d35bbd06ac287862cd8b",
+    "frozen/evaluation.jsonl": "d21236fe3db4862e2e65684b821ec0b977a0dd94cc25de4774f1f7132c6bdd15",
+    "frozen/model_inputs.jsonl": "27d460e1e009cd0a61bbe0bbfcae4b0833ad3d907cffd247e712a6cf42d70ab2",
+    "model_identities/glm4_9b.json": "3a2e32be0cd5166790722dd253d153f018cf3d53024672c0691b66de24b26aab",
+    "model_identities/gpt_oss_20b.json": "50a3a1cabc54b352f66e935ee5f8c2df6fd09db43d80a0c3bdfaf6e6d16e58b4",
+    "model_identities/llama31_8b.json": "3bac544cec1ce6f856a395d69e78244cdf9b7a9c6929b5bde2c18b9c289ff67c",
+    "model_identities/qwen3_8b.json": "744b2daee0e7d977044bc401362505fe966f363bd66b375e9b7e7cbfc069f896",
+    "plans/language_glm.jsonl": "782089406e5760ddd07dabd3f03ed180b1eb0df823426cc8fa96ae2503fc8a4b",
+    "plans/language_llama.jsonl": "9706cb9b3c22f818d96ecf33eb2054f84504d2ce87bca83638a97985aedfe11b",
+    "plans/length_behavior_gpt.jsonl": "8fb8229c61974177671ebef10bf7ac49125e7dab647e3938cc143cbdbb14b329",
+    "plans/length_behavior_qwen.jsonl": "ed81a479f3258fb40a9549b99b5770cc1443f0d2b67048b2177fe400f912e2b3",
+    "plans/length_goals_gpt.jsonl": "36fc25457328f216bb0faef04ffad83f74940addaaec696492d85e3bd0e4b2d6",
+    "plans/length_goals_qwen.jsonl": "3e4c579a4d4dee134f68cce25ab399202b2ee9655e200b48dc1fc431f3c0814b",
+    "upstream/behavior_metrics.py": "ecef1286fb2e1fb27efb78961bc143c5833fdd467a2132ffc5234f389a2ca741",
+    "upstream/campaign_common.py": "7bc32df0c167a9cacc3257a415b98b60a1275f2277ffd2cb8e67722a6220bcb0",
+    "upstream/independent_acceptance_v3.py": "4a6e0ff5127d70a7810195cbdcad840490cdfcee650aeee03f81c5c66a95acc7",
+    "upstream/parsing.py": "5d0b19bb258fa20de5697e8a6fb4c7eca2f5d83f7a4f83518341e08d00b0db4e",
+    "upstream/parsing_v2.py": "3c7980090c14b3e447639d40c5d3c5409d8c8c22186a47f05a4f56be6b4b22ac",
+    "upstream/parsing_v3.py": "fb87903671586620eb631b0ef0cf6677e181888c985d9efc72c27f0253aa46a8",
+    "frozen/core/behavior_quartets.jsonl": "a5045d89ede1fa84a8e1bd415abab5ba2e62193337a41b9b5c40e097d8410716",
+    "frozen/core/goal_quartets.jsonl": "f4634efaa0ed5d5666e61ef10f53cb7f841d7693e41f2c9a6bc567f1748df3aa",
+    "frozen/parameter/goal_quartets.jsonl": "45fbc0a3fbfccff88de5890bca1226d58686ac76269a46f2c639fb13d8ee96d1"
+  },
+  "scope": "Separate exploratory follow-up selected after six main checkpoint results; no main freeze/input/output changes or score-based retries."
+}

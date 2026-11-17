@@ -1,0 +1,10 @@
+{
+  "status": "verified_exact_parent_line_projection",
+  "utc": "2026-10-26T08:34:45.579665+00:00",
+  "model": "qwen3_8b",
+  "parent_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940",
+  "projected_sha256": "5e80dc8dfd9f30e8583f1138b223a0a1b568407b3567ca235793b89dc0204fc8",
+  "rows": 164224,
+  "new_generated_rows": 0,
+  "implementation": "Independent parent binary lines filtered by child manifest; byte-level SHA"
+}

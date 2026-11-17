@@ -1,0 +1,24 @@
+{
+  "status": "verified_exact_parent_line_projection",
+  "artifact_root": "artifacts\\methods_v4_20261028",
+  "proofs": [
+    {
+      "status": "verified_exact_parent_line_projection",
+      "artifact_root": "artifacts\\methods_v4_20261028",
+      "model": "qwen3_8b",
+      "source": "PGG",
+      "rows": 202944,
+      "parent_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940",
+      "child_sha256": "76b4c435ce67319f1fe500cee046e212dd11cea82fb91b3c5a6505e6a495789b",
+      "new_generated_rows": 0
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "PGG",
+      "rows": 202944,
+      "parent_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94",
+      "child_sha256": "e5cfd3595f64e2dec52bc30f053ec9fc14eb67fe6c0513c74f64227fc08047f8",
+      "new_generated_rows": 0
+    }
+  ]
+}

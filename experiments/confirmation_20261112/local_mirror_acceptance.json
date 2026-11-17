@@ -1,0 +1,33 @@
+{
+  "status": "verified_completed_confirmation_stages",
+  "files": 63,
+  "mirror_root": "artifacts\\confirmation_20261112",
+  "scientific_rows": 280128,
+  "accepted": [
+    {
+      "job": "qwen3_14b",
+      "stage": "canonical",
+      "rows": 132384,
+      "raw_sha256": "b5d55fe737b8dc5a107d1bf2e22c9c14b7f27905ac7d4fec7d91dbf756bd1a5c"
+    },
+    {
+      "job": "qwen3_14b",
+      "stage": "parameter",
+      "rows": 7680,
+      "raw_sha256": "dff7a2cff886829804163f08d687c51b1e4678df2de852f9888763dd694d25cd"
+    },
+    {
+      "job": "qwen3_30b_a3b_gptq",
+      "stage": "canonical",
+      "rows": 132384,
+      "raw_sha256": "b99754cb3e1ffbeb9e0aa6061f8ff2a265797f11986e6b695a777533acebdbff"
+    },
+    {
+      "job": "qwen3_30b_a3b_gptq",
+      "stage": "parameter",
+      "rows": 7680,
+      "raw_sha256": "58c01db0925a0d65be8fcf5c48ba0a6a5ea0a9f1a7d27c57613a9a751723848e"
+    }
+  ],
+  "immutable_index_sha256": "e89508e8fd88ced3babd7065faf2e1a55f1248bd11715814f8e2aba0494d8022"
+}

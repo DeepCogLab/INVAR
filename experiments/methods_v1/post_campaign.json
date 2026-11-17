@@ -1,0 +1,6 @@
+{
+  "pid": 619621,
+  "started_unix": 1792862371.147462,
+  "planned_generated_trials": 24576,
+  "explanation": "Prospectively run all three HF generation arms, not only a proxy winner"
+}

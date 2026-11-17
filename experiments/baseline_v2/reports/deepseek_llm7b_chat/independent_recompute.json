@@ -1,0 +1,10 @@
+{
+  "model": "deepseek_llm7b_chat",
+  "status": "passed",
+  "behavior_quartets_checked": 701,
+  "control_quartets_checked": 3644,
+  "response_rows_scanned": 421504,
+  "method": "Scalar CDF W1 implementation and direct arithmetic over raw responses; no reuse of vectorized point estimates",
+  "completion_audit_sha256": "dad76c0fa7f546b68271f9875e502e9008ef1bce602561bf41356f34043a0501",
+  "raw_sha256": "e07058830b80f1c110fad8a57d03f0e6eaf052bfaff2ba94da0991ec181c634f"
+}

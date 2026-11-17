@@ -1,0 +1,52 @@
+{
+  "protocol": "INVAR_native_budget_extension_v1_20261111",
+  "models": {
+    "qwen3_4b_native": {
+      "path": "/mnt/models/models/Qwen3-4B",
+      "dtype": "bfloat16",
+      "original_sampling": "n1"
+    },
+    "socialr1_4_native": {
+      "path": "/mnt/models/models/SocialR1-4B",
+      "dtype": "bfloat16",
+      "original_sampling": "n1"
+    },
+    "qwen3_8b_native": {
+      "path": "/mnt/models/models/Qwen3-8B",
+      "dtype": "bfloat16",
+      "original_sampling": "n1"
+    },
+    "socialr1_8_native": {
+      "path": "/mnt/models/models/SocialR1-8B",
+      "dtype": "bfloat16",
+      "original_sampling": "n1"
+    },
+    "qwen3_14b": {
+      "path": "/mnt/models/models/Qwen3-14B",
+      "dtype": "bfloat16",
+      "original_sampling": "n8"
+    },
+    "qwen3_30b_a3b_gptq": {
+      "path": "/mnt/models/models/Qwen3-30B-A3B-GPTQ-Int4",
+      "dtype": "float16",
+      "original_sampling": "n8",
+      "quantization": "gptq_marlin"
+    }
+  },
+  "max_tokens": 4096,
+  "max_model_len": 8192,
+  "repetitions": 8,
+  "rows_per_model": 1280,
+  "total_new_rows": 7680,
+  "sample_sha256": "171f8e74b2c6b7695db23ab5744391a31c6ce27c7cdf67fdc474ea1f928eb033",
+  "reason": "At 1408 tokens, 14B/30B native thinking truncated 114/1280 and 78/1280 attempts. Extend all 160 fixed prompts, including successes, once; do not reroll selected failures.",
+  "comparison": "Same models/prompts and recorded seed policy; offline scheduling/context differ from initial services, and exact response prefix equivalence is measured rather than assumed.",
+  "stop_rule": "One fixed extension at 4096 tokens for all six models. Retain residual truncations; no indefinite extensions or selected successful retries.",
+  "runtime_sha256": {
+    "offline_native_long.py": "e4225f464f4469e0d982be53104c5f5cefb4fe098aaf5391ab4fe70c82e58faf",
+    "score_native_long.py": "40422cef820ea8aa05d068de098f570266d22c84464662b00b01392b8ea406a5",
+    "native_long_campaign.py": "512f2d828aa89e9bbc5b346bdb4478504f08504349101660eff31cfc9f932cb8",
+    "audit_new_runs.py": "a7f9559e0630116ee7f78980edf88a48ead68da4c3544cf94f8598c7e0d6833c",
+    "reasoning_pair_campaign.py": "9c74fad0546104a587a3bb8513bdb311b161d6c13266ba8700cdeb568d87938d"
+  }
+}

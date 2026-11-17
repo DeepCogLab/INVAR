@@ -1,0 +1,13 @@
+{
+  "status": "completed_and_automation_paused",
+  "automation_id": "invar-2",
+  "automation_status": "PAUSED",
+  "target_thread_id": "01a1d503-ee7d-7b53-b6c9-854919f2fbfd",
+  "verified_at_singapore": "2026-11-16T05:28:04.541249",
+  "final_report": "FINAL_FINDINGS.md",
+  "final_acceptance": "results/FINAL_CAMPAIGN_ACCEPTANCE.json",
+  "main_rows": 94080,
+  "supplement_rows": 21888,
+  "missing_jobs": [],
+  "no_more_gpu_work": true
+}

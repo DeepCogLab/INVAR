@@ -1,0 +1,10 @@
+{
+  "kind": "read_only_training_audit_extension",
+  "before_sha256": "aa135b3c6dbb4ecd0a8e6d1a2f5e9b7a418ab4e5f51c6e0e2b3c5cf69042184e",
+  "after_sha256": "07d614d03a73b43899849d8013337f1763d5f1e0015753a13d6083981f5539fe",
+  "reason": "Add optional final-150-step adapter checks, finite step logs and exact 4800 exposures after first real training completion",
+  "independent_local_verifier_sha256": "8b2aec0fbea1857c4c9f9788cc93f57b8ceacef7de564abbc0bc42733a4bf7f8",
+  "scientific_settings_changed": false,
+  "GPU_processes_interrupted": false,
+  "local_audit": "First completed Qwen3 run passed independent stdlib provenance/menu/AB-CD/exposure/adapter/log audit"
+}

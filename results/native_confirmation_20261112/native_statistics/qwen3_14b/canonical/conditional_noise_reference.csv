@@ -1,0 +1,7 @@
+﻿arm,weighting,conditional_E_permutation_mean,resamples
+native_no_thinking,pair_equal,0.0026515830397458315,199
+native_thinking,pair_equal,0.0028350159855428498,199
+native_no_thinking,source_equal,0.0018778051407936675,199
+native_thinking,source_equal,0.007421216264465175,199
+native_no_thinking,task_equal,0.0021913920805568714,199
+native_thinking,task_equal,0.007870614599747604,199

@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "method": "anchor_sft",
+  "completed_steps": 150,
+  "total_prompt_exposures": 4800,
+  "unique_exposed_prompts": 2238,
+  "prepared_source_closure_verified": true,
+  "heldout_source": "HPVBG",
+  "prepared_files_sha256_verified": true,
+  "adapter_bytes_sha256_verified": true,
+  "teacher_manifest_sha256_verified": true,
+  "limits": "CPU provenance verification; no claim of inference efficacy; local base weights unavailable"
+}

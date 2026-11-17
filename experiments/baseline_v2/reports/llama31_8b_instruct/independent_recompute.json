@@ -1,0 +1,10 @@
+{
+  "model": "llama31_8b_instruct",
+  "status": "passed",
+  "behavior_quartets_checked": 701,
+  "control_quartets_checked": 3644,
+  "response_rows_scanned": 421504,
+  "method": "Scalar CDF W1 implementation and direct arithmetic over raw responses; no reuse of vectorized point estimates",
+  "completion_audit_sha256": "b7759d8841ebdff0279d155327a8015015850bbf794cc0b027c09ae00269730a",
+  "raw_sha256": "c21d011efa3426357f08bf45e931b1dbb0bbc2faa2c7d163c188470a0bef6df3"
+}

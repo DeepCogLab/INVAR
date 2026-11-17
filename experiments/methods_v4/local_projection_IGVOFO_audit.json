@@ -1,0 +1,21 @@
+{
+  "status": "verified_exact_parent_line_projection",
+  "utc": "2026-10-26T12:53:00.013747+00:00",
+  "proofs": [
+    {
+      "model": "qwen3_8b",
+      "parent_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940",
+      "projected_sha256": "b995b617e1e2dda517721a112d2c533f5d2a4aa55c1775c214f9586d34e95b36",
+      "rows": 88128,
+      "new_generated_rows": 0
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "parent_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94",
+      "projected_sha256": "51823c315ce744cbc4fbc12b0a79b2794a3791a02232d552baf48705605cc614",
+      "rows": 88128,
+      "new_generated_rows": 0
+    }
+  ],
+  "implementation": "Sequential parent binary lines filtered by complete child manifest; SHA and row counts match child bytes; zero new baseline generation"
+}

@@ -1,0 +1,13 @@
+﻿job,stage,arm,weighting,Q_all_attempts,worst_side_Q
+qwen3_14b,parameter,native_no_thinking,pair_equal,0.72109375,0.6041666666666666
+qwen3_14b,parameter,native_no_thinking,source_equal,0.72109375,0.6041666666666666
+qwen3_14b,parameter,native_no_thinking,task_equal,0.72109375,0.6041666666666666
+qwen3_14b,parameter,native_thinking,pair_equal,0.9940104166666667,0.9864583333333333
+qwen3_14b,parameter,native_thinking,source_equal,0.9940104166666667,0.9864583333333333
+qwen3_14b,parameter,native_thinking,task_equal,0.9940104166666667,0.9864583333333333
+qwen3_30b_a3b_gptq,parameter,native_no_thinking,pair_equal,0.6973958333333333,0.5791666666666666
+qwen3_30b_a3b_gptq,parameter,native_no_thinking,source_equal,0.6973958333333333,0.5791666666666666
+qwen3_30b_a3b_gptq,parameter,native_no_thinking,task_equal,0.6973958333333333,0.5791666666666666
+qwen3_30b_a3b_gptq,parameter,native_thinking,pair_equal,0.9966145833333333,0.9895833333333334
+qwen3_30b_a3b_gptq,parameter,native_thinking,source_equal,0.9966145833333333,0.9895833333333334
+qwen3_30b_a3b_gptq,parameter,native_thinking,task_equal,0.9966145833333333,0.9895833333333334

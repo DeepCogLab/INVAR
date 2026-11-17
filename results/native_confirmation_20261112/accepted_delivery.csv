@@ -1,0 +1,13 @@
+﻿job,stage,arm,task_type,n,valid,truncated,other_invalid,correct,completion_tokens
+qwen3_14b,canonical,native_no_thinking,goal,11280,11280,0,0,8406,88305
+qwen3_14b,canonical,native_no_thinking,behavior,54912,54912,0,0,,416964
+qwen3_14b,canonical,native_thinking,goal,11280,11277,3,0,11277,4553585
+qwen3_14b,canonical,native_thinking,behavior,54912,54873,38,1,,34826890
+qwen3_14b,parameter,native_no_thinking,goal,3840,3806,0,34,2769,38638
+qwen3_14b,parameter,native_thinking,goal,3840,3818,22,0,3817,2941089
+qwen3_30b_a3b_gptq,canonical,native_no_thinking,goal,11280,11280,0,0,8035,125058
+qwen3_30b_a3b_gptq,canonical,native_no_thinking,behavior,54912,54912,0,0,,582418
+qwen3_30b_a3b_gptq,canonical,native_thinking,goal,11280,11264,16,0,11264,5423001
+qwen3_30b_a3b_gptq,canonical,native_thinking,behavior,54912,54054,857,1,,55554371
+qwen3_30b_a3b_gptq,parameter,native_no_thinking,goal,3840,3840,0,0,2678,46017
+qwen3_30b_a3b_gptq,parameter,native_thinking,goal,3840,3827,13,0,3827,2529457

@@ -1,0 +1,129 @@
+{
+  "pid": 618348,
+  "started_unix": 1792862008.4103212,
+  "reason": "v1 fit incorrectly mixed fact-answer permutations with presentation differences; excluded those training edges in v2",
+  "prior_state": {
+    "status": "failed",
+    "task": "activation_screen_qwen3_8b",
+    "exit_code": -15,
+    "gpu": 0
+  },
+  "excluded_outputs": "activation_proxy_screen/",
+  "code_sha256": "78d0a4845dcf43ee16e80fcdad11272ae9e2c4bf2611a8d1405631e77448bc3f",
+  "queue": [
+    [
+      "activation_screen_v2_qwen3_8b",
+      [
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/activation_probe.py",
+        "--base",
+        "/workspace/project_social_simulation/invar_reliability_runs/20261024_v2",
+        "--model",
+        "qwen3_8b",
+        "--screening-only",
+        "--split-manifest",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/split_manifest.json",
+        "--output",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/activation_proxy_screen_v2/qwen3_8b",
+        "--device",
+        "cuda:0",
+        "--batch-size",
+        "8"
+      ]
+    ],
+    [
+      "activation_screen_v2_qwen25_14b_instruct",
+      [
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/activation_probe.py",
+        "--base",
+        "/workspace/project_social_simulation/invar_reliability_runs/20261024_v2",
+        "--model",
+        "qwen25_14b_instruct",
+        "--screening-only",
+        "--split-manifest",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/split_manifest.json",
+        "--output",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/activation_proxy_screen_v2/qwen25_14b_instruct",
+        "--device",
+        "cuda:0",
+        "--batch-size",
+        "4"
+      ]
+    ],
+    [
+      "lora_sft",
+      [
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/train_lora.py",
+        "--baseline",
+        "/workspace/project_social_simulation/invar_reliability_runs/20261024_v2",
+        "--heldout-source",
+        "HPVBG",
+        "--mode",
+        "sft",
+        "--model",
+        "/workspace/models/Qwen3-8B",
+        "--max-steps",
+        "150",
+        "--output",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/learning_pilot/HPVBG_sft_seed20261025"
+      ]
+    ],
+    [
+      "lora_eval_sft",
+      [
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/run_lora_evaluation.py",
+        "--baseline",
+        "/workspace/project_social_simulation/invar_reliability_runs/20261024_v2",
+        "--manifest",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/split_manifest.json",
+        "--model",
+        "qwen3_8b",
+        "--adapter",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/learning_pilot/HPVBG_sft_seed20261025/adapter",
+        "--method",
+        "sft",
+        "--out",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/prompt_screen",
+        "--batch-size",
+        "192"
+      ]
+    ],
+    [
+      "lora_sft_consistency",
+      [
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/train_lora.py",
+        "--baseline",
+        "/workspace/project_social_simulation/invar_reliability_runs/20261024_v2",
+        "--heldout-source",
+        "HPVBG",
+        "--mode",
+        "sft_consistency",
+        "--model",
+        "/workspace/models/Qwen3-8B",
+        "--max-steps",
+        "150",
+        "--output",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/learning_pilot/HPVBG_sft_consistency_seed20261025"
+      ]
+    ],
+    [
+      "lora_eval_sft_consistency",
+      [
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/run_lora_evaluation.py",
+        "--baseline",
+        "/workspace/project_social_simulation/invar_reliability_runs/20261024_v2",
+        "--manifest",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/split_manifest.json",
+        "--model",
+        "qwen3_8b",
+        "--adapter",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/learning_pilot/HPVBG_sft_consistency_seed20261025/adapter",
+        "--method",
+        "sft_consistency",
+        "--out",
+        "/workspace/project_social_simulation/invar_methods_runs/20261025/prompt_screen",
+        "--batch-size",
+        "192"
+      ]
+    ]
+  ]
+}

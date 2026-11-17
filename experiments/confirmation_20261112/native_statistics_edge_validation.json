@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "exact_distribution_controls": [
+    "responsive",
+    "presentation_only",
+    "opposite_effects"
+  ],
+  "unfinished_stage_guard_verified": true,
+  "analysis_sha256": "8865c33b96ccf72bd8085d9d3f6d9e77c895e585d23124058be4124ada2278df"
+}

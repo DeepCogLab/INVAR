@@ -1,0 +1,25 @@
+{
+  "fixed_behavior": {
+    "E_conditional": 0.0,
+    "E_low": 0.0,
+    "E_high": 0.0,
+    "R_conditional": 0.0,
+    "R_low": 0.0,
+    "R_high": 0.0,
+    "G_low": 0.0,
+    "G_high": 0.0,
+    "G_conditional": 0
+  },
+  "responsive_behavior": {
+    "E_conditional": 0.0,
+    "E_low": 0.0,
+    "E_high": 0.0,
+    "R_conditional": 1.0,
+    "R_low": 1.0,
+    "R_high": 1.0,
+    "G_low": 0.0,
+    "G_high": 0.0,
+    "G_conditional": 0
+  },
+  "scope": "Exact constructed distributions, not generated samples; low E alone does not distinguish fixed output from correct response. R has no normative ranking for free behavior."
+}

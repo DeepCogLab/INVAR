@@ -1,0 +1,28 @@
+{
+  "protocol": "INVAR_native_reasoning_pair_v1_20261111",
+  "models": {
+    "qwen3_4b_native": "Qwen3-4B",
+    "socialr1_4_native": "SocialR1-4B",
+    "qwen3_8b_native": "Qwen3-8B",
+    "socialr1_8_native": "SocialR1-8B"
+  },
+  "sample_sha256": "171f8e74b2c6b7695db23ab5744391a31c6ce27c7cdf67fdc474ea1f928eb033",
+  "model_inputs_sha256": "870844a396d1625ceec41cd4e65fe404b061208c71b4a5c1bd005eaea1550ac0",
+  "max_tokens": 1408,
+  "temperature": 0.7,
+  "top_p": 0.95,
+  "top_k": -1,
+  "repetitions": 8,
+  "arms": [
+    "native_no_thinking",
+    "native_thinking"
+  ],
+  "expected_rows_per_model": 2560,
+  "selection": "Same frozen 160 goal prompts as new 14B/30B native diagnostics; original system and user texts; all attempts counted",
+  "purpose": "Matched exploration of reasoning/interface dependence; not an English-language transfer test or a human-behavior fidelity test",
+  "runtime_sha256": {
+    "offline_native_pair.py": "1dac9a5492a95d50ba3b60fca38771541cf2e85c082b8c9bf7177793c2175294",
+    "reasoning_pair_campaign.py": "9c74fad0546104a587a3bb8513bdb311b161d6c13266ba8700cdeb568d87938d",
+    "score_api.py": "be05bc36655f7f521c5fe1a5033813a1bfaa0f1906d1f1fc269a2809bab25966"
+  }
+}

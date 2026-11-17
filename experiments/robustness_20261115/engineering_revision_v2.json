@@ -1,0 +1,6 @@
+{
+  "reason": "vLLM 0.14.1 physical-device mapper parses CUDA_VISIBLE_DEVICES as integer; full UUID selection fails before science inference",
+  "fix": "physical index1 plus explicit UUID verification before vLLM import",
+  "old_pilots_retained": true,
+  "scientific_rows_before_revision": 0
+}

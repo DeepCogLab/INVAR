@@ -1,0 +1,65 @@
+{
+  "protocol": "INVAR_joint_reasoning_behavior_v1_20261111",
+  "reason": "Main runs are complete. Goal-only thinking gains do not establish simultaneous presentation stability; test the specific alternative on a fixed small behavior subset.",
+  "models": {
+    "qwen3_14b": {
+      "path": "/mnt/models/models/Qwen3-14B",
+      "dtype": "bfloat16"
+    },
+    "qwen3_30b_a3b_gptq": {
+      "path": "/mnt/models/models/Qwen3-30B-A3B-GPTQ-Int4",
+      "dtype": "float16",
+      "quantization": "gptq_marlin"
+    }
+  },
+  "source_task_cells": 8,
+  "pairs": 15,
+  "quartets": 30,
+  "unique_prompts": 87,
+  "selected_pair_ids": [
+    "HPVBG_TPP_OFFER1_INDIV_GROUP",
+    "HPVBG_TPP_OFFER4_INDIV_GROUP",
+    "HPVBG_UG_OFFER2_TO3",
+    "HPVBG_UG_OFFER1_TO4",
+    "IGVOFO_DG_THRESHOLD",
+    "IGVOFO_TG_RECEIVER_SENT4000_AGENCY",
+    "IGVOFO_TG_RECEIVER_SENT5000_AGENCY",
+    "PGG_T2_T3_C05",
+    "PGG_T4_T5_C05",
+    "PIQ572_SPD_01_P1",
+    "PIQ572_SPD_02_P2",
+    "PIQ572_TG_08_TO_10_P1",
+    "PIQ572_TG_10_P1",
+    "PIQ572_UG_16_TO_17_P2",
+    "PIQ572_UG_16_TO_17_P1"
+  ],
+  "selection": "At most two pairs per source/task cell, fixed SHA256 ordering; no score selection. Dictator has one pair. V1_table and V4_rules_table only.",
+  "repeats": 128,
+  "arms": [
+    "native_no_thinking",
+    "native_thinking"
+  ],
+  "max_tokens": 4096,
+  "max_model_len": 8192,
+  "temperature": 0.7,
+  "top_p": 0.95,
+  "top_k": -1,
+  "rows_per_model": 22272,
+  "total_rows": 44544,
+  "files": {
+    "evaluation.jsonl": "2485076a86ce1a464d025ddd094e89584769ec2ec76cf85ebe5151279823b6fe",
+    "model_inputs.jsonl": "76e8f4743582f369a3a05fd82f8725d9fb648f16e6a989f1fbb8f6df8e502472",
+    "quartets.jsonl": "06b76770acc2525eecae22960b330480e5a86b5c46c6df6b731f7d40e4f93c7a"
+  },
+  "scoring": "Report completion/truncation. E/G/R on parseable outputs are conditional; if any output is missing, bound all-attempt E/G/R using missing mass and normalized [0,1] outcomes. No silent dropping or invalid-as-zero actions.",
+  "inference": "Fixed selected prompts, not a representative source-population claim; noise references descriptive; R has no preferred direction. No new social-behavior gold labels.",
+  "stop_rule": "One fixed two-model/two-mode experiment; no expansion based on outcome.",
+  "runtime_sha256": {
+    "offline_joint_reasoning.py": "fa0926afb2304d98c5a65bd3ca757ba17d9c6787b4d5720c864c0fa3b8a15b1a",
+    "score_joint_reasoning.py": "5608cfaa308a9e0355610140243a89e251d303f064246d637a6510c66a2f473e",
+    "joint_reasoning_campaign.py": "20347ea0cce0ce3c26577123eafc38ab7693f69b4b6479ec9be58459e88f1fa6",
+    "audit_new_runs.py": "a7f9559e0630116ee7f78980edf88a48ead68da4c3544cf94f8598c7e0d6833c",
+    "run_api.py": "cee27751e429357070275c74290f8e02978a9190f2a1bd655bfde7a7314bf24b",
+    "reasoning_pair_campaign.py": "9c74fad0546104a587a3bb8513bdb311b161d6c13266ba8700cdeb568d87938d"
+  }
+}

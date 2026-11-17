@@ -1,0 +1,36 @@
+{
+  "status": "verified_exact_reused_projection_bytes",
+  "records": [
+    {
+      "model": "qwen3_8b",
+      "source": "PGG",
+      "seed": 20261029,
+      "projection_metadata": {
+        "kind": "exact_raw_line_projection_not_new_generation",
+        "parent_raw": "/workspace/project_social_simulation/invar_methods_runs/20261028/evaluations/full92/qwen3_8b/screen/qwen3_8b/baseline.jsonl",
+        "parent_raw_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940",
+        "selected_prompt_ids_sha256": "3ad891204cbbc0acef53d7447eca505bd5ca778843aa49efebf098c020d84a73",
+        "rows": 202944
+      },
+      "identical_to_original_seed": true,
+      "baseline_response_sha256": "76b4c435ce67319f1fe500cee046e212dd11cea82fb91b3c5a6505e6a495789b",
+      "original_projection_path": "artifacts\\methods_v4_20261028\\evaluations\\transfer\\qwen3_8b\\PGG\\seed20261026\\screen\\qwen3_8b\\baseline.projection.json"
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "source": "PIQ572",
+      "seed": 20261028,
+      "projection_metadata": {
+        "kind": "exact_raw_line_projection_not_new_generation",
+        "parent_raw": "/workspace/project_social_simulation/invar_methods_runs/20261028/evaluations/full92/qwen25_14b_instruct/screen/qwen25_14b_instruct/baseline.jsonl",
+        "parent_raw_sha256": "ee84a878a9a23348c824d252b346ebfe6b804aa4b6483bfb64bf3e3792068c94",
+        "selected_prompt_ids_sha256": "d4ae647c35b3731ff7f2a6c83f52862226a739b23c5d06204b3641fbaef396fb",
+        "rows": 608128
+      },
+      "identical_to_original_seed": true,
+      "baseline_response_sha256": "acf8b075871955886add1c6e5ed41a86c814514627c2114a68e0fcb827efaa46",
+      "original_projection_path": "artifacts\\methods_v4_20261028\\evaluations\\transfer\\qwen25_14b_instruct\\PIQ572\\seed20261026\\screen\\qwen25_14b_instruct\\baseline.projection.json"
+    }
+  ],
+  "scope": "Exact reuse of previously binary-verified first-seed projections; no new baseline draw"
+}

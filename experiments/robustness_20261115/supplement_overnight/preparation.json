@@ -1,0 +1,20 @@
+{
+  "planned_counts": {
+    "language_glm": 5280,
+    "language_llama": 5280,
+    "length_goals_qwen": 2640,
+    "length_goals_gpt": 2640,
+    "length_behavior_qwen": 3024,
+    "length_behavior_gpt": 3024
+  },
+  "total": 21888,
+  "upstream_source_sha256": {
+    "campaign_common.py": "7bc32df0c167a9cacc3257a415b98b60a1275f2277ffd2cb8e67722a6220bcb0",
+    "parsing.py": "5d0b19bb258fa20de5697e8a6fb4c7eca2f5d83f7a4f83518341e08d00b0db4e",
+    "parsing_v2.py": "3c7980090c14b3e447639d40c5d3c5409d8c8c22186a47f05a4f56be6b4b22ac",
+    "parsing_v3.py": "fb87903671586620eb631b0ef0cf6677e181888c985d9efc72c27f0253aa46a8",
+    "behavior_metrics.py": "ecef1286fb2e1fb27efb78961bc143c5833fdd467a2132ffc5234f389a2ca741",
+    "independent_acceptance_v3.py": "4a6e0ff5127d70a7810195cbdcad840490cdfcee650aeee03f81c5c66a95acc7"
+  },
+  "status": "prepared_not_frozen_or_started"
+}

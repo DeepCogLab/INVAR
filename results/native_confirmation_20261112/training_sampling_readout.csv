@@ -1,0 +1,7 @@
+﻿model,metric,n_matched_panels,negative,zero,positive,empirical_range_counts,Q_pointwise_bound_counts
+qwen25_14b_instruct,E,12,8,0,4,7/2/3,不适用
+qwen25_14b_instruct,G,12,9,0,3,4/5/3,不适用
+qwen25_14b_instruct,Q,9,3,0,6,不适用,1/3/5
+qwen3_8b,E,12,9,0,3,6/3/3,不适用
+qwen3_8b,G,12,8,0,4,7/5/0,不适用
+qwen3_8b,Q,9,2,0,7,不适用,1/5/3

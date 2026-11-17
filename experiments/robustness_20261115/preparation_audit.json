@@ -1,0 +1,36 @@
+{
+  "status": "passed_structural_bilingual_checks",
+  "counts": {
+    "core:zh:stable_fact": 384,
+    "core:en:stable_fact": 384,
+    "core:zh:changed_fact": 384,
+    "core:en:changed_fact": 384,
+    "core:zh:goal": 234,
+    "core:en:goal": 234,
+    "core:zh:behavior": 189,
+    "core:en:behavior": 189,
+    "parameter:zh:goal": 96,
+    "parameter:en:goal": 96
+  },
+  "paired_prompt_count": 1287,
+  "canonical_pairs": 32,
+  "sources": 4,
+  "tasks": 6,
+  "parameter_pairs": 20,
+  "parameter_quartets": 24,
+  "input_sha256": "79208ffb70a3ffe975a85df5ca5fd8072471de1bfd64b66f614dd459403f2a28",
+  "panel_sha256": "c3766a0184e01c5b0fda1d2e3d049800ea0616b6bee9fc6c2dab674e28ee9476",
+  "translations_sha256": {
+    "translation_map.json": "a3e26b53bf6c501ba56be64b22250227d000517e79d64afa76a88c216e8db40c",
+    "parameter_translation_map.json": "d425310ffc3657b095a06adfbcb2f2da62c7832eae56cec011e645b6abe65287"
+  },
+  "checks": [
+    "no remaining Chinese in English",
+    "all numerical multiplicities preserved",
+    "participant and symbolic action identities preserved",
+    "output schemas unchanged",
+    "evaluation labels separate from model payloads",
+    "A/B/C/D parent identities preserved"
+  ],
+  "limitations": "AI-translated derivative of observed Chinese inputs, machine reviewed; no independent human certification or new empirical source"
+}

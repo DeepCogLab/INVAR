@@ -1,0 +1,19 @@
+test_econ_two_multipliers_and_threshold (test_pipeline.BuiltData.test_econ_two_multipliers_and_threshold) ... ok
+test_end_to_end_invalid_not_dropped (test_pipeline.BuiltData.test_end_to_end_invalid_not_dropped) ... ok
+test_group_punishment_is_per_member (test_pipeline.BuiltData.test_group_punishment_is_per_member) ... ok
+test_noop_and_ref_integrity (test_pipeline.BuiltData.test_noop_and_ref_integrity) ... ok
+test_numbering_bijection (test_pipeline.BuiltData.test_numbering_bijection) ... ok
+test_pgg_never_invents_exact_peer_sum (test_pipeline.BuiltData.test_pgg_never_invents_exact_peer_sum) ... ok
+test_piq_ug_reject_not_zero (test_pipeline.BuiltData.test_piq_ug_reject_not_zero) ... ok
+test_constant_agent_not_response_proof (test_pipeline.Metrics.test_constant_agent_not_response_proof) ... ok
+test_distribution_change_with_same_mean (test_pipeline.Metrics.test_distribution_change_with_same_mean) ... ok
+test_effect_bound (test_pipeline.Metrics.test_effect_bound) ... ok
+test_menu_gap (test_pipeline.Metrics.test_menu_gap) ... ok
+test_stable_nonzero_response (test_pipeline.Metrics.test_stable_nonzero_response) ... ok
+test_strict_parser (test_pipeline.Metrics.test_strict_parser) ... ok
+test_unequal_samples (test_pipeline.Metrics.test_unequal_samples) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.101s
+
+OK

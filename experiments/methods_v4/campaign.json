@@ -1,0 +1,27 @@
+{
+  "pid": 965348,
+  "started_unix": 1792975233.7359705,
+  "code_hashes": {
+    "stage_transfer.py": "8bc2d38ad92f9f5c48adfa499fb12f299f3e39cd82308a233af0b1be8117958f",
+    "stage_manifest.json": "83c7de6ca5f4e60d53ac73045c94262bcb96f5c8f62cd8814285e746e24c91e0",
+    "train_transfer.py": "5d2f2d2531f458c517b2e3cdd87eee53855988ebe3b6d914f50238209e4a8100",
+    "run_transfer_evaluation.py": "27c7b2f4292b9e644f648a43d2a0f9d33d771edd0f3551730642adfa97974586",
+    "score_transfer.py": "e8e8499b901d1948a38d80c2e22f096133685bb40b5e690e82f52a4f99f8a97c",
+    "verify_methods.py": "918310d19eb95ea5d8cdb95c28924c8e3f2fb12f478144b70cd43dc7ab3845fb"
+  },
+  "planned_training_runs": 48,
+  "planned_evaluation_runs": 52,
+  "planned_generated_responses": 17014784,
+  "gpu0_unrelated_uvicorn_preserved": true,
+  "initial_code_hashes": {
+    "stage_transfer.py": "8bc2d38ad92f9f5c48adfa499fb12f299f3e39cd82308a233af0b1be8117958f",
+    "stage_manifest.json": "83c7de6ca5f4e60d53ac73045c94262bcb96f5c8f62cd8814285e746e24c91e0",
+    "train_transfer.py": "5d2f2d2531f458c517b2e3cdd87eee53855988ebe3b6d914f50238209e4a8100",
+    "run_transfer_evaluation.py": "27c7b2f4292b9e644f648a43d2a0f9d33d771edd0f3551730642adfa97974586",
+    "score_transfer.py": "1b279eb62e7680da53396e4c9d9ce574270ce00fbc29a2e4105997ec2757465a",
+    "verify_methods.py": "918310d19eb95ea5d8cdb95c28924c8e3f2fb12f478144b70cd43dc7ab3845fb"
+  },
+  "infrastructure_patches": [
+    "projection_metadata_fix.json"
+  ]
+}

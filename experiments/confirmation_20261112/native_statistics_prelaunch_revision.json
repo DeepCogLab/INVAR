@@ -1,0 +1,8 @@
+{
+  "status": "validated_before_scientific_analysis",
+  "reason": "Synthetic all-correct goal check exposed floating accumulation around one; coefficients normalized with fsum and probability rounding guarded.",
+  "original_source_sha256": "6da8b1e4bc89284c365c8a7912303c3dc1da939d52abe53a9c7dd7bd77984e1e",
+  "active_source_sha256": "8865c33b96ccf72bd8085d9d3f6d9e77c895e585d23124058be4124ada2278df",
+  "source_answers_or_scientific_generation_changed": false,
+  "validation_sha256": "72b4f4aba69a8ce41dc6f55e9d7b6a191b44787270007e4438344e7077294579"
+}

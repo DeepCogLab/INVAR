@@ -1,0 +1,23 @@
+{
+  "status": "passed_native_statistics_synthetic_controls",
+  "all_missing_is_undefined": true,
+  "shared_prompt_cancellation_verified": true,
+  "all_correct_Q_bound_nonzero": true,
+  "constant_empirical_bootstrap_zero_not_invariance_proof": true,
+  "stages": [
+    {
+      "stage": "canonical",
+      "rows": 12,
+      "result_sha256": "a280c8c83f762e559ab5c5938e1aed76b39f0fdebce129e6904ed400576176e1"
+    },
+    {
+      "stage": "parameter",
+      "rows": 3,
+      "result_sha256": "1ac7cb459691450e40ca20b3bab1f3cda74cce5298484ed1bc1ea6b483f78318"
+    }
+  ],
+  "fixture": "artifacts\\confirmation_20261112\\native_statistics_synthetic_v2",
+  "script_sha256": "18902662f34d744206d7fc19ec1775a8b1c259302189962a0494284f479b8b8e",
+  "analysis_script_sha256": "8865c33b96ccf72bd8085d9d3f6d9e77c895e585d23124058be4124ada2278df",
+  "scope": "Synthetic test only; excluded from every scientific denominator. No generation or frozen code changed."
+}

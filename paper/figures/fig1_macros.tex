@@ -1,0 +1,24 @@
+%% Helper macros for Figure 1, panel 2 (loaded in the preamble: macros with arguments
+%% cannot be defined inside teaserfigure). Each prompt is drawn as stacked modules.
+\definecolor{figplum}{HTML}{6E5A8A}
+\definecolor{figsand}{HTML}{8A6A3A}
+\newcommand{\figmstrip}[4]{% #1 x-left, #2 y-top, #3 height, #4 colour
+  \node[anchor=north west,fill=#4!10,draw=#4!35,rounded corners=1.5pt,line width=0.3pt,
+        minimum width=3.26cm,minimum height=#3cm,inner sep=0pt] at (#1,#2) {};}
+\newcommand{\figmlabel}[4]{% #1 x-left, #2 y-centre, #3 colour, #4 icon + word
+  \node[anchor=west,inner sep=0pt,text=#3,font=\sffamily\fontsize{5.2}{6}\selectfont\bfseries]
+        at (#1+0.06,#2) {#4};}
+\newcommand{\figmtext}[3]{% #1 x-left, #2 y-centre, #3 text
+  \node[anchor=west,align=left,inner sep=0pt,text width=2.16cm,
+        font=\sffamily\fontsize{5.6}{6.5}\selectfont,text=figink] at (#1+1.05,#2) {#3};}
+\newcommand{\figmpersona}[2]{\figmstrip{#1}{#2}{0.29}{fignavy}%
+  \figmlabel{#1}{#2-0.145}{fignavy}{\faIdCard\,Persona}%
+  \figmtext{#1}{#2-0.145}{You are P1, the allocator.}}
+\newcommand{\figmrules}[3]{\figmstrip{#1}{#2}{0.5}{figsand}%
+  \figmlabel{#1}{#2-0.25}{figsand}{\faScroll\,Rules}%
+  \figmtext{#1}{#2-0.25}{You split 6,000 points.\\#3}}
+\newcommand{\figmscene}[2]{\figmstrip{#1}{#2}{0.29}{figplum}%
+  \figmlabel{#1}{#2-0.145}{figplum}{\faHourglassHalf\,Scene}%
+  \figmtext{#1}{#2-0.145}{P2 awaits your offer.}}
+\newcommand{\figruleorig}{The split is paid out.}
+\newcommand{\figrulenew}{\textcolor{figcoral}{\textbf{Void if P2 gets $<$\,1,200.}}}

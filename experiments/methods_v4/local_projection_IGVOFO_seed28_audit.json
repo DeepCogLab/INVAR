@@ -1,0 +1,12 @@
+{
+  "status": "verified_identical_reused_projection",
+  "source": "IGVOFO",
+  "model": "qwen3_8b",
+  "seed": 20261028,
+  "rows": 88128,
+  "parent_sha256": "de41fbb120e3fff87313380eb60303332e37185e399722cb4f84d467f1f1e940",
+  "child_sha256": "b995b617e1e2dda517721a112d2c533f5d2a4aa55c1775c214f9586d34e95b36",
+  "prior_binary_projection_proof_sha256": "2878273d4b0422e3c718b6da21cf33f0dfe2ae4f10608927af4763acfc5da431",
+  "new_generated_rows": 0,
+  "scope": "Same selected IDs, exact child byte hash and parent SHA as the prior independently binary-filtered projection; no new baseline draws"
+}

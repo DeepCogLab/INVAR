@@ -1,0 +1,87 @@
+{"action_space": {"max": 10000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 10000, "kind": "normalized_amount"}, "prompt_id": "p_00da3fb7c4251c2e2cd6"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_084faab7b213dce8b971"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_0a61e0d58fd6e04d6d83"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_0b485f72e917f8067cfe"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_0e230f74864b08c1ccf5"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_0fab57cdc9329ae057a6"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_10a4a817ad52f93e3d6d"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "LEFT"}, "prompt_id": "p_1170ae51255ac58ea69b"}
+{"action_space": {"max": 10000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 10000, "kind": "normalized_amount"}, "prompt_id": "p_11c0d792790c35153004"}
+{"action_space": {"type": "categorical", "values": ["X", "Y"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "X"}, "prompt_id": "p_13b0dfbca67e6b5fdf13"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_1461007f9fcd1e563359"}
+{"action_space": {"max": 6000, "min": 0, "step": 1000, "type": "integer", "values": [0, 1000, 2000, 3000, 4000, 5000, 6000]}, "outcome": {"denominator": 6000, "kind": "normalized_amount"}, "prompt_id": "p_1b560b07111a54f09c3a"}
+{"action_space": {"type": "categorical", "values": ["X", "Y"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "X"}, "prompt_id": "p_1da57779ef5a82d5e0b0"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_20a280a013a1831fbba7"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_2202aa6b4f41b7750d76"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_2723c8fc32c2d710c629"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_28b3faa280e52137b9d0"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "LEFT"}, "prompt_id": "p_2a706924df99ccb9ef87"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_2c77242d038b1eb2e629"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_2eb71b48e4124a9b48f1"}
+{"action_space": {"type": "categorical", "values": ["X", "Y"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "X"}, "prompt_id": "p_2fd1a761d1f5fc865d35"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_30367fbf126eb5c23234"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "LEFT"}, "prompt_id": "p_318a61bb157511f68b16"}
+{"action_space": {"max": 8000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 8000, "kind": "normalized_amount"}, "prompt_id": "p_33fa1483c912f1a2aa2d"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "LEFT"}, "prompt_id": "p_34514fd5f33f534be6f2"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_39bd2181809a3bd4656d"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_3b7a47e5709c346da461"}
+{"action_space": {"max": 8000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 8000, "kind": "normalized_amount"}, "prompt_id": "p_3bc3647c12a8f5b3b661"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "LEFT"}, "prompt_id": "p_457203b2fca2946c6396"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "LEFT"}, "prompt_id": "p_4709728e9bf5532b8675"}
+{"action_space": {"type": "categorical", "values": ["NORTH", "EAST"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "EAST"}, "prompt_id": "p_4cadf44293f9db85f648"}
+{"action_space": {"max": 6000, "min": 0, "step": 1000, "type": "integer", "values": [0, 1000, 2000, 3000, 4000, 5000, 6000]}, "outcome": {"denominator": 6000, "kind": "normalized_amount"}, "prompt_id": "p_4de8b4503368c369e8b2"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_4edb986654a6ad3c009b"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_536f8f8e8a561d5cdccd"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_54c69be52c158684bf75"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_55f630c486d72cd0e36b"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_566ef87b688a35ff6034"}
+{"action_space": {"max": 10000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 10000, "kind": "normalized_amount"}, "prompt_id": "p_57c7654b56668c520331"}
+{"action_space": {"type": "categorical", "values": ["X", "Y"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "X"}, "prompt_id": "p_5a36daa46e0c40a65059"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_5eeb5f5c12e1fd3cdd27"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_5f4a4a423303fc7b26a8"}
+{"action_space": {"type": "categorical", "values": ["X", "Y"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "X"}, "prompt_id": "p_64b43fc9c21d38743769"}
+{"action_space": {"max": 6000, "min": 0, "step": 1000, "type": "integer", "values": [0, 1000, 2000, 3000, 4000, 5000, 6000]}, "outcome": {"denominator": 6000, "kind": "normalized_amount"}, "prompt_id": "p_6990ebdec677b9185a7c"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_6eec212aa3b758333c15"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_6ef06987b6e6b1fdb786"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_7016a75ce35244e97793"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_70fd174e870aab0f964f"}
+{"action_space": {"type": "categorical", "values": ["NORTH", "EAST"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "EAST"}, "prompt_id": "p_724dca4bac6dd1742708"}
+{"action_space": {"type": "categorical", "values": ["NORTH", "EAST"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "EAST"}, "prompt_id": "p_73c3589f9fd89d1b5545"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_74618163bbc73cc893e0"}
+{"action_space": {"max": 10000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 10000, "kind": "normalized_amount"}, "prompt_id": "p_7b4d2801466af95a8f95"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_804c20889b8aee91f67e"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_8f4d2872d635b5b32222"}
+{"action_space": {"max": 10000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 10000, "kind": "normalized_amount"}, "prompt_id": "p_93ba3795fe3290d4aabf"}
+{"action_space": {"max": 10000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 10000, "kind": "normalized_amount"}, "prompt_id": "p_93d055aa5e03c0f76924"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_9474a34865dadf89e4e2"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_98ee7967893d82c86406"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_9bbd680ae92186144a03"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_9bdf1343e489ccc87e99"}
+{"action_space": {"type": "categorical", "values": ["NORTH", "EAST"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "EAST"}, "prompt_id": "p_9d898b153d43b252615d"}
+{"action_space": {"max": 8000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 8000, "kind": "normalized_amount"}, "prompt_id": "p_a02bc20b0371df43caac"}
+{"action_space": {"max": 6000, "min": 0, "step": 1000, "type": "integer", "values": [0, 1000, 2000, 3000, 4000, 5000, 6000]}, "outcome": {"denominator": 6000, "kind": "normalized_amount"}, "prompt_id": "p_a6cd423ac8b0b6127b75"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_a720b01f1f02f4c3ae39"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_b1a8bff16c9a72074db8"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_b4bd6d1623e87b5914e4"}
+{"action_space": {"type": "categorical", "values": ["NORTH", "EAST"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "EAST"}, "prompt_id": "p_b5f2bd35705ca761ce66"}
+{"action_space": {"max": 6000, "min": 0, "step": 1000, "type": "integer", "values": [0, 1000, 2000, 3000, 4000, 5000, 6000]}, "outcome": {"denominator": 6000, "kind": "normalized_amount"}, "prompt_id": "p_b6c3fe7cd4c220245223"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_b7e607669c90df4f6343"}
+{"action_space": {"type": "categorical", "values": ["X", "Y"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "X"}, "prompt_id": "p_b86959b518cc7693eb94"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_be8e2bf6e183e4646538"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_c1e44e5297b7b20846d9"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_c567a30c67162b108213"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_ca495989de418f89f688"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_cbeac4cdf877dfd8205c"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_cc7352a76d32c96f6568"}
+{"action_space": {"max": 8000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 8000, "kind": "normalized_amount"}, "prompt_id": "p_cd8b9aef736d0e35ec02"}
+{"action_space": {"type": "categorical", "values": ["NORTH", "EAST"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "EAST"}, "prompt_id": "p_d207e83b102e0dbbdceb"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_d4ab4fca47e3b7191e3e"}
+{"action_space": {"max": 8000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 8000, "kind": "normalized_amount"}, "prompt_id": "p_d9f3b3bd54fa17071175"}
+{"action_space": {"max": 8000, "min": 0, "step": 1, "type": "integer"}, "outcome": {"denominator": 8000, "kind": "normalized_amount"}, "prompt_id": "p_db0daac708671e8ac541"}
+{"action_space": {"type": "categorical", "values": ["accept", "reject"]}, "outcome": {"kind": "probability", "target_action": "accept"}, "prompt_id": "p_dbaf2f585940d7ba5d3f"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_dc5ebbdee082fe1e925e"}
+{"action_space": {"type": "categorical", "values": ["punish", "do_not_punish"]}, "outcome": {"kind": "probability", "target_action": "punish"}, "prompt_id": "p_e261c45f7493f3ea0cf6"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_ee7835316f9eed604021"}
+{"action_space": {"max": 6000, "min": 0, "step": 1000, "type": "integer", "values": [0, 1000, 2000, 3000, 4000, 5000, 6000]}, "outcome": {"denominator": 6000, "kind": "normalized_amount"}, "prompt_id": "p_f1f079d5bb3d23d2a59b"}
+{"action_space": {"type": "categorical", "values": ["LEFT", "RIGHT"]}, "outcome": {"denominator": 1, "kind": "probability", "target_action": "RIGHT"}, "prompt_id": "p_f69e6faabcd119822ad1"}
+{"action_space": {"max": 10, "min": 0, "type": "integer"}, "outcome": {"denominator": 10, "kind": "normalized_amount"}, "prompt_id": "p_ff6d28ea26ec172f3b24"}

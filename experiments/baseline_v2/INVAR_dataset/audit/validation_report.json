@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-22",
+  "version": "0.1.0",
+  "tests_run": 14,
+  "tests_passed": 14,
+  "jsonl_nonfinite_numbers": 0,
+  "packaged_source_files_hash_verified": 8,
+  "canonical_rerender_byte_identical": true,
+  "real_model_calls": 0,
+  "human_review": "pending",
+  "ai_source_cross_review": "completed; findings resolved",
+  "scope": "engineering, source mapping and construction checks; not proof of behavioral or pragmatic validity"
+}

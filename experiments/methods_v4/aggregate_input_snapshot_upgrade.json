@@ -1,0 +1,10 @@
+{
+  "status": "verified_current_two_model_data",
+  "reason": "Preserve small mutable inputs and verifier bytes for subsequent audit reproducibility; no scoring math change",
+  "old_sha256": "cfe0223e2b3566c5a99ba2f0e29f48d5e5ee95304eac43569383a384709d0f25",
+  "new_sha256": "8e6880276824e6bfd08c0e31dc89c2b9469449751684b3eaa3e73052382ff0d1",
+  "old_code_preserved": "local_aggregate_audits/verified21_first_complete_seed/verifier_source.py",
+  "unchanged_prior_aggregate_rows": 156,
+  "current_aggregate_rows": 312,
+  "scientific_settings_changed": false
+}

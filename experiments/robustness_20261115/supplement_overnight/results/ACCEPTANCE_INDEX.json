@@ -1,0 +1,95 @@
+{
+  "freeze_sha256": "d4723b218f8db2d397be7a0ea8b14a173c266c78921b510ba224471f2e952b45",
+  "accepted": {
+    "language_glm": {
+      "raw_sha256": "9c1d5de4a495ec22fc0bb1fe544df37d4fe1a565a13c58392a9bf72b2ec106fa",
+      "score_sha256": "5d04a25e8f124593313b32d0883f79ef8d52949a502062eec6be16829512c087",
+      "audit_sha256": "a21a0f855848ded15e3ff3a6aa91823b05ce37cb94de4e3cd9da99e44369e20e",
+      "summary_values_checked": 64
+    },
+    "language_llama": {
+      "raw_sha256": "1ab9fa497c6ad7cad9533e4e4290d213ed71bd5a0e9e2a2a2ec2c9919c0614da",
+      "score_sha256": "facd092e469d1d636d5d3822a631b0b27b44b56753e9097aa5d7e308cc2dab62",
+      "audit_sha256": "6368aca099bc664964fb9f4e4d665290ae6022d6c84ca50375682cec424a2f98",
+      "summary_values_checked": 64
+    },
+    "length_goals_qwen": {
+      "raw_sha256": "4351613a7888d58ff6d448457690947a2c8fca993d6d90ebb04628e4bb7cef2e",
+      "score_sha256": "e33e2496355d51d12c733baa5b798d3e7c5b6467e3d5849cd9d276ac33dcd75a",
+      "audit_sha256": "55a639b8e87206ddd8f4baf17c436b9a6825ce8a341775e00e8aec1744266be7",
+      "summary_values_checked": 32
+    },
+    "length_goals_gpt": {
+      "raw_sha256": "a9c6a61c345d2d1bdc5f4c7704eda788c2231ee44cde4f194df59789f151aa07",
+      "score_sha256": "85bc907bf0a900675f0e2bc739dd5c72512faac2ced4f59f1308177b6b5d32e5",
+      "audit_sha256": "45b40c509f793af8dfcca1edc8a99e74c0e0e90fb427d59c24a3473846b1c71c",
+      "summary_values_checked": 32
+    },
+    "length_behavior_qwen": {
+      "raw_sha256": "a7ad0437ac9e9c894a3f8d479692415752e84894f8b1f7bcb497cc198ba2307b",
+      "score_sha256": "f3cd8542ad802e48b416c0737d7bd6b5e07deeafaa0b3feec883a2703c7db07a",
+      "audit_sha256": "d8ce81d29d7bff4b2a30c7bcc3b8fe5ddbc202823b76e35ee7d412eec5671cf5",
+      "summary_values_checked": 72
+    },
+    "length_behavior_gpt": {
+      "raw_sha256": "d9ee81c4fd980f733022ec5c911462b7a271d70a7d3b3b83474c22ac20bf3f54",
+      "score_sha256": "8666bd0830be4ca87c19c6a00cf100b2c2ef6479658ecc3631c65f7ec84dd5ed",
+      "audit_sha256": "de546a25a6f7d042a7225d9a4074cf76cf6e6d409308cb06f039871c625fce8e",
+      "summary_values_checked": 72
+    }
+  },
+  "completion_matrix": [
+    {
+      "job": "language_glm",
+      "status": "complete_and_independently_checked",
+      "original_status": "generated_and_scored",
+      "result_source": "original_supplement",
+      "observed_rows": 5280,
+      "expected_rows": 5280
+    },
+    {
+      "job": "language_llama",
+      "status": "complete_and_independently_checked",
+      "original_status": "generated_and_scored",
+      "result_source": "original_supplement",
+      "observed_rows": 5280,
+      "expected_rows": 5280
+    },
+    {
+      "job": "length_goals_qwen",
+      "status": "complete_and_independently_checked",
+      "original_status": "generated_and_scored",
+      "result_source": "original_supplement",
+      "observed_rows": 2640,
+      "expected_rows": 2640
+    },
+    {
+      "job": "length_goals_gpt",
+      "status": "complete_and_independently_checked",
+      "original_status": "failed_no_retry",
+      "result_source": "engineering_date_restoration",
+      "observed_rows": 2640,
+      "expected_rows": 2640
+    },
+    {
+      "job": "length_behavior_qwen",
+      "status": "complete_and_independently_checked",
+      "original_status": "generated_and_scored",
+      "result_source": "original_supplement",
+      "observed_rows": 3024,
+      "expected_rows": 3024
+    },
+    {
+      "job": "length_behavior_gpt",
+      "status": "complete_and_independently_checked",
+      "original_status": "failed_no_retry",
+      "result_source": "engineering_date_restoration",
+      "observed_rows": 3024,
+      "expected_rows": 3024
+    }
+  ],
+  "issues": [],
+  "engineering_recovery_freeze_sha256": "1ea33f343c3709648647e661dcda0bffcbb5bfc05eaaa092a651b10023eda59d",
+  "engineering_recovery_status": "finished",
+  "scope": "Post-hoc exploratory supplement kept separate from 94080 main attempts; only complete, raw-SHA-verified jobs enter summaries. Partial jobs not filled with zero."
+}

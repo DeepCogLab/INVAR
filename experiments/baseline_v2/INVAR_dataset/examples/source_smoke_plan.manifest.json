@@ -1,0 +1,15 @@
+{
+  "model_ids": [
+    "MODEL_TO_BE_SET"
+  ],
+  "tier": "source_conditions",
+  "smoke": true,
+  "unique_prompts": 136,
+  "primary_repeats": 2,
+  "repeat_control_prompts": 16,
+  "total_planned_calls": 304,
+  "seed": 20261022,
+  "dataset_prompt_file_sha256": "d2ca00b5fa1a087a07b74df224c61a2eab78460904a5ede2c1be8d295b2cd612",
+  "execution_status": "not_run",
+  "generation_config": "Must be filled by experimenter before API calls; use identical config within each model key."
+}

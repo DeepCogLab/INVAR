@@ -1,0 +1,54 @@
+{
+  "status": "complete",
+  "file": "最终结果.md",
+  "accepted_models": 8,
+  "expected_models": 8,
+  "errors": [],
+  "models": [
+    {
+      "model": "qwen3_8b",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "model": "qwen25_7b_instruct",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "model": "qwen25_7b_base",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "model": "glm4_9b",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "model": "llama31_8b_instruct",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "model": "mistral7b_instruct_v03",
+      "accepted": true,
+      "errors": []
+    },
+    {
+      "model": "deepseek_llm7b_chat",
+      "accepted": true,
+      "errors": []
+    }
+  ],
+  "frozen_files_verified": {
+    "inputs.jsonl": true,
+    "main_plan.jsonl": true
+  },
+  "raw_hash_check_enabled": true
+}

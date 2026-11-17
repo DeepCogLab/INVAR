@@ -1,0 +1,7 @@
+{
+  "status": "passed_full_canonical_synthetic_control",
+  "rows": 132384,
+  "all_goal_correct": true,
+  "normalized_constant_behavior_E_G_R_zero": true,
+  "scope": "Synthetic control only, excluded from scientific denominators."
+}

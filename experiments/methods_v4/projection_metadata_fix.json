@@ -1,0 +1,24 @@
+{
+  "kind": "analysis_projection_metadata_only",
+  "registered_unix": 1792975853.2214527,
+  "old_sha256": "1b279eb62e7680da53396e4c9d9ce574270ce00fbc29a2e4105997ec2757465a",
+  "new_sha256": "e8e8499b901d1948a38d80c2e22f096133685bb40b5e690e82f52a4f99f8a97c",
+  "reason": "Source views must update unique input/type/provenance counts and recompute plan content SHA, not inherit full92 metadata",
+  "actual_generation_not_yet_started": true,
+  "training_not_interrupted": true,
+  "no_changes_to": [
+    "data",
+    "split",
+    "loss",
+    "weights",
+    "seeds",
+    "sampling_budget",
+    "precision",
+    "scoring_math",
+    "raw_responses"
+  ],
+  "tests": [
+    "CPU exact-row projection + parent SHA + recomputed child plan SHA",
+    "Existing V3 full12 and PGG no-goal score/scalar regression passed; initial test invocation omitted helper env and was rerun with controller env"
+  ]
+}

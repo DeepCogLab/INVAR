@@ -1,0 +1,8 @@
+{
+  "original_not_launched": true,
+  "reason": "Shared references can make G exactly zero even if no E conditional estimate exists. Test exposed comparison to None; v2 checks both estimates before G<=2E assertion.",
+  "original_freeze": "joint_reasoning_freeze.json",
+  "active_freeze": "joint_reasoning_freeze_v2.json",
+  "scientific_settings_unchanged": true,
+  "original_frozen_files_retained": true
+}

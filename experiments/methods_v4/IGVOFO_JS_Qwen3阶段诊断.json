@@ -1,0 +1,439 @@
+{
+  "status": "descriptive_completed_three_methods_not_confirmation",
+  "input_sha256": {
+    "scores/prompts.csv": "9cd5c9a1293ad06fc378eea2fb995a26cb737e5a3b69b55be23d89ff5cc20b47",
+    "scores/quartets.csv": "4d37861aca2d68258c551f6530cbebd42848285bd5321077391815fdae727e17",
+    "diagnostics/behavior_pair_means.csv": "18129671aba93e02576c0577199e01041b04adb25ca0894c1d66ad7cb952b124",
+    "diagnostics/behavior_change_counts.csv": "8c233b9a3f085c47c91605949c944b5422401855e73c13fc78cfa1d0624c882b",
+    "diagnostics/goal_policy_summary.csv": "5b6ae17630c07f5edebee79256eae5aab71c6dbcbca58e68cf997e9c2fb00fd6",
+    "finite_sample_audit/summary.csv": "79b298c888920dd4f07c268551e202bf6b9a3635df0debd1d669fdbecbcb4438"
+  },
+  "manifest_sha256": "a27e33bf80543da905b3369e19c8dfabc4ff14a0a44e6430ab01f87013bff403",
+  "frozen_inputs_sha256": "79208ffb70a3ffe975a85df5ca5fd8072471de1bfd64b66f614dd459403f2a28",
+  "scoring_complete_sha256": "a15a2e8cd659260bec2564872eeed4019e678caad59b3987833747902498fe2a",
+  "local_scalar_audit_sha256": "e0712c88e77cd0aab8f389195604c312019bb311d55c511f08c8867ba3cd96d1",
+  "model": "qwen3_8b",
+  "source": "IGVOFO",
+  "training_seed": 20261026,
+  "guards": [
+    {
+      "method": "baseline",
+      "task": "all",
+      "unique_prompts": 144,
+      "unique_empirical_distributions": 54,
+      "mean_entropy_normalized": 0.017612680982101784,
+      "mean_across_prompts_sd": 0.07299107359503755
+    },
+    {
+      "method": "baseline",
+      "task": "dictator",
+      "unique_prompts": 18,
+      "unique_empirical_distributions": 3,
+      "mean_entropy_normalized": 0.03945907938243854,
+      "mean_across_prompts_sd": 0.04933263452641909
+    },
+    {
+      "method": "baseline",
+      "task": "trust",
+      "unique_prompts": 126,
+      "unique_empirical_distributions": 52,
+      "mean_entropy_normalized": 0.01449176692491082,
+      "mean_across_prompts_sd": 0.07555831576769459
+    },
+    {
+      "method": "anchor_sft",
+      "task": "all",
+      "unique_prompts": 144,
+      "unique_empirical_distributions": 114,
+      "mean_entropy_normalized": 0.06738430915107088,
+      "mean_across_prompts_sd": 0.07534806627650568
+    },
+    {
+      "method": "anchor_sft",
+      "task": "dictator",
+      "unique_prompts": 18,
+      "unique_empirical_distributions": 7,
+      "mean_entropy_normalized": 0.08528777510280278,
+      "mean_across_prompts_sd": 0.05393055908272197
+    },
+    {
+      "method": "anchor_sft",
+      "task": "trust",
+      "unique_prompts": 126,
+      "unique_empirical_distributions": 108,
+      "mean_entropy_normalized": 0.06482667115796632,
+      "mean_across_prompts_sd": 0.07465679099061959
+    },
+    {
+      "method": "anchor_js",
+      "task": "all",
+      "unique_prompts": 144,
+      "unique_empirical_distributions": 115,
+      "mean_entropy_normalized": 0.06616875704476648,
+      "mean_across_prompts_sd": 0.05889049085458044
+    },
+    {
+      "method": "anchor_js",
+      "task": "dictator",
+      "unique_prompts": 18,
+      "unique_empirical_distributions": 9,
+      "mean_entropy_normalized": 0.05540350156883808,
+      "mean_across_prompts_sd": 0.007645698363694806
+    },
+    {
+      "method": "anchor_js",
+      "task": "trust",
+      "unique_prompts": 126,
+      "unique_empirical_distributions": 107,
+      "mean_entropy_normalized": 0.06770665068418481,
+      "mean_across_prompts_sd": 0.058528561847442775
+    }
+  ],
+  "paired_changes": [
+    {
+      "comparison": "anchor_sft minus baseline",
+      "metric": "E",
+      "n_pairs": "8",
+      "improved": "2",
+      "worsened": "6",
+      "ties": "0",
+      "mean_delta": "-0.0027608235677083334"
+    },
+    {
+      "comparison": "anchor_sft minus baseline",
+      "metric": "G",
+      "n_pairs": "8",
+      "improved": "4",
+      "worsened": "4",
+      "ties": "0",
+      "mean_delta": "-0.005452473958333334"
+    },
+    {
+      "comparison": "anchor_js minus anchor_sft",
+      "metric": "E",
+      "n_pairs": "8",
+      "improved": "7",
+      "worsened": "1",
+      "ties": "0",
+      "mean_delta": "-0.011872609456380207"
+    },
+    {
+      "comparison": "anchor_js minus anchor_sft",
+      "metric": "G",
+      "n_pairs": "8",
+      "improved": "7",
+      "worsened": "1",
+      "ties": "0",
+      "mean_delta": "-0.02015533447265624"
+    },
+    {
+      "comparison": "anchor_js minus baseline",
+      "metric": "E",
+      "n_pairs": "8",
+      "improved": "4",
+      "worsened": "4",
+      "ties": "0",
+      "mean_delta": "-0.014633433024088541"
+    },
+    {
+      "comparison": "anchor_js minus baseline",
+      "metric": "G",
+      "n_pairs": "8",
+      "improved": "5",
+      "worsened": "3",
+      "ties": "0",
+      "mean_delta": "-0.025607808430989573"
+    }
+  ],
+  "all_pair_means": [
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "source_id": "IGVOFO",
+      "task": "dictator",
+      "E": "0.019612630208333336",
+      "G": "0.03922526041666667",
+      "R": "0.019612630208333336"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT1000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.01318359375",
+      "G": "0.021484375",
+      "R": "0.0107421875"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT2000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.00439453125",
+      "G": "0.0087890625",
+      "R": "0.00439453125"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT3000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.023193359375",
+      "G": "0.04638671875",
+      "R": "0.0380859375"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT4000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.161865234375",
+      "G": "0.22119140625",
+      "R": "0.192138671875"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT5000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.0628662109375",
+      "G": "0.06928710937499999",
+      "R": "0.0408203125"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT6000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.0528564453125",
+      "G": "0.092041015625",
+      "R": "0.1256103515625"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_SENDER_FIXED_RETURN",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.0",
+      "G": "0.0",
+      "R": "0.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "source_id": "IGVOFO",
+      "task": "dictator",
+      "E": "0.024129231770833332",
+      "G": "0.046142578125",
+      "R": "0.026652018229166668"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT1000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.02996826171875",
+      "G": "0.0474853515625",
+      "R": "0.04412841796875"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT2000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.0283203125",
+      "G": "0.0458984375",
+      "R": "0.03271484375"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT3000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.024617513020833332",
+      "G": "0.032958984375",
+      "R": "0.0386962890625"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT4000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.08184814453125",
+      "G": "0.1168212890625",
+      "R": "0.10748291015625"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT5000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.047167968750000004",
+      "G": "0.05073242187499999",
+      "R": "0.090185546875"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT6000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.066650390625",
+      "G": "0.08837890625",
+      "R": "0.1156005859375"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_SENDER_FIXED_RETURN",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.01318359375",
+      "G": "0.0263671875",
+      "R": "0.01318359375"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "source_id": "IGVOFO",
+      "task": "dictator",
+      "E": "0.0059814453125",
+      "G": "0.007242838541666685",
+      "R": "0.003946940104166667"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT1000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.0194091796875",
+      "G": "0.01806640625",
+      "R": "0.0247802734375"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT2000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.01947021484375",
+      "G": "0.0242919921875",
+      "R": "0.01751708984375"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT3000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.038533528645833336",
+      "G": "0.055501302083333356",
+      "R": "0.06319173177083334"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT4000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.052337646484375",
+      "G": "0.06817626953125",
+      "R": "0.083404541015625"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT5000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.031005859375",
+      "G": "0.033447265625",
+      "R": "0.0603515625"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT6000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.05282389322916667",
+      "G": "0.08413085937500002",
+      "R": "0.109814453125"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_SENDER_FIXED_RETURN",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.0013427734375",
+      "G": "0.002685546875",
+      "R": "0.0013427734375"
+    }
+  ],
+  "goal_policy": [
+    {
+      "method": "baseline",
+      "n_pairs": "1",
+      "contrast_references": "18",
+      "unique_prompt_pairs": "18",
+      "mean_correct": "0.75",
+      "worse_side": "0.5",
+      "independent_calls_both_correct": "0.5"
+    },
+    {
+      "method": "anchor_sft",
+      "n_pairs": "1",
+      "contrast_references": "18",
+      "unique_prompt_pairs": "18",
+      "mean_correct": "0.75",
+      "worse_side": "0.5",
+      "independent_calls_both_correct": "0.5"
+    },
+    {
+      "method": "anchor_js",
+      "n_pairs": "1",
+      "contrast_references": "18",
+      "unique_prompt_pairs": "18",
+      "mean_correct": "0.7516276041666666",
+      "worse_side": "0.5032552083333334",
+      "independent_calls_both_correct": "0.5032552083333334"
+    }
+  ],
+  "square_metrics": [
+    {
+      "model": "qwen3_8b",
+      "method": "baseline",
+      "group": "all",
+      "value": "all",
+      "n_pairs": "8",
+      "n_quartets": "64",
+      "status": "complete_auxiliary_fixed_item_audit",
+      "E2_unbiased": "0.016055898432638133",
+      "E2_unbiased_negative_quartets": "3",
+      "G2_unbiased": "0.012731601104237674",
+      "G2_unbiased_negative_quartets": "8"
+    },
+    {
+      "model": "qwen3_8b",
+      "method": "anchor_sft",
+      "group": "all",
+      "value": "all",
+      "n_pairs": "8",
+      "n_quartets": "64",
+      "status": "complete_auxiliary_fixed_item_audit",
+      "E2_unbiased": "0.008078603744506837",
+      "E2_unbiased_negative_quartets": "10",
+      "G2_unbiased": "0.006437605258945805",
+      "G2_unbiased_negative_quartets": "16"
+    },
+    {
+      "model": "qwen3_8b",
+      "method": "anchor_js",
+      "group": "all",
+      "value": "all",
+      "n_pairs": "8",
+      "n_quartets": "64",
+      "status": "complete_auxiliary_fixed_item_audit",
+      "E2_unbiased": "0.0034023531122145314",
+      "E2_unbiased_negative_quartets": "7",
+      "G2_unbiased": "0.002606870496974272",
+      "G2_unbiased_negative_quartets": "16"
+    }
+  ],
+  "new_calls": 0,
+  "scope": "Equal-condition-pair primary, unique-prompt descriptive guards; policy products from independent calls may share endpoints; R not a success score",
+  "implementation_note": "Initial local read-only attempt incorrectly assumed behavior inputs have a task field and stopped with KeyError before writing results; corrected task lookup uses all relevant uses/pair_id references in the frozen manifest and asserts unique task. No model job, input, response or score changed. The subsequent local compatibility assertion used the old guard key unique_behavior_prompts against the new unique_prompts schema and stopped before updating the SFT report or completion summary; corrected by explicit field mapping and rerun. Both local helper errors retained here; no GPU or scientific setting changed."
+}

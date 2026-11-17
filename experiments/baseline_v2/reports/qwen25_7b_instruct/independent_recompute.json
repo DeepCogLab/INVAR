@@ -1,0 +1,10 @@
+{
+  "model": "qwen25_7b_instruct",
+  "status": "passed",
+  "behavior_quartets_checked": 701,
+  "control_quartets_checked": 3644,
+  "response_rows_scanned": 421504,
+  "method": "Scalar CDF W1 implementation and direct arithmetic over raw responses; no reuse of vectorized point estimates",
+  "completion_audit_sha256": "4173ab3baca679044087302475ef79772b7e5f5865841c4789f1ccd1bbc7c17f",
+  "raw_sha256": "705a0915d6ed87999acdf9390a6e2a68a735f514ab1f2a74c23c7af41aea6217"
+}

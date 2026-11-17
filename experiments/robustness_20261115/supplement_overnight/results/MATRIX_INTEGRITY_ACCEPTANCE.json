@@ -1,0 +1,86 @@
+{
+  "status": "passed_all_six_supplement_jobs",
+  "expected_rows": 21888,
+  "accepted_rows": 21888,
+  "accepted": [
+    {
+      "job": "language_glm",
+      "rows": 5280,
+      "source": "supplement_overnight",
+      "raw_sha256": "9c1d5de4a495ec22fc0bb1fe544df37d4fe1a565a13c58392a9bf72b2ec106fa",
+      "unique_inputs": 2640,
+      "completion_tokens": 345132,
+      "score_sha256": "5d04a25e8f124593313b32d0883f79ef8d52949a502062eec6be16829512c087",
+      "identity_sha256": "fae6a687eb057a540a94c1cf05aa54939bd524581a80d79911a816a89a8770fb",
+      "audit_sha256": "a21a0f855848ded15e3ff3a6aa91823b05ce37cb94de4e3cd9da99e44369e20e"
+    },
+    {
+      "job": "language_llama",
+      "rows": 5280,
+      "source": "supplement_overnight",
+      "raw_sha256": "1ab9fa497c6ad7cad9533e4e4290d213ed71bd5a0e9e2a2a2ec2c9919c0614da",
+      "unique_inputs": 2640,
+      "completion_tokens": 337208,
+      "score_sha256": "facd092e469d1d636d5d3822a631b0b27b44b56753e9097aa5d7e308cc2dab62",
+      "identity_sha256": "795e1313579e8c6f01759307841fb7c7a4b211bc61bc022dfa57233f0b5fb62c",
+      "audit_sha256": "6368aca099bc664964fb9f4e4d665290ae6022d6c84ca50375682cec424a2f98"
+    },
+    {
+      "job": "length_goals_qwen",
+      "rows": 2640,
+      "source": "supplement_overnight",
+      "raw_sha256": "4351613a7888d58ff6d448457690947a2c8fca993d6d90ebb04628e4bb7cef2e",
+      "unique_inputs": 1320,
+      "completion_tokens": 1607241,
+      "score_sha256": "e33e2496355d51d12c733baa5b798d3e7c5b6467e3d5849cd9d276ac33dcd75a",
+      "identity_sha256": "a520f2d3bfc5b3de42d787b2046ce8ff21f5d6988bef56105343e2ef0ca53810",
+      "audit_sha256": "55a639b8e87206ddd8f4baf17c436b9a6825ce8a341775e00e8aec1744266be7"
+    },
+    {
+      "job": "length_goals_gpt",
+      "rows": 2640,
+      "source": "gpt_date_restore_20261116",
+      "raw_sha256": "a9c6a61c345d2d1bdc5f4c7704eda788c2231ee44cde4f194df59789f151aa07",
+      "unique_inputs": 1320,
+      "completion_tokens": 1328095,
+      "score_sha256": "85bc907bf0a900675f0e2bc739dd5c72512faac2ced4f59f1308177b6b5d32e5",
+      "identity_sha256": "ffa8127072f241cc2ed3b7d54e248e92ec8c97ba4f1068be66dd33a5fbf78e87",
+      "audit_sha256": "45b40c509f793af8dfcca1edc8a99e74c0e0e90fb427d59c24a3473846b1c71c"
+    },
+    {
+      "job": "length_behavior_qwen",
+      "rows": 3024,
+      "source": "supplement_overnight",
+      "raw_sha256": "a7ad0437ac9e9c894a3f8d479692415752e84894f8b1f7bcb497cc198ba2307b",
+      "unique_inputs": 756,
+      "completion_tokens": 3901978,
+      "score_sha256": "f3cd8542ad802e48b416c0737d7bd6b5e07deeafaa0b3feec883a2703c7db07a",
+      "identity_sha256": "adfa6ae327a6a4c76a35aea16cf1b4dac2b1f1eabe25031bf019237e96ebfd58",
+      "audit_sha256": "d8ce81d29d7bff4b2a30c7bcc3b8fe5ddbc202823b76e35ee7d412eec5671cf5"
+    },
+    {
+      "job": "length_behavior_gpt",
+      "rows": 3024,
+      "source": "gpt_date_restore_20261116",
+      "raw_sha256": "d9ee81c4fd980f733022ec5c911462b7a271d70a7d3b3b83474c22ac20bf3f54",
+      "unique_inputs": 756,
+      "completion_tokens": 3211890,
+      "score_sha256": "8666bd0830be4ca87c19c6a00cf100b2c2ef6479658ecc3631c65f7ec84dd5ed",
+      "identity_sha256": "78941e0bcfffb38ec3036664e5d9893ee7efc8e5378985cb661dc67f0290e0c2",
+      "audit_sha256": "de546a25a6f7d042a7225d9a4074cf76cf6e6d409308cb06f039871c625fce8e"
+    }
+  ],
+  "missing": [],
+  "verified_quartet_references": 1328,
+  "quartet_counts": {
+    "core/behavior_quartets.jsonl": 128,
+    "core/goal_quartets.jsonl": 156,
+    "parameter/goal_quartets.jsonl": 48
+  },
+  "unique_input_count": 2574,
+  "raw_trial_plan_seed_token_identity_freeze_and_full_optimum_sets_checked": true,
+  "freeze_sha256": "d4723b218f8db2d397be7a0ea8b14a173c266c78921b510ba224471f2e952b45",
+  "audit_code_sha256": "5fa1b692bb21749d7c0f6c12a067e57f227e1ccab3919df7979d3dd7dc5e57b5",
+  "checked_at_utc": "2026-11-15T21:23:00.587820+00:00",
+  "scope": "Post-hoc supplement only. Engineering date restoration keeps original failure provenance; missing jobs are not zero scored."
+}

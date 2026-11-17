@@ -1,0 +1,45 @@
+{
+  "status": "verified",
+  "mirror_root": "artifacts\\shortpaper_20261111",
+  "archive_sha256": "527cdefd53e64c9e315501b89edaa4b136e39baa3ce801b2e1874a4f311c9af6",
+  "files": 310,
+  "stages": [
+    "runs/qwen3_14b/goal_diagnostic",
+    "runs/qwen3_14b/joint_reasoning",
+    "runs/qwen3_14b/main",
+    "runs/qwen3_14b/native",
+    "runs/qwen3_14b/native_long",
+    "runs/qwen3_14b/pilot",
+    "runs/qwen3_30b_a3b_gptq/goal_diagnostic",
+    "runs/qwen3_30b_a3b_gptq/joint_reasoning",
+    "runs/qwen3_30b_a3b_gptq/main",
+    "runs/qwen3_30b_a3b_gptq/native",
+    "runs/qwen3_30b_a3b_gptq/native_long",
+    "runs/qwen3_30b_a3b_gptq/pilot",
+    "runs/qwen3_4b_native/native",
+    "runs/qwen3_4b_native/native_long",
+    "runs/qwen3_8b_native/native",
+    "runs/qwen3_8b_native/native_long",
+    "runs/socialr1_4_native/native",
+    "runs/socialr1_4_native/native_long",
+    "runs/socialr1_8_native/native",
+    "runs/socialr1_8_native/native_long"
+  ],
+  "new_local_audits": [
+    "artifacts\\shortpaper_20261111\\local_scalar_audits\\qwen3_30b_a3b_gptq_joint_reasoning.json"
+  ],
+  "local_extension_identity_audits": [
+    "artifacts\\shortpaper_20261111\\local_identity_audits\\qwen3_14b_joint_reasoning.json",
+    "artifacts\\shortpaper_20261111\\local_identity_audits\\qwen3_14b_native_long.json",
+    "artifacts\\shortpaper_20261111\\local_identity_audits\\qwen3_30b_a3b_gptq_joint_reasoning.json",
+    "artifacts\\shortpaper_20261111\\local_identity_audits\\qwen3_30b_a3b_gptq_native_long.json",
+    "artifacts\\shortpaper_20261111\\local_identity_audits\\qwen3_4b_native_native_long.json",
+    "artifacts\\shortpaper_20261111\\local_identity_audits\\qwen3_8b_native_native_long.json",
+    "artifacts\\shortpaper_20261111\\local_identity_audits\\socialr1_4_native_native_long.json",
+    "artifacts\\shortpaper_20261111\\local_identity_audits\\socialr1_8_native_native_long.json"
+  ],
+  "local_noise_audits": [
+    "artifacts\\shortpaper_20261111\\local_noise_audits\\qwen3_14b_joint_reasoning.json",
+    "artifacts\\shortpaper_20261111\\local_noise_audits\\qwen3_30b_a3b_gptq_joint_reasoning.json"
+  ]
+}

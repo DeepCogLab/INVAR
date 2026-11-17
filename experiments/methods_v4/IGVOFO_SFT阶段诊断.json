@@ -1,0 +1,355 @@
+{
+  "scope": "IGVOFO seed20261026 SFT versus shared base; descriptive development only; JS pending",
+  "models": {
+    "qwen3_8b": {
+      "changed_fact_pair_means": [
+        {
+          "pair": "IGVOFO_DG_THRESHOLD",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT1000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT2000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT3000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT4000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT5000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT6000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_SENDER_FIXED_RETURN",
+          "base_changed_U": 0.93408203125,
+          "sft_changed_U": 0.98193359375,
+          "delta": 0.0478515625
+        }
+      ],
+      "behavior_guards": [
+        {
+          "method": "baseline",
+          "unique_behavior_prompts": 144,
+          "unique_empirical_distributions": 54,
+          "mean_entropy_normalized": 0.017612680982101784,
+          "mean_across_prompts_sd": 0.07299107359503755
+        },
+        {
+          "method": "anchor_sft",
+          "unique_behavior_prompts": 144,
+          "unique_empirical_distributions": 114,
+          "mean_entropy_normalized": 0.06738430915107088,
+          "mean_across_prompts_sd": 0.07534806627650568
+        }
+      ],
+      "goal_policy": [
+        {
+          "method": "baseline",
+          "n_pairs": "1",
+          "contrast_references": "18",
+          "unique_prompt_pairs": "18",
+          "mean_correct": "0.75",
+          "worse_side": "0.5",
+          "independent_calls_both_correct": "0.5"
+        },
+        {
+          "method": "anchor_sft",
+          "n_pairs": "1",
+          "contrast_references": "18",
+          "unique_prompt_pairs": "18",
+          "mean_correct": "0.75",
+          "worse_side": "0.5",
+          "independent_calls_both_correct": "0.5"
+        }
+      ],
+      "comparison_counts": [
+        {
+          "comparison": "anchor_sft minus baseline",
+          "metric": "E",
+          "n_pairs": "8",
+          "improved": "2",
+          "worsened": "6",
+          "ties": "0",
+          "mean_delta": "-0.0027608235677083334"
+        },
+        {
+          "comparison": "anchor_sft minus baseline",
+          "metric": "G",
+          "n_pairs": "8",
+          "improved": "4",
+          "worsened": "4",
+          "ties": "0",
+          "mean_delta": "-0.005452473958333334"
+        }
+      ]
+    },
+    "qwen25_14b_instruct": {
+      "changed_fact_pair_means": [
+        {
+          "pair": "IGVOFO_DG_THRESHOLD",
+          "base_changed_U": 0.97607421875,
+          "sft_changed_U": 0.685302734375,
+          "delta": -0.290771484375
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT1000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT2000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT3000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT4000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT5000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_RECEIVER_SENT6000_AGENCY",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        },
+        {
+          "pair": "IGVOFO_TG_SENDER_FIXED_RETURN",
+          "base_changed_U": 1.0,
+          "sft_changed_U": 1.0,
+          "delta": 0.0
+        }
+      ],
+      "behavior_guards": [
+        {
+          "method": "baseline",
+          "unique_behavior_prompts": 144,
+          "unique_empirical_distributions": 104,
+          "mean_entropy_normalized": 0.08331857588915788,
+          "mean_across_prompts_sd": 0.17017957326513272
+        },
+        {
+          "method": "anchor_sft",
+          "unique_behavior_prompts": 144,
+          "unique_empirical_distributions": 144,
+          "mean_entropy_normalized": 0.23131885892263965,
+          "mean_across_prompts_sd": 0.11124996014971779
+        }
+      ],
+      "goal_policy": [
+        {
+          "method": "baseline",
+          "n_pairs": "1",
+          "contrast_references": "18",
+          "unique_prompt_pairs": "18",
+          "mean_correct": "0.5631510416666666",
+          "worse_side": "0.4563802083333333",
+          "independent_calls_both_correct": "0.4563802083333333"
+        },
+        {
+          "method": "anchor_sft",
+          "n_pairs": "1",
+          "contrast_references": "18",
+          "unique_prompt_pairs": "18",
+          "mean_correct": "0.576171875",
+          "worse_side": "0.4869791666666667",
+          "independent_calls_both_correct": "0.48595767550998265"
+        }
+      ],
+      "comparison_counts": [
+        {
+          "comparison": "anchor_sft minus baseline",
+          "metric": "E",
+          "n_pairs": "8",
+          "improved": "7",
+          "worsened": "1",
+          "ties": "0",
+          "mean_delta": "-0.026371556091308597"
+        },
+        {
+          "comparison": "anchor_sft minus baseline",
+          "metric": "G",
+          "n_pairs": "8",
+          "improved": "8",
+          "worsened": "0",
+          "ties": "0",
+          "mean_delta": "-0.0440972839355469"
+        }
+      ]
+    }
+  },
+  "input_sha256": {
+    "evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261026\\screen\\scores\\quartets.csv": "4d37861aca2d68258c551f6530cbebd42848285bd5321077391815fdae727e17",
+    "evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261026\\screen\\scores\\prompts.csv": "9cd5c9a1293ad06fc378eea2fb995a26cb737e5a3b69b55be23d89ff5cc20b47",
+    "evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261026\\screen\\diagnostics\\goal_policy_summary.csv": "5b6ae17630c07f5edebee79256eae5aab71c6dbcbca58e68cf997e9c2fb00fd6",
+    "evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261026\\screen\\diagnostics\\behavior_change_counts.csv": "8c233b9a3f085c47c91605949c944b5422401855e73c13fc78cfa1d0624c882b",
+    "evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261026\\screen\\scores\\quartets.csv": "5db163c3bf4b5780e9d1232365da6cf79b6100f8766089d9869b2be231900aba",
+    "evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261026\\screen\\scores\\prompts.csv": "71a41f83be22723aa1a71ff0897133fd5e26054f4f36bb118cb365991bdb7747",
+    "evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261026\\screen\\diagnostics\\goal_policy_summary.csv": "1621b7809162d41aae2c528661063918085b95280038a93a3b3960af618d0f16",
+    "evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261026\\screen\\diagnostics\\behavior_change_counts.csv": "c5808dd6737a3d34975395474853780630485d002f02d4a9a7b45e64af9a0833"
+  },
+  "weighting": "Changed U: average quartet accuracies within each pair, then equal pairs; guards: unique prompts equally weighted and descriptive only",
+  "generated_new_responses": 0,
+  "concrete_fact_error_examples": [
+    {
+      "prompt_id": "f_4eced01dc6a7f61bf4f3",
+      "input": {
+        "body_case_id": "IGVOFO_DG_THRESHOLD_c1",
+        "condition": 1,
+        "expected_answer": "A",
+        "factor": "automatic_minimum_allocation_threshold",
+        "messages": [
+          {
+            "content": "请依据题目材料回答事实问题，只输出要求的JSON对象。",
+            "role": "system"
+          },
+          {
+            "content": "【个体设定】\n- 你的编号是P1，本次担任分配者。\n- 你可决定如何分配本题的6000点。\n- P2是这次分配的接收者。\n\n【实验规则】\n| 条目 | 内容 |\n|---|---|\n| 1 | 本题已确定用于结算，只计算本题列出的点数。 |\n| 2 | 付款角色已确定为分配者，你本次实际获得的点数按你作出的分配结算。 |\n| 3 | 你可以给P2的点数为0、1000、2000、3000、4000、5000或6000；只能从这七项中选择。 |\n| 4 | 记你选择给P2的点数为g。P2不能拒绝或修改你的选择。 |\n| 5 | 已公布的执行规则是：若g少于1200点，本次分配取消，你和P2都得到0点；若g至少为1200点，则你得到6000−g点，P2得到g点。P2不参与这项自动规则的执行。 |\n\n【当前情况】\n现在由P1拟定分配方案，选择方案中给P2的点数g；最终到账点数按执行规则计算。P1尚未作出本次分配选择。\n\n【独立事实检查】\n下面哪一项符合本题当前条件？只判断事实，不作社会行为选择。\nA：若分配方案g=1000，P1最后得到0点。\nB：若分配方案g=1000，P1最后得到5000点。\n只输出JSON对象，仅包含answer字段，值为A或B。",
+            "role": "user"
+          }
+        ],
+        "option_semantic_order": [
+          1,
+          0
+        ],
+        "output_schema": {
+          "additionalProperties": false,
+          "properties": {
+            "answer": {
+              "enum": [
+                "A",
+                "B"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "answer"
+          ],
+          "type": "object"
+        },
+        "pair_id": "IGVOFO_DG_THRESHOLD",
+        "prompt_id": "f_4eced01dc6a7f61bf4f3",
+        "semantic_answer": 1,
+        "task": "dictator",
+        "task_type": "changed_fact",
+        "variant_id": "V4_rules_table"
+      },
+      "baseline_distribution": {
+        "A": 1.0
+      },
+      "sft_distribution": {
+        "B": 1.0
+      },
+      "responses_per_method": 64
+    },
+    {
+      "prompt_id": "f_852ca430cc0970ab89b6",
+      "input": {
+        "body_case_id": "IGVOFO_DG_THRESHOLD_c1",
+        "condition": 1,
+        "expected_answer": "A",
+        "factor": "automatic_minimum_allocation_threshold",
+        "messages": [
+          {
+            "content": "请依据题目材料回答事实问题，只输出要求的JSON对象。",
+            "role": "system"
+          },
+          {
+            "content": "【个体设定】\n- 你的编号是P1，本次担任分配者。\n- 你可决定如何分配本题的6000点。\n- P2是这次分配的接收者。\n\n【实验规则】\n- 本题已确定用于结算，只计算本题列出的点数。\n- 付款角色已确定为分配者，你本次实际获得的点数按你作出的分配结算。\n- 你可以给P2的点数为0、1000、2000、3000、4000、5000或6000；只能从这七项中选择。\n- 记你选择给P2的点数为g。P2不能拒绝或修改你的选择。\n- 已公布的执行规则是：若g少于1200点，本次分配取消，你和P2都得到0点；若g至少为1200点，则你得到6000−g点，P2得到g点。P2不参与这项自动规则的执行。\n\n【当前情况】\n现在由P1拟定分配方案，选择方案中给P2的点数g；最终到账点数按执行规则计算。P1尚未作出本次分配选择。\n\n【独立事实检查】\n下面哪一项符合本题当前条件？只判断事实，不作社会行为选择。\nA：若分配方案g=1000，P1最后得到0点。\nB：若分配方案g=1000，P1最后得到5000点。\n只输出JSON对象，仅包含answer字段，值为A或B。",
+            "role": "user"
+          }
+        ],
+        "option_semantic_order": [
+          1,
+          0
+        ],
+        "output_schema": {
+          "additionalProperties": false,
+          "properties": {
+            "answer": {
+              "enum": [
+                "A",
+                "B"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "answer"
+          ],
+          "type": "object"
+        },
+        "pair_id": "IGVOFO_DG_THRESHOLD",
+        "prompt_id": "f_852ca430cc0970ab89b6",
+        "semantic_answer": 1,
+        "task": "dictator",
+        "task_type": "changed_fact",
+        "variant_id": "base"
+      },
+      "baseline_distribution": {
+        "A": 1.0
+      },
+      "sft_distribution": {
+        "B": 1.0
+      },
+      "responses_per_method": 64
+    }
+  ],
+  "example_selection": "Two largest correctness drops within Qwen14 DG changed-fact inputs (ties); descriptive posthoc illustration; all eight pair means retained above",
+  "frozen_inputs_sha256": "79208ffb70a3ffe975a85df5ca5fd8072471de1bfd64b66f614dd459403f2a28",
+  "previous_two_method_input_sha256": {
+    "evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261026\\screen\\scores\\prompts.csv": "e5fca708ee92756da7cee2fe0ad55dcfa427336e36878d0a5a3d0aa4c521a267",
+    "evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261026\\screen\\scores\\quartets.csv": "66e00d12cef90259b6237be93c6d4a9bc36a741b5b5dce1636340f9c0a3ea95b",
+    "evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261026\\screen\\diagnostics\\behavior_change_counts.csv": "404c1ef494f64db2227b32ed6f3e8114ee00bbe2ddedf0bf61b15741f3a9c232",
+    "evaluations\\transfer\\qwen3_8b\\IGVOFO\\seed20261026\\screen\\diagnostics\\goal_policy_summary.csv": "b31abf7331dfe1aeda40611e813de0a88f3aebf15bef4936f839bb6277d261d1"
+  },
+  "revalidation": "SFT-only subset rechecked against completed three-method Qwen3 score bundle; same raw SFT/base, pair U and prompt guards unchanged; original subset statistics retained",
+  "previous_two_method_Qwen14_input_sha256": {
+    "evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261026\\screen\\scores\\prompts.csv": "005a2216eabad78b006eced38e1bb4149be933c439f83080b320701a60834676",
+    "evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261026\\screen\\scores\\quartets.csv": "5721a53aeb410b43fb9f98c47a3f17ee203075782f3039c3a4e370e753e113ec",
+    "evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261026\\screen\\diagnostics\\behavior_change_counts.csv": "09aa89f5260448236ac1195478ffaeac1cafa4b04a9ce07115c5da7effcef357",
+    "evaluations\\transfer\\qwen25_14b_instruct\\IGVOFO\\seed20261026\\screen\\diagnostics\\goal_policy_summary.csv": "bb6b6b629d7af53122224646ce6801bed44160146d35a1f449aa669a10f4f5dd"
+  },
+  "revalidation_Qwen14": "Original SFT-only facts and guards reproduced in completed three-method bundle; raw base/SFT unchanged"
+}

@@ -1,0 +1,1248 @@
+{
+  "status": "descriptive_completed_three_methods_not_confirmation",
+  "input_sha256": {
+    "scores/prompts.csv": "71a41f83be22723aa1a71ff0897133fd5e26054f4f36bb118cb365991bdb7747",
+    "scores/quartets.csv": "5db163c3bf4b5780e9d1232365da6cf79b6100f8766089d9869b2be231900aba",
+    "diagnostics/behavior_pair_means.csv": "5b781c19267ab931b11b02e3cae97539b687d34c929791814c92c7505253be13",
+    "diagnostics/behavior_change_counts.csv": "c5808dd6737a3d34975395474853780630485d002f02d4a9a7b45e64af9a0833",
+    "diagnostics/goal_policy_summary.csv": "1621b7809162d41aae2c528661063918085b95280038a93a3b3960af618d0f16",
+    "diagnostics/goal_policy_contrasts.csv": "b2dbd9ea0b3278e80ee5e5915e5c07dba8f0f87d2e5f8c0877cfbd0aa427349e",
+    "finite_sample_audit/summary.csv": "58212885a65abff89830b673b40941cf555800641a12c8a8e4b3cf72d206a143"
+  },
+  "manifest_sha256": "147ec64ea93cb5581c90aaf985004e9cdffe505d274ebf76ded627df000e7257",
+  "scoring_complete_sha256": "cef305ed18c957274de05312c2706b495508ea309bde599b3d585a2c22cca0c5",
+  "local_scalar_audit_sha256": "8f6ac1372ea1673a5b7950581b0132f3bddd42df36b2521925f93a51845d3651",
+  "model": "qwen25_14b_instruct",
+  "source": "IGVOFO",
+  "training_seed": 20261026,
+  "guards": [
+    {
+      "method": "baseline",
+      "task": "all",
+      "unique_prompts": 144,
+      "unique_empirical_distributions": 104,
+      "mean_entropy_normalized": 0.08331857588915788,
+      "mean_across_prompts_sd": 0.17017957326513272
+    },
+    {
+      "method": "baseline",
+      "task": "dictator",
+      "unique_prompts": 18,
+      "unique_empirical_distributions": 7,
+      "mean_entropy_normalized": 0.051957307102640043,
+      "mean_across_prompts_sd": 0.06801973891589293
+    },
+    {
+      "method": "baseline",
+      "task": "trust",
+      "unique_prompts": 126,
+      "unique_empirical_distributions": 101,
+      "mean_entropy_normalized": 0.08779875714437471,
+      "mean_across_prompts_sd": 0.17142837038397107
+    },
+    {
+      "method": "anchor_sft",
+      "task": "all",
+      "unique_prompts": 144,
+      "unique_empirical_distributions": 144,
+      "mean_entropy_normalized": 0.23131885892263965,
+      "mean_across_prompts_sd": 0.11124996014971779
+    },
+    {
+      "method": "anchor_sft",
+      "task": "dictator",
+      "unique_prompts": 18,
+      "unique_empirical_distributions": 18,
+      "mean_entropy_normalized": 0.41028552559079123,
+      "mean_across_prompts_sd": 0.03631077530247915
+    },
+    {
+      "method": "anchor_sft",
+      "task": "trust",
+      "unique_prompts": 126,
+      "unique_empirical_distributions": 126,
+      "mean_entropy_normalized": 0.20575219225576083,
+      "mean_across_prompts_sd": 0.11181413334012666
+    },
+    {
+      "method": "anchor_js",
+      "task": "all",
+      "unique_prompts": 144,
+      "unique_empirical_distributions": 144,
+      "mean_entropy_normalized": 0.2796252942887338,
+      "mean_across_prompts_sd": 0.08876986067836627
+    },
+    {
+      "method": "anchor_js",
+      "task": "dictator",
+      "unique_prompts": 18,
+      "unique_empirical_distributions": 18,
+      "mean_entropy_normalized": 0.5649653285871734,
+      "mean_across_prompts_sd": 0.022156829929898928
+    },
+    {
+      "method": "anchor_js",
+      "task": "trust",
+      "unique_prompts": 126,
+      "unique_empirical_distributions": 126,
+      "mean_entropy_normalized": 0.23886243224609954,
+      "mean_across_prompts_sd": 0.08385297404025273
+    }
+  ],
+  "changed_fact_pair_means": {
+    "baseline": {
+      "IGVOFO_DG_THRESHOLD": 0.97607421875,
+      "IGVOFO_TG_RECEIVER_SENT1000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT2000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT3000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT4000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT5000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT6000_AGENCY": 1.0,
+      "IGVOFO_TG_SENDER_FIXED_RETURN": 1.0
+    },
+    "anchor_sft": {
+      "IGVOFO_DG_THRESHOLD": 0.685302734375,
+      "IGVOFO_TG_RECEIVER_SENT1000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT2000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT3000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT4000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT5000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT6000_AGENCY": 1.0,
+      "IGVOFO_TG_SENDER_FIXED_RETURN": 1.0
+    },
+    "anchor_js": {
+      "IGVOFO_DG_THRESHOLD": 0.58349609375,
+      "IGVOFO_TG_RECEIVER_SENT1000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT2000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT3000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT4000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT5000_AGENCY": 1.0,
+      "IGVOFO_TG_RECEIVER_SENT6000_AGENCY": 1.0,
+      "IGVOFO_TG_SENDER_FIXED_RETURN": 1.0
+    }
+  },
+  "paired_changes": [
+    {
+      "comparison": "anchor_sft minus baseline",
+      "metric": "E",
+      "n_pairs": "8",
+      "improved": "7",
+      "worsened": "1",
+      "ties": "0",
+      "mean_delta": "-0.026371556091308597"
+    },
+    {
+      "comparison": "anchor_sft minus baseline",
+      "metric": "G",
+      "n_pairs": "8",
+      "improved": "8",
+      "worsened": "0",
+      "ties": "0",
+      "mean_delta": "-0.0440972839355469"
+    },
+    {
+      "comparison": "anchor_js minus anchor_sft",
+      "metric": "E",
+      "n_pairs": "8",
+      "improved": "8",
+      "worsened": "0",
+      "ties": "0",
+      "mean_delta": "-0.016300469716389973"
+    },
+    {
+      "comparison": "anchor_js minus anchor_sft",
+      "metric": "G",
+      "n_pairs": "8",
+      "improved": "7",
+      "worsened": "1",
+      "ties": "0",
+      "mean_delta": "-0.010187180074055974"
+    },
+    {
+      "comparison": "anchor_js minus baseline",
+      "metric": "E",
+      "n_pairs": "8",
+      "improved": "7",
+      "worsened": "1",
+      "ties": "0",
+      "mean_delta": "-0.04267202580769857"
+    },
+    {
+      "comparison": "anchor_js minus baseline",
+      "metric": "G",
+      "n_pairs": "8",
+      "improved": "7",
+      "worsened": "1",
+      "ties": "0",
+      "mean_delta": "-0.05428446400960287"
+    }
+  ],
+  "all_pair_means": [
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "source_id": "IGVOFO",
+      "task": "dictator",
+      "E": "0.03955078124999999",
+      "G": "0.04573567708333335",
+      "R": "0.025553385416666664"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT1000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.107443115234375",
+      "G": "0.11332373046875",
+      "R": "0.100363037109375"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT2000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.1466768798828125",
+      "G": "0.136655517578125",
+      "R": "0.1113922119140625"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT3000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.11818440755208333",
+      "G": "0.13350423177083334",
+      "R": "0.25103759765625"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT4000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.0291748046875",
+      "G": "0.052001953125",
+      "R": "0.0325927734375"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT5000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.07730908203125002",
+      "G": "0.05756513671875001",
+      "R": "0.09732143554687499"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT6000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.07232666015625001",
+      "G": "0.07881673177083334",
+      "R": "0.09796142578125001"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_TG_SENDER_FIXED_RETURN",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.06388346354166667",
+      "G": "0.09928385416666674",
+      "R": "0.13297526041666666"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "source_id": "IGVOFO",
+      "task": "dictator",
+      "E": "0.038045247395833336",
+      "G": "0.042399088541666664",
+      "R": "0.04732259114583333"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT1000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.055624267578125",
+      "G": "0.05720849609375",
+      "R": "0.038125732421875"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT2000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.0604013671875",
+      "G": "0.03674414062499999",
+      "R": "0.0625013427734375"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT3000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.067626953125",
+      "G": "0.04012044270833333",
+      "R": "0.07548014322916667"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT4000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.04392132568359375",
+      "G": "0.0461923828125",
+      "R": "0.06537335205078125"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT5000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.061998925781250006",
+      "G": "0.03371289062499998",
+      "R": "0.081083935546875"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT6000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.05870768229166667",
+      "G": "0.041243489583333334",
+      "R": "0.03787434895833333"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_TG_SENDER_FIXED_RETURN",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.0572509765625",
+      "G": "0.06648763020833329",
+      "R": "0.15913899739583334"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "source_id": "IGVOFO",
+      "task": "dictator",
+      "E": "0.0281982421875",
+      "G": "0.027587890625000007",
+      "R": "0.0421142578125"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT1000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.0416898193359375",
+      "G": "0.03294018554687499",
+      "R": "0.0352200927734375"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT2000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.040776611328125004",
+      "G": "0.029205322265625",
+      "R": "0.0328521728515625"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT3000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.040568033854166664",
+      "G": "0.03377278645833333",
+      "R": "0.04195149739583333"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT4000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.042468414306640626",
+      "G": "0.06758636474609375",
+      "R": "0.036132843017578124"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT5000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.0473059326171875",
+      "G": "0.030601416015625015",
+      "R": "0.0575882568359375"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_RECEIVER_SENT6000_AGENCY",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.04022420247395834",
+      "G": "0.02877197265624999",
+      "R": "0.034332275390625"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_TG_SENDER_FIXED_RETURN",
+      "source_id": "IGVOFO",
+      "task": "trust",
+      "E": "0.031941731770833336",
+      "G": "0.03214518229166672",
+      "R": "0.053670247395833336"
+    }
+  ],
+  "goal_policy": [
+    {
+      "method": "baseline",
+      "n_pairs": "1",
+      "contrast_references": "18",
+      "unique_prompt_pairs": "18",
+      "mean_correct": "0.5631510416666666",
+      "worse_side": "0.4563802083333333",
+      "independent_calls_both_correct": "0.4563802083333333"
+    },
+    {
+      "method": "anchor_sft",
+      "n_pairs": "1",
+      "contrast_references": "18",
+      "unique_prompt_pairs": "18",
+      "mean_correct": "0.576171875",
+      "worse_side": "0.4869791666666667",
+      "independent_calls_both_correct": "0.48595767550998265"
+    },
+    {
+      "method": "anchor_js",
+      "n_pairs": "1",
+      "contrast_references": "18",
+      "unique_prompt_pairs": "18",
+      "mean_correct": "0.5936414930555556",
+      "worse_side": "0.4251302083333333",
+      "independent_calls_both_correct": "0.39141421847873265"
+    }
+  ],
+  "all_goal_contrasts": [
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "base",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_a5174b8d19e793491b72",
+      "prompt_b": "goal_61036ecedb8ee46ed4d8",
+      "mean_correct": "1.0",
+      "worse_side": "1.0",
+      "independent_calls_both_correct": "1.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "base",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_a5174b8d19e793491b72",
+      "prompt_b": "goal_61036ecedb8ee46ed4d8",
+      "mean_correct": "1.0",
+      "worse_side": "1.0",
+      "independent_calls_both_correct": "1.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "base",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_a5174b8d19e793491b72",
+      "prompt_b": "goal_61036ecedb8ee46ed4d8",
+      "mean_correct": "0.873046875",
+      "worse_side": "0.83203125",
+      "independent_calls_both_correct": "0.760528564453125"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V1_paragraph",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_edffd5d2df9a564e71c1",
+      "prompt_b": "goal_409b14bf8b7c4f93a710",
+      "mean_correct": "1.0",
+      "worse_side": "1.0",
+      "independent_calls_both_correct": "1.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V1_paragraph",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_edffd5d2df9a564e71c1",
+      "prompt_b": "goal_409b14bf8b7c4f93a710",
+      "mean_correct": "1.0",
+      "worse_side": "1.0",
+      "independent_calls_both_correct": "1.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V1_paragraph",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_edffd5d2df9a564e71c1",
+      "prompt_b": "goal_409b14bf8b7c4f93a710",
+      "mean_correct": "0.873046875",
+      "worse_side": "0.8515625",
+      "independent_calls_both_correct": "0.761749267578125"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "base",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_28ebf3e07a3639712456",
+      "prompt_b": "goal_9659fea1714b8eb37dde",
+      "mean_correct": "0.005859375",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "base",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_28ebf3e07a3639712456",
+      "prompt_b": "goal_9659fea1714b8eb37dde",
+      "mean_correct": "0.1796875",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "base",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_28ebf3e07a3639712456",
+      "prompt_b": "goal_9659fea1714b8eb37dde",
+      "mean_correct": "0.384765625",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V1_paragraph",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_fd1aced58fd8e757cd30",
+      "prompt_b": "goal_dc6314e50930cd202e6c",
+      "mean_correct": "0.0234375",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V1_paragraph",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_fd1aced58fd8e757cd30",
+      "prompt_b": "goal_dc6314e50930cd202e6c",
+      "mean_correct": "0.24609375",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V1_paragraph",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_fd1aced58fd8e757cd30",
+      "prompt_b": "goal_dc6314e50930cd202e6c",
+      "mean_correct": "0.3515625",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V1_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_e53a99f8d2e0eb973517",
+      "prompt_b": "goal_405c7d58494cb02bf7cf",
+      "mean_correct": "1.0",
+      "worse_side": "1.0",
+      "independent_calls_both_correct": "1.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V1_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_e53a99f8d2e0eb973517",
+      "prompt_b": "goal_405c7d58494cb02bf7cf",
+      "mean_correct": "1.0",
+      "worse_side": "1.0",
+      "independent_calls_both_correct": "1.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V1_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_e53a99f8d2e0eb973517",
+      "prompt_b": "goal_405c7d58494cb02bf7cf",
+      "mean_correct": "0.94140625",
+      "worse_side": "0.92578125",
+      "independent_calls_both_correct": "0.8860015869140625"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V1_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_0ccfd27057b1f0569e5d",
+      "prompt_b": "goal_3ed7ad1aa3a0cc5d5d2c",
+      "mean_correct": "0.494140625",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V1_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_0ccfd27057b1f0569e5d",
+      "prompt_b": "goal_3ed7ad1aa3a0cc5d5d2c",
+      "mean_correct": "0.16015625",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V1_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_0ccfd27057b1f0569e5d",
+      "prompt_b": "goal_3ed7ad1aa3a0cc5d5d2c",
+      "mean_correct": "0.310546875",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V2_rules_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_6ab8595814f8a14762d5",
+      "prompt_b": "goal_9cd1a4f020635f760295",
+      "mean_correct": "1.0",
+      "worse_side": "1.0",
+      "independent_calls_both_correct": "1.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V2_rules_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_6ab8595814f8a14762d5",
+      "prompt_b": "goal_9cd1a4f020635f760295",
+      "mean_correct": "1.0",
+      "worse_side": "1.0",
+      "independent_calls_both_correct": "1.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V2_rules_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_6ab8595814f8a14762d5",
+      "prompt_b": "goal_9cd1a4f020635f760295",
+      "mean_correct": "0.951171875",
+      "worse_side": "0.90234375",
+      "independent_calls_both_correct": "0.90234375"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V2_rules_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_957164ea854cd78ffb01",
+      "prompt_b": "goal_61141d5eeb40c8f33359",
+      "mean_correct": "0.134765625",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V2_rules_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_957164ea854cd78ffb01",
+      "prompt_b": "goal_61141d5eeb40c8f33359",
+      "mean_correct": "0.21484375",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V2_rules_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_957164ea854cd78ffb01",
+      "prompt_b": "goal_61141d5eeb40c8f33359",
+      "mean_correct": "0.33203125",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V2_situation_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_e55c44a7aa56ecd99430",
+      "prompt_b": "goal_c882ca4af1a1925af182",
+      "mean_correct": "0.943359375",
+      "worse_side": "0.88671875",
+      "independent_calls_both_correct": "0.88671875"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V2_situation_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_e55c44a7aa56ecd99430",
+      "prompt_b": "goal_c882ca4af1a1925af182",
+      "mean_correct": "0.9609375",
+      "worse_side": "0.94140625",
+      "independent_calls_both_correct": "0.9230194091796875"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V2_situation_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_e55c44a7aa56ecd99430",
+      "prompt_b": "goal_c882ca4af1a1925af182",
+      "mean_correct": "0.83984375",
+      "worse_side": "0.8125",
+      "independent_calls_both_correct": "0.70458984375"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V2_situation_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_d758093136c7f47d2284",
+      "prompt_b": "goal_c0060e346161659b5aa2",
+      "mean_correct": "0.3515625",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V2_situation_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_d758093136c7f47d2284",
+      "prompt_b": "goal_c0060e346161659b5aa2",
+      "mean_correct": "0.1796875",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V2_situation_first",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_d758093136c7f47d2284",
+      "prompt_b": "goal_c0060e346161659b5aa2",
+      "mean_correct": "0.212890625",
+      "worse_side": "0.01953125",
+      "independent_calls_both_correct": "0.0079345703125"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V3_situation_list",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_1149d92e5be522fbc771",
+      "prompt_b": "goal_65f7c59f121f6085ca66",
+      "mean_correct": "0.912109375",
+      "worse_side": "0.82421875",
+      "independent_calls_both_correct": "0.82421875"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V3_situation_list",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_1149d92e5be522fbc771",
+      "prompt_b": "goal_65f7c59f121f6085ca66",
+      "mean_correct": "0.970703125",
+      "worse_side": "0.94140625",
+      "independent_calls_both_correct": "0.94140625"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V3_situation_list",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_1149d92e5be522fbc771",
+      "prompt_b": "goal_65f7c59f121f6085ca66",
+      "mean_correct": "0.765625",
+      "worse_side": "0.640625",
+      "independent_calls_both_correct": "0.570556640625"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V3_situation_list",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_065e163c4797c77c4937",
+      "prompt_b": "goal_f121f37c73ddd38632d1",
+      "mean_correct": "0.021484375",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V3_situation_list",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_065e163c4797c77c4937",
+      "prompt_b": "goal_f121f37c73ddd38632d1",
+      "mean_correct": "0.1328125",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V3_situation_list",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_065e163c4797c77c4937",
+      "prompt_b": "goal_f121f37c73ddd38632d1",
+      "mean_correct": "0.29296875",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V4_rules_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_d9560d35470993e34e98",
+      "prompt_b": "goal_5c8092f92e8bd35fe6ab",
+      "mean_correct": "1.0",
+      "worse_side": "1.0",
+      "independent_calls_both_correct": "1.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V4_rules_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_d9560d35470993e34e98",
+      "prompt_b": "goal_5c8092f92e8bd35fe6ab",
+      "mean_correct": "1.0",
+      "worse_side": "1.0",
+      "independent_calls_both_correct": "1.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V4_rules_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_d9560d35470993e34e98",
+      "prompt_b": "goal_5c8092f92e8bd35fe6ab",
+      "mean_correct": "0.923828125",
+      "worse_side": "0.90625",
+      "independent_calls_both_correct": "0.8531494140625"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V4_rules_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_3c56c4f28e3bdecaa1b7",
+      "prompt_b": "goal_e064a02178234ad45c77",
+      "mean_correct": "0.103515625",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V4_rules_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_3c56c4f28e3bdecaa1b7",
+      "prompt_b": "goal_e064a02178234ad45c77",
+      "mean_correct": "0.1015625",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V4_rules_table",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_3c56c4f28e3bdecaa1b7",
+      "prompt_b": "goal_e064a02178234ad45c77",
+      "mean_correct": "0.24609375",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V5_ids",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_26016fb349fda5723fc2",
+      "prompt_b": "goal_0bf384bb74f69d3e1a2a",
+      "mean_correct": "1.0",
+      "worse_side": "1.0",
+      "independent_calls_both_correct": "1.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V5_ids",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_26016fb349fda5723fc2",
+      "prompt_b": "goal_0bf384bb74f69d3e1a2a",
+      "mean_correct": "0.947265625",
+      "worse_side": "0.89453125",
+      "independent_calls_both_correct": "0.89453125"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V5_ids",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_26016fb349fda5723fc2",
+      "prompt_b": "goal_0bf384bb74f69d3e1a2a",
+      "mean_correct": "0.84765625",
+      "worse_side": "0.796875",
+      "independent_calls_both_correct": "0.7159423828125"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V5_ids",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_a72ef184b35971d36af5",
+      "prompt_b": "goal_9959f99d1111bf16210e",
+      "mean_correct": "0.0078125",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V5_ids",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_a72ef184b35971d36af5",
+      "prompt_b": "goal_9959f99d1111bf16210e",
+      "mean_correct": "0.1015625",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V5_ids",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_a72ef184b35971d36af5",
+      "prompt_b": "goal_9959f99d1111bf16210e",
+      "mean_correct": "0.287109375",
+      "worse_side": "0.03125",
+      "independent_calls_both_correct": "0.0169677734375"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V6_relation",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_f49e41f3e9ed73713334",
+      "prompt_b": "goal_f0a9cfb15db867a9e72f",
+      "mean_correct": "0.751953125",
+      "worse_side": "0.50390625",
+      "independent_calls_both_correct": "0.50390625"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V6_relation",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_f49e41f3e9ed73713334",
+      "prompt_b": "goal_f0a9cfb15db867a9e72f",
+      "mean_correct": "0.994140625",
+      "worse_side": "0.98828125",
+      "independent_calls_both_correct": "0.98828125"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "0",
+      "variant_id": "V6_relation",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_f49e41f3e9ed73713334",
+      "prompt_b": "goal_f0a9cfb15db867a9e72f",
+      "mean_correct": "0.927734375",
+      "worse_side": "0.92578125",
+      "independent_calls_both_correct": "0.860687255859375"
+    },
+    {
+      "method": "baseline",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V6_relation",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_89f7fee17d732082f4dd",
+      "prompt_b": "goal_f3197f8b5dbfc8fab882",
+      "mean_correct": "0.38671875",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_sft",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V6_relation",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_89f7fee17d732082f4dd",
+      "prompt_b": "goal_f3197f8b5dbfc8fab882",
+      "mean_correct": "0.181640625",
+      "worse_side": "0.0",
+      "independent_calls_both_correct": "0.0"
+    },
+    {
+      "method": "anchor_js",
+      "pair_id": "IGVOFO_DG_THRESHOLD",
+      "condition": "1",
+      "variant_id": "V6_relation",
+      "policy_a": "equality",
+      "policy_b": "own",
+      "prompt_a": "goal_89f7fee17d732082f4dd",
+      "prompt_b": "goal_f3197f8b5dbfc8fab882",
+      "mean_correct": "0.32421875",
+      "worse_side": "0.0078125",
+      "independent_calls_both_correct": "0.0050048828125"
+    }
+  ],
+  "square_metrics": [
+    {
+      "model": "qwen25_14b_instruct",
+      "method": "baseline",
+      "group": "all",
+      "value": "all",
+      "n_pairs": "8",
+      "n_quartets": "64",
+      "status": "complete_auxiliary_fixed_item_audit",
+      "E2_unbiased": "0.042526795729063704",
+      "E2_unbiased_negative_quartets": "0",
+      "G2_unbiased": "0.013926455182285758",
+      "G2_unbiased_negative_quartets": "3"
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "method": "anchor_sft",
+      "group": "all",
+      "value": "all",
+      "n_pairs": "8",
+      "n_quartets": "64",
+      "status": "complete_auxiliary_fixed_item_audit",
+      "E2_unbiased": "0.008413501876803006",
+      "E2_unbiased_negative_quartets": "1",
+      "G2_unbiased": "0.0025943923421147238",
+      "G2_unbiased_negative_quartets": "15"
+    },
+    {
+      "model": "qwen25_14b_instruct",
+      "method": "anchor_js",
+      "group": "all",
+      "value": "all",
+      "n_pairs": "8",
+      "n_quartets": "64",
+      "status": "complete_auxiliary_fixed_item_audit",
+      "E2_unbiased": "0.0035496478285820658",
+      "E2_unbiased_negative_quartets": "8",
+      "G2_unbiased": "0.001623890790690444",
+      "G2_unbiased_negative_quartets": "25"
+    }
+  ],
+  "new_calls": 0,
+  "scope": "Equal-condition-pair main; unique-prompt descriptive guards, independent-call policy products; R not a success score",
+  "goal_contrast_by_condition": [
+    {
+      "method": "baseline",
+      "condition": "0",
+      "policies": [
+        "equality",
+        "own"
+      ],
+      "unique_prompt_pairs": 9,
+      "mean_correct": 0.9563802083333334,
+      "independent_calls_both_correct": 0.9127604166666666,
+      "worse_side": 0.9127604166666666
+    },
+    {
+      "method": "anchor_sft",
+      "condition": "0",
+      "policies": [
+        "equality",
+        "own"
+      ],
+      "unique_prompt_pairs": 9,
+      "mean_correct": 0.9858940972222222,
+      "independent_calls_both_correct": 0.9719153510199653,
+      "worse_side": 0.9739583333333334
+    },
+    {
+      "method": "anchor_js",
+      "condition": "0",
+      "policies": [
+        "equality",
+        "own"
+      ],
+      "unique_prompt_pairs": 9,
+      "mean_correct": 0.8825954861111112,
+      "independent_calls_both_correct": 0.7795054117838541,
+      "worse_side": 0.84375
+    },
+    {
+      "method": "baseline",
+      "condition": "1",
+      "policies": [
+        "equality",
+        "own"
+      ],
+      "unique_prompt_pairs": 9,
+      "mean_correct": 0.169921875,
+      "independent_calls_both_correct": 0.0,
+      "worse_side": 0.0
+    },
+    {
+      "method": "anchor_sft",
+      "condition": "1",
+      "policies": [
+        "equality",
+        "own"
+      ],
+      "unique_prompt_pairs": 9,
+      "mean_correct": 0.1664496527777778,
+      "independent_calls_both_correct": 0.0,
+      "worse_side": 0.0
+    },
+    {
+      "method": "anchor_js",
+      "condition": "1",
+      "policies": [
+        "equality",
+        "own"
+      ],
+      "unique_prompt_pairs": 9,
+      "mean_correct": 0.3046875,
+      "independent_calls_both_correct": 0.003323025173611111,
+      "worse_side": 0.006510416666666667
+    }
+  ]
+}
