@@ -242,15 +242,19 @@ def table_reasoning(out):
     dl = _csv(SRC["delivery"])
     rb = _csv(SRC["robust"])
 
-    def pair(off, on, kind):
+    def pair(off, on, kind, bounds=None):
         """kind: 'acc' (higher better) or 'E' (lower better). Better value bold;
-        an E that rises with reasoning is marked in badc."""
+        an E that rises with reasoning is marked in badc.  If the pre-registered
+        conditional E is undefined (some prompt has no valid sample), print the
+        missing-mass bounds instead of a bare dash."""
         if kind == "acc":
             fo, fn = pc(off), pc(on, 2 if on > 0.995 else 1)
             if on >= off:
                 return fo, r"\textbf{%s}" % fn
             return r"\textbf{%s}" % fo, r"\textcolor{badc}{%s}" % fn
         if off is None or np.isnan(off):
+            if bounds is not None:
+                return r"{\scriptsize %s--%s}$^\dagger$" % (f3(bounds[0]), f3(bounds[1])), f3(on)
             return "--", f3(on)
         fo, fn = f3(off), f3(on)
         if on <= off:
@@ -289,7 +293,8 @@ def table_reasoning(out):
             off = a[a.arm == "native_off"].iloc[0]
             on = a[a.arm == "native_on"].iloc[0]
             g0, g1 = pair(off.Q, on.Q, "acc")
-            e0, e1 = pair(off.E_conditional, on.E_conditional, "E")
+            e0, e1 = pair(off.E_conditional, on.E_conditional, "E",
+                          bounds=(off.E_missing_low, off.E_missing_high))
             b0, b1 = pc(off.behavior_delivery), pc(on.behavior_delivery)
             if on.behavior_delivery < off.behavior_delivery - 0.02:
                 b1 = r"\textcolor{badc}{%s}" % b1

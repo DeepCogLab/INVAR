@@ -20,6 +20,74 @@ on the same scenarios.
 | Unique inputs | 8,666 = 1,240 free decisions + 3,092 changed-fact + 2,888 unchanged-fact + 1,410 goal + 36 role questions |
 | Language | Chinese prompts; English translation of a bilingual subset (32 pairs) |
 
+![Overview of INVAR: (a) benchmark construction, (b) quartet design, (c) joint reliability evaluation](docs/assets/fig1_overview.png)
+
+*(a) Contrasts from four published studies in six task families become 92 condition pairs. (b) Each pair
+yields a quartet: two rules × two equivalent presentations, each a separate call. (c) Decisions should
+stay stable across presentations (E, G); fact and goal answers should follow the rule.*
+
+## Key results
+
+### RQ1: no configuration is both stable and goal-correct
+
+![Goal accuracy against presentation discrepancy E, and against changed-fact accuracy, for all 28 configurations](docs/assets/fig2_scatter.png)
+
+Selected rows of Table 1 (reasoning off, pair-weighted; accuracies in %; the full table of 28 configurations
+is in [`results/paper_tables/all_model_configurations.csv`](results/paper_tables/all_model_configurations.csv)
+and on the project page):
+
+| Model | E ↓ | G ↓ | Changed fact ↑ | Unchanged fact ↑ | Goal ↑ |
+|---|---:|---:|---:|---:|---:|
+| Qwen3-14B | .034 | .050 | 99.1 | 96.1 | **78.5** |
+| Qwen3-30B-A3B | .181 | .213 | 94.8 | 95.8 | 74.9 |
+| Qwen2.5-14B | .132 | .157 | 94.0 | 94.2 | 68.6 |
+| GLM-4-9B | .035 | .038 | 95.1 | 88.9 | 61.6 |
+| Llama-3.1-8B | .098 | .083 | 88.2 | 84.1 | 65.8 |
+| Qwen3-8B (control) | .065 | .079 | 96.9 | 95.2 | 72.1 |
+| ↳ SocialR1-8B | .065 | .076 | **99.6** | 92.6 | 60.3 |
+| OLMo-2-1B (base) | **.011** | **.012** | 52.0 | 52.1 | 49.1 |
+| ↳ Olmotaur-1B | .016 | .016 | 53.0 | 49.8 | 48.6 |
+
+The most stable configurations answer fact and goal questions at chance level; strong fact accuracy
+does not guarantee correct goal execution.
+
+### RQ2: native reasoning (Table 2)
+
+| Model | Setting | Goal off | Goal on | E off | E on | Valid off | Valid on |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Qwen3-14B | pair-weighted | 78.0 | **99.99** | .023 | **.007** | 100.0 | 99.9 |
+| | source-weighted | 73.3 | **99.87** | **.017** | .020 | | |
+| | task-weighted | 74.2 | **99.92** | **.021** | .024 | | |
+| Qwen3-30B-A3B | pair-weighted | 74.7 | **99.86** | .217 | **.010** | 100.0 | 98.4 |
+| | source-weighted | 79.5 | **99.0** | .137 | **.023** | | |
+| | task-weighted | 76.3 | **99.4** | .170 | **.023** | | |
+| Qwen3-8B (bilingual subset) | Chinese | 71.6 | **99.2** | .039 | **.007** | 99.1 | 98.7 |
+| | English | 73.6 | **99.4** | .053 | **.005** | 99.9 | 93.3 |
+| SocialR1-8B (bilingual subset) | Chinese | 64.1 | **97.1** | .066–.105† | .108 | 97.7 | 82.7 |
+| | English | 65.9 | **95.7** | **.099** | .141 | 99.3 | 88.2 |
+
+Goal accuracy counts all attempts; E uses valid outputs. †A prompt had no valid output, so the
+pre-registered conditional E is undefined; shown is its range over all values the missing samples could take.
+
+### RQ2: consistency fine-tuning (Table 3, Figure 3)
+
+| Model | Training | E ↓ | G ↓ | Changed ↑ | Unchanged ↑ | Goal ↑ | E (source-wt.) ↓ |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Qwen3-8B | Original | **.065** | .082 | **97.0** | **95.2** | 72.1 | **.049** |
+| | SFT | .067 | .078 | 96.2 | 93.3 | 73.2 | .065 |
+| | + consistency | .067 | **.072** | 95.7 | 93.9 | **73.5** | .059 |
+| Qwen2.5-14B | Original | .132 | .159 | **94.0** | 94.2 | 68.4 | .088 |
+| | SFT | .098 | .106 | 93.9 | 95.1 | 77.8 | **.079** |
+| | + consistency | **.094** | **.101** | 93.8 | **95.6** | **78.1** | .080 |
+
+Held-out-source fine-tuning with matched exposure (three-seed means; each row combines four adapters,
+each tested on its unseen source).
+
+<img src="docs/assets/fig3_training_bars.png" alt="Reduction in generated-answer discrepancy from the consistency term at 50, 100 and 150 steps" width="560">
+
+The consistency term reduces discrepancy on training sources, less on held-out rewrites, and not
+consistently on held-out sources.
+
 ## Repository layout
 
 ```
