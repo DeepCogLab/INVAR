@@ -1,0 +1,9 @@
+model,language,arm,E_available_case,quartets_used,quartets_total,pairs_used,pairs_total,frozen_E_defined
+qwen3_8b,en,native_off,0.053125,64,64,32,32,True
+qwen3_8b,en,native_on,0.00537109375,64,64,32,32,True
+qwen3_8b,zh,native_off,0.0388671875,64,64,32,32,True
+qwen3_8b,zh,native_on,0.007452101934523809,64,64,32,32,True
+socialr1_8b,en,native_off,0.09912109375,64,64,32,32,True
+socialr1_8b,en,native_on,0.1411039806547619,64,64,32,32,True
+socialr1_8b,zh,native_off,0.07137096774193548,62,64,31,32,False
+socialr1_8b,zh,native_on,0.107578125,64,64,32,32,True

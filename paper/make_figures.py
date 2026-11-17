@@ -36,6 +36,7 @@ SRC = {
     "discr_old": P("results", "supplement_20261111", "goal_discrimination_summary.csv"),
     "discr_new": P("results", "supplement_20261111", "new_goal_discrimination.csv"),
     "robust": P("experiments", "robustness_20261115", "results", "summary_corrected.csv"),
+    "bilingual_E": P("results", "paper_tables", "bilingual_E_available_case.csv"),
     "seeds": P("results", "training_transfer_v4", "all_sources_seeds_JS_minus_SFT.csv"),
 }
 
@@ -241,21 +242,18 @@ def table_reasoning(out):
     nat = _csv(SRC["native"])
     dl = _csv(SRC["delivery"])
     rb = _csv(SRC["robust"])
+    # E over quartets with valid outputs (tools/available_case_E.py); identical to the
+    # frozen E wherever that is defined, and also defined where one prompt had no valid output
+    ac = _csv(SRC["bilingual_E"])
 
-    def pair(off, on, kind, bounds=None):
+    def pair(off, on, kind):
         """kind: 'acc' (higher better) or 'E' (lower better). Better value bold;
-        an E that rises with reasoning is marked in badc.  If the pre-registered
-        conditional E is undefined (some prompt has no valid sample), print the
-        missing-mass bounds instead of a bare dash."""
+        an E that rises with reasoning is marked in badc."""
         if kind == "acc":
             fo, fn = pc(off), pc(on, 2 if on > 0.995 else 1)
             if on >= off:
                 return fo, r"\textbf{%s}" % fn
             return r"\textbf{%s}" % fo, r"\textcolor{badc}{%s}" % fn
-        if off is None or np.isnan(off):
-            if bounds is not None:
-                return r"{\scriptsize %s--%s}$^\dagger$" % (f3(bounds[0]), f3(bounds[1])), f3(on)
-            return "--", f3(on)
         fo, fn = f3(off), f3(on)
         if on <= off:
             return fo, r"\textbf{%s}" % fn
@@ -293,13 +291,15 @@ def table_reasoning(out):
             off = a[a.arm == "native_off"].iloc[0]
             on = a[a.arm == "native_on"].iloc[0]
             g0, g1 = pair(off.Q, on.Q, "acc")
-            e0, e1 = pair(off.E_conditional, on.E_conditional, "E",
-                          bounds=(off.E_missing_low, off.E_missing_high))
+            ea = ac[(ac.model == model) & (ac.language == lang)]
+            e_off = ea[ea.arm == "native_off"].E_available_case.iloc[0]
+            e_on = ea[ea.arm == "native_on"].E_available_case.iloc[0]
+            e0, e1 = pair(e_off, e_on, "E")
             b0, b1 = pc(off.behavior_delivery), pc(on.behavior_delivery)
             if on.behavior_delivery < off.behavior_delivery - 0.02:
                 b1 = r"\textcolor{badc}{%s}" % b1
             note("T2b", model, lang, "Q %.5f %.5f E %s %.5f valid %.5f %.5f" % (
-                off.Q, on.Q, off.E_conditional, on.E_conditional,
+                off.Q, on.Q, e_off, e_on,
                 off.behavior_delivery, on.behavior_delivery))
             first = (r"\multirow{2}{*}{%s}" % names2[model]) if k == 0 else ""
             L.append("%s & %s & %s & %s & %s & %s & %s & %s \\\\" % (

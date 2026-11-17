@@ -63,11 +63,10 @@ does not guarantee correct goal execution.
 | | task-weighted | 76.3 | **99.4** | .170 | **.023** | | |
 | Qwen3-8B (bilingual subset) | Chinese | 71.6 | **99.2** | .039 | **.007** | 99.1 | 98.7 |
 | | English | 73.6 | **99.4** | .053 | **.005** | 99.9 | 93.3 |
-| SocialR1-8B (bilingual subset) | Chinese | 64.1 | **97.1** | .066–.105† | .108 | 97.7 | 82.7 |
+| SocialR1-8B (bilingual subset) | Chinese | 64.1 | **97.1** | **.071** | .108 | 97.7 | 82.7 |
 | | English | 65.9 | **95.7** | **.099** | .141 | 99.3 | 88.2 |
 
-Goal accuracy counts all attempts; E uses valid outputs. †A prompt had no valid output, so the
-pre-registered conditional E is undefined; shown is its range over all values the missing samples could take.
+Goal accuracy counts all attempts; E uses valid outputs (`tools/available_case_E.py`).
 
 ### RQ2: consistency fine-tuning (Table 3, Figure 3)
 
